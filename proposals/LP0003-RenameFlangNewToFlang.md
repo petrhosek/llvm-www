@@ -1,3 +1,6 @@
+---
+permalink: "proposals/LP0003-RenameFlangNewToFlang.html"
+---
 # Rename `flang-new` to `flang`
 
 *   Proposal: [LP-0003](link to the file on github when it lands)

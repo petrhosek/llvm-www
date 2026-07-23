@@ -1,0 +1,292 @@
+---
+layout: "default.11ty.js"
+permalink: "devmtg/index.html"
+---
+
+<div class="www_sectiontitle">LLVM Developers' Meeting</div>
+
+<p>Upcoming:</p>
+<p><a href="2026-10/">October 26-28</a> - Santa Clara, CA, USA</p>
+
+<p>We have had these meetings so far:</p>
+<ul>
+  <li><a href="2026-04/">April 13-15 2026</a> - Dublin, Ireland</li>
+  <li><a href="2025-10/">October 27-29 2025</a> - Santa Clara, CA, USA</li>
+  <li><a href="2025-06/">June 10, 2025</a> - Tokyo, Japan</li>
+  <li><a href="2025-04/">April 14-16 2025</a> - Berlin, Germany</li>
+  <li><a href="2024-10/">October 22-24 2024</a> - Santa Clara, CA, USA</li>
+  <li><a href="2024-04/">April 9-11, 2024</a> - Vienna, Austria</li>
+  <li><a href="2023-10/">October 10-12, 2023</a> - Santa Clara, CA, USA</li>
+  <li><a href="2023-05/">May 10-11, 2023</a> - Glasgow, Scotland</li>
+  <li><a href="2022-11/">November 8-9, 2022</a> - San Jose, CA, USA</li>
+  <li><a href="2022-05/">May 10-11, 2022</a> - London, UK</li>
+  <li><a href="2021-11/">November 16-19, 2021</a> - virtual</li>
+  <li><a href="2020-09/">October 6-8, 2020</a> - virtual</li>
+  <li>
+    <s><a href="2020-04/">April 6-7, 2020</a> - Paris, France</s> - Canceled
+  </li>
+  <li><a href="2019-10/">October 22-23, 2019</a> - San Jose, CA, USA</li>
+  <li><a href="2019-04/">April 8-9, 2019</a> - Brussels, Belgium</li>
+  <li><a href="2018-10/">October 17-18, 2018</a> - San Jose, CA, USA</li>
+  <li><a href="2018-04/">April 16-17, 2018</a> - Bristol, UK</li>
+  <li><a href="2017-10/">October 18-19, 2017</a> - San Jose, CA, USA</li>
+  <li><a href="2017-03/">March 27-28, 2017</a> - Saarbr&uuml;cken, Germany</li>
+  <li><a href="2016-11/">November 3-4, 2016</a> - San Jose, CA, USA</li>
+  <li><a href="2016-03/">March 17-18, 2016</a> - Barcelona, Spain</li>
+  <li><a href="2015-10/">October 29-30, 2015</a> - San Jose, CA, USA</li>
+  <li><a href="2015-04/">April 13-14, 2015</a> - London, UK</li>
+  <li><a href="2014-10/">October 28-29, 2014</a> - San Jose, CA, USA</li>
+  <li><a href="2014-04/">April 7-8, 2014</a> - Edinburgh, Scotland</li>
+  <li><a href="2013-11/">November 6-7, 2013</a> - San Francisco, CA, USA</li>
+  <li><a href="2013-04/">April 29-30, 2013</a> - Paris, France</li>
+  <li><a href="2012-11/">November 7-8, 2012</a> - San Jose, CA, USA</li>
+  <li><a href="2012-04-12/">April 12, 2012</a> - London, UK</li>
+  <li><a href="2011-11/">November 18, 2011</a> - San Jose, CA, USA</li>
+  <li><a href="2011-09-16/">September 16, 2011</a> - London, UK</li>
+  <li><a href="2010-11/">November 4, 2010</a> - San Jose, CA, USA</li>
+  <li><a href="2009-10/">October 2, 2009</a> - Cupertino, CA, USA</li>
+  <li><a href="2008-08-23/">August 23, 2008</a> - Tokyo, Japan</li>
+  <li><a href="2008-08/">August 1, 2008</a> - Cupertino, CA, USA</li>
+  <li><a href="2007-05/">May 25, 2007</a> - Cupertino, CA, USA</li>
+</ul>
+
+<p>
+  Traditionally, the LLVM community meets three times a year. In the USA,
+  Europe, and Asia.
+</p>
+
+<div class="www_sectiontitle">Other events</div>
+
+<p>The LLVM community is also present at other events.</p>
+
+<div>
+  Upcoming:
+  <ul>
+    <li>
+      <a href="https://discourse.llvm.org/t/gsoc-2025-midterm-conference/87116"
+        >July 15, 2025</a
+      >
+      - GSoC Midterm Conference - Virtual
+    </li>
+    <li>
+      <a href="2026-01/">Jan 31, 2026</a> - Tenth LLVM Performance Workshop @
+      CGO2026, Sydney, Australia
+    </li>
+  </ul>
+</div>
+
+<div>
+  Previous:
+  <ul>
+    <li>
+      <a href="2025-03/">March 1st to 5th, 2025</a> - Ninth LLVM Performance
+      Workshop @ CGO2025, Las Vegas, USA
+    </li>
+    <li>
+      <a href="2024-08-12/">August 12th, 2024</a> - Fourth Workshop on LLVM in
+      Parallel Processing (LLPP) @ ICPP; Gotland, Sweden
+    </li>
+    <li>
+      <a href="2024-03/">March 2nd to 6th, 2024</a> - Eight LLVM Performance
+      Workshop @ CGO2024, Edinburgh - In Person
+    </li>
+    <li>
+      <a href="https://hps.vi4io.org/events/2023/llvm">May 25, 2023</a> - Fourth
+      Workshop on LLVM Compiler and Tools for HPC @ ISC; Hamburg, Germany
+    </li>
+    <li>
+      <a href="2023-08-07/">August 7, 2023</a> - Third Workshop on LLVM in
+      Parallel Processing (LLPP) @ ICPP; Salt Lake City, Utah, USA
+    </li>
+    <li>
+      <a href="2023-02-25/">February 25, 2023</a> - Seventh LLVM Performance
+      Workshop @ CGO, In person - Hybrid
+    </li>
+    <li>
+      <a href="2022-08-29/">August 29, 2022</a> Second Workshop on LLVM in
+      Parallel Processing (LLPP) @ ICPP - Bordeaux, France
+    </li>
+    <li>
+      <a href="2022-04-03/">April 03, 2022</a> - Sixth LLVM Performance Workshop
+      @ CGO, Virtual
+    </li>
+    <li>
+      <a href="2021-08-09/">August 9, 2021</a> - LLVM in Parallel Processing @
+      ICPP - Chicago or virtual
+    </li>
+    <li>
+      <a href="2021-07-02/">July 02-03, 2021</a> - LLVM Compiler and Tools for
+      HPC @ ISC - Virtual
+    </li>
+    <li>
+      <a href="2021-02-28/">February 28, 2021</a> - Fifth LLVM Performance
+      Workshop @ CGO, Virtual
+    </li>
+    <li>
+      <a href="https://llvm-hpc-2020-workshop.github.io/">November 12, 2020</a>
+      - LLVM-HPC @ SC20, virtual
+    </li>
+    <li>
+      <a href="https://hps.vi4io.org/events/2020/llvm">June 24/25 2020</a> -
+      First Workshop on LLVM Compilers and Tools in HPC, ISC High Performance,
+      virtual
+    </li>
+    <li>
+      <a href="2020-02-01/">February 1, 2020</a> - FOSDEM, Brussels, Belgium
+    </li>
+    <li>
+      <a href="https://www.meetup.com/LLVM-Clang-social/events/266429743/"
+        >February 4, 2020</a
+      >
+      - Meetup in Paris
+    </li>
+    <li>
+      <a href="2020-02-23/">February 23, 2020</a> - Fourth LLVM Performance
+      Workshop at CGO20, San Diego, CA, USA
+    </li>
+    <li>
+      <a href="2019-02-03/">February 3, 2019</a> - FOSDEM, Brussels, Belgium
+    </li>
+    <li>
+      <a href="2019-02-16/">February 17, 2019</a> - Third LLVM Performance
+      Workshop at CGO19, Washington DC, USA
+    </li>
+    <li>
+      <a href="http://llvm-hpc5-workshop.github.io/">November 12, 2018</a> -
+      LLVM-HPC @ SC18, Dallas, TX, USA
+    </li>
+    <li>
+      <a href="2018-02-24/">February 24, 2018</a> - LLVM Performance Workshop at
+      CGO18, Vienna, Austria
+    </li>
+    <li>
+      <a href="2018-02-04/">February 4, 2018</a> - FOSDEM, Brussels, Belgium
+    </li>
+    <li>
+      <a href="http://llvm-hpc4-workshop.github.io/">November 13, 2017</a> -
+      LLVM-HPC @ SC17, Denver, CO, USA
+    </li>
+    <li>
+      <a href="2017-06/">June 12-16, 2017</a> - Summer school 2017 : analysis
+      and transformations of HPC codes using Clang/LLVM
+    </li>
+    <li>
+      <a href="2017-02-04/">February 4, 2017</a> - LLVM Performance Workshop at
+      CGO, Austin, Texas, USA
+    </li>
+    <li><a href="2017-02/">February 4, 2017</a> - FOSDEM, Brussels, Belgium</li>
+    <li>
+      <a href="http://llvm-hpc3-workshop.github.io/">November 14, 2016</a> -
+      LLVM-HPC @ SC16, Salt Lake City, UT, USA
+    </li>
+    <li>
+      <a href="2016-09/">September 8, 2016</a> - LLVM Cauldron, Hebden Bridge,
+      UK
+    </li>
+    <li>
+      <a href="2016-02/">February 6-7, 2016</a> - Clang/LLVM Sprint Weekend
+      hosted by Bloomberg, New York, NY, USA and London, UK
+    </li>
+    <li><a href="2016-01/">January 30, 2016</a> - FOSDEM, Brussels, Belgium</li>
+    <li>
+      <a href="http://llvm-hpc2-workshop.github.io/">November 15, 2015</a> -
+      LLVM-HPC @ SC15, Austin, TX, USA
+    </li>
+    <li>
+      <a href="2015-02-07/">February 7, 2015</a> - LLVM Tutorial at CGO, San
+      Francisco, CA, USA
+    </li>
+    <li><a href="2015-02/">February 1, 2015</a> - FOSDEM, Brussels, Belgium</li>
+    <li>
+      <a href="http://llvm-hpc-workshop.github.io/">November 17, 2014</a> -
+      LLVM-HPC @ SC14, New Orleans, LA, USA
+    </li>
+    <li><a href="2014-02/">February 2, 2014</a> - FOSDEM, Brussels, Belgium</li>
+  </ul>
+</div>
+
+<div class="www_sectiontitle">Social events</div>
+
+<div>
+  A number of local communities are joining on a more or less regular basis:
+  <ul>
+    <li>
+      <a href="https://www.meetup.com/Austin-LLVM-Meetup/">Austin, USA</a>
+    </li>
+    <li>
+      <a href="https://www.meetup.com/Bangalore-Compilers-Meetup-Group/"
+        >Bangalore, India</a
+      >
+    </li>
+    <li>
+      <a href="https://www.meetup.com/LLVM-Social-Berlin/">Berlin, Germany</a>
+    </li>
+    <li>
+      <a href="https://www.meetup.com/LLVM-Clang-Belgium-socials/"
+        >Brussels, Belgium</a
+      >
+    </li>
+    <li>
+      <a href="https://www.meetup.com/LLVM-clang-Chicago-socials/"
+        >Chicago, USA</a
+      >
+    </li>
+    <li>
+      <a href="https://www.meetup.com/LLVM-Clang-Cambridge-social/"
+        >London / Cambridge, UK</a
+      >
+    </li>
+    <li>
+      <a href="https://www.meetup.com/LLVM-Clang-social/">Paris, France</a>
+    </li>
+    <li>
+      <a href="https://www.meetup.com/LLVM-St-Petersburg-Social/"
+        >Saint Pertersburg, Russia</a
+      >
+    </li>
+    <li>
+      <a href="https://www.meetup.com/LLVM-Bay-Area-Social/"
+        >San Francisco bay area, USA</a
+      >
+    </li>
+    <li>
+      <a href="https://www.meetup.com/LLVM-Developers-Users-Meetup/"
+        >Sydney, Australia</a
+      >
+    </li>
+    <li>
+      <a href="https://www.meetup.com/LLVM-Clang-Sweden-socials/"
+        >Stockholm, Sweden</a
+      >
+    </li>
+    <li>
+      <a href="https://www.meetup.com/LLVM-Clang-Toronto-socials/"
+        >Toronto, Canada</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://www.meetup.com/llvm-compiler-and-code-generation-socials-zurich/"
+        >Zurich, Switzerland</a
+      >
+    </li>
+  </ul>
+</div>
+
+<p>
+  The meetups are usually announced on the various LLVM and Clang mailing lists.
+</p>
+
+<p>
+  We are using the
+  <a href="https://www.meetup.com/pro/llvm">meetup.com</a> infrastructure as it
+  allows to have all meetups visible in the same place, which can be handy when
+  people are moving around the world. If there is a local community in your
+  place and would like to stand up to organize meetups, please reach arnaud
+  &lt;dot&gt; degrandmaison &lt;at&gt; llvm &lt;dot&gt; org so that we can add
+  your group to the network.
+</p>
+
+<!-- *********************************************************************** -->
+<hr />
+

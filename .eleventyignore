@@ -1,0 +1,6 @@
+node_modules/
+_site/
+.gemini/
+README.md
+html_prettier_cleanup_scripts.md
+devmtg/2013-11/slides/reveal.js/css/theme/README.md

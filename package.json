@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build": "eleventy",
+    "build-ghpages": "eleventy --pathprefix=/llvm-www/"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
     "prettier": "3.9.6"
   }
 }

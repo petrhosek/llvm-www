@@ -1,0 +1,822 @@
+---
+layout: "header_only.11ty.js"
+permalink: "devmtg/2021-02-28/index.html"
+---
+
+<div style="float: left; width: 100%">
+  <div class="www_sectiontitle">Fifth LLVM Performance Workshop at CGO</div>
+
+  <p>
+    The Fifth LLVM Performance Workshop will be held at CGO 2021. The workshop
+    is co-located with CC, HPCA, and PPoPP. If you are interested in attending
+    the workshop, please register at the
+    <a href="https://cgo-conference.github.io/cgo2021">CGO website.</a>
+    The joint steering committee of CGO/PPoPP/HPCA/CC has decided to make the
+    conference a virtual event this year. Note: The sessions will be delivered
+    and recorded (via zoom) and shared on Youtube for public consumption.
+  </p>
+
+  <br />
+  <div style="width: 100%">
+    <table>
+      <tr>
+        <td valign="top">
+          <ol>
+            <li><a href="#schedule">Preliminary Schedule</a></li>
+            <li>
+              <a
+                href="https://conf.researchr.org/attending/cgo-2021/registration"
+                >Registration</a
+              >
+            </li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ol>
+        </td>
+
+        <td valign="top">
+          <ul>
+            <li>
+              <b>Conference Dates</b>: Sunday February 28th, 2021 [9am-1pm
+              (slot1) and 1pm-5pm (slot2) Eastern Time]
+            </li>
+            <li><b>Location</b>: Virtually</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- BEGIN SCHEDULE -->
+  <div class="www_sectiontitle" id="schedule">Preliminary Schedule</div>
+  <table width="100%" border="1">
+    <tr>
+      <td><b>Time</b></td>
+      <td><b>Speaker</b></td>
+      <td><b>Title</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>9:00-9:30</td>
+      <td>
+        <a href="https://www.linkedin.com/in/johannes-doerfert-3a0770a2/"
+          >Johannes Doerfert</a
+        >,
+        <a
+          href="https://www.linkedin.com/in/unnikrishnan-cheramangalath-52282715/"
+          >Unnikrishnan C</a
+        >, <a href="https://hiraditya.github.io">Aditya Kumar</a>
+      </td>
+      <td>Welcome+Agenda</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+
+    <tr>
+      <td>9:30-10:00</td>
+      <td>
+        <a href="https://www.linkedin.com/in/patrick-walton-30a10b16/"
+          >Patrick Walton</a
+        >
+      </td>
+      <td>Rust code generation framework.</td>
+      <td><a href="#pw">[Abstract]</a></td>
+      <td>
+        [<a
+          href="https://llvm.org/devmtg/2021-02-28/slides/Patrick-rust-llvm.pdf"
+        >
+          Slides
+        </a>
+        ]
+      </td>
+    </tr>
+
+    <tr>
+      <td>10:00-10:30</td>
+      <td>
+        <a href="http://www.compilertree.com"
+          >Vinay Madhusudan, Ranjith Kumar and Prashantha Nr (Compiler Tree
+          Technologies Pvt Ltd)</a
+        >
+      </td>
+      <td>Moving LLVM’s code generator to MLIR framework</td>
+      <td><a href="#vm1">[Abstract]</a></td>
+      <td>
+        [<a
+          href="https://llvm.org/devmtg/2021-02-28/slides/Vinay-MLIR-codegen.pdf"
+        >
+          Slides
+        </a>
+        ]
+      </td>
+    </tr>
+
+    <tr>
+      <td>10:30-10:45</td>
+      <td><a href="https://tr5.org/~ruijie/">Ruijie Fang</a></td>
+      <td>Improving Hot/Cold Splitting Optimization in LLVM</td>
+      <td><a href="#rj">[Abstract]</a></td>
+      <td>
+        [<a
+          href="https://llvm.org/devmtg/2021-02-28/slides/Ruijie-hot-cold-split.pdf"
+        >
+          Slides
+        </a>
+        ]
+      </td>
+    </tr>
+
+    <tr>
+      <td>10:45-11:00</td>
+      <td>
+        <a href="https://www.linkedin.com/in/vishal-chebrolu-653816161/"
+          >Vishal Chebrolu (NIT Calicut)
+          <td>Instrumentation to Prevent Programs Buffer-Overflow Attacks</td>
+          <td><a href="#vc">[Abstract]</a></td>
+          <td>
+            [<a
+              href="https://llvm.org/devmtg/2021-02-28/slides/Vishal-instrumentation.pdf"
+            >
+              Slides
+            </a>
+            ]
+
+            <tr>
+              <td>11:00-11:30</td>
+              <td>&nbsp;</td>
+              <td colspan="3">Break</td>
+            </tr>
+
+            <tr>
+              <td>11:30-12:00</td>
+              <td>
+                <a href="https://www.linkedin.com/in/arun-rangasamy-b7b6944a/"
+                  >Arun Rangasamy (Qualcomm)
+                  <td>
+                    Superblock Scheduler for Code-Size Sensitive Applications
+                  </td>
+                  <td><a href="#ar">[Abstract]</a></td>
+                  <td>
+                    [<a
+                      href="https://llvm.org/devmtg/2021-02-28/slides/Arun-Superblock-sched.pdf"
+                    >
+                      Slides
+                    </a>
+                    ]
+
+                    <tr>
+                      <td>12:00-12:30</td>
+                      <td>
+                        <a href=""
+                          >Vinay M, Ranjith Kumar H, Siddharth Tiwary and
+                          Prashantha Nr (Compiler Tree Technologies)</a
+                        >
+                      </td>
+                      <td>
+                        Classical Loop Nest Transformation Framework on MLIR
+                      </td>
+                      <td><a href="#vm2">[Abstract]</a></td>
+                      <td>
+                        [<a
+                          href="https://llvm.org/devmtg/2021-02-28/slides/Vinay-MLIR-loopnest.pdf"
+                        >
+                          Slides
+                        </a>
+                        ]
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>12:30-1:00</td>
+                      <td>
+                        <a href="http://www.compilertree.com"
+                          >Prashantha Nr and Ranjith Kumar (Compiler Tree
+                          Technologies)</a
+                        >
+                      </td>
+                      <td>LTO and Data Layout Optimisations in MLIR</td>
+                      <td><a href="#pn">[Abstract]</a></td>
+                      <td>
+                        [<a
+                          href="https://llvm.org/devmtg/2021-02-28/slides/Prashantha-MLIR-LTO.pdf"
+                        >
+                          Slides
+                        </a>
+                        ]
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>1:00-2:00</td>
+                      <td>&nbsp;</td>
+                      <td colspan="3">Break</td>
+                    </tr>
+
+                    <tr>
+                      <td>2:00-2:30</td>
+                      <td>
+                        <a href="http://linkedin.com/in/reshabh/"
+                          >Reshabh Sharma (AMD)</a
+                        >
+                      </td>
+                      <td>Finding the cracks between the analysis</td>
+                      <td><a href="#rs">[Abstract]</a></td>
+                      <td>
+                        [<a
+                          href="https://llvm.org/devmtg/2021-02-28/slides/Reshabh-analysis.pdf"
+                        >
+                          Slides
+                        </a>
+                        ]
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>2:30:3:00</td>
+                      <td>
+                        <a
+                          href="https://www.linkedin.com/in/gokcen-kestor-9abb6914/"
+                          >Gokcen Kestor</a
+                        >
+                      </td>
+                      <td>
+                        COMET: Domain Specific Compilation for Heterogenous
+                        Targets
+                      </td>
+                      <td><a href="#gk">[Abstract]</a></td>
+                      <td>&nbsp;</td>
+                    </tr>
+
+                    <tr>
+                      <td>3.00-3:45</td>
+                      <td>
+                        <a href="http://users.uoa.gr/~sdi1600105/"
+                          >Stefanos Baziotis (NEC Deutschland GmbH)
+                          <td>
+                            Latest Advancements in Automatic Vectorization
+                            Research
+                          </td>
+                          <td><a href="#sb">[Abstract]</a></td>
+                          <td>
+                            [<a
+                              href="https://llvm.org/devmtg/2021-02-28/slides/Stefanos-vectorizer.pdf"
+                            >
+                              Slides
+                            </a>
+                            ]
+
+                            <tr>
+                              <td>3:45-4:15</td>
+                              <td>
+                                <a href=""
+                                  >Alexis Engelke and Martin Schulz (Technical
+                                  University of Munich)</a
+                                >
+                              </td>
+                              <td>
+                                Instrew: Fast LLVM-based dynamic Binary
+                                Instrumentation and Translation
+                              </td>
+                              <td><a href="#ae">[Abstract]</a></td>
+                              <td>
+                                [<a
+                                  href="https://llvm.org/devmtg/2021-02-28/slides/Alexis-instrew.pdf"
+                                >
+                                  Slides
+                                </a>
+                                ]
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>4:15-4:30</td>
+                              <td>&nbsp;</td>
+                              <td colspan="3">Break</td>
+                            </tr>
+                            <tr>
+                              <td>4:30-4:45</td>
+                              <td>
+                                <a href="http://easyperf.net"
+                                  >Denis Bakhvalov (Intel)</a
+                                >
+                              </td>
+                              <td>
+                                Performance Tuning: Future Compiler Improvements
+                              </td>
+                              <td><a href="#db">[Abstract]</a></td>
+                              <td>
+                                [<a
+                                  href="https://llvm.org/devmtg/2021-02-28/slides/Denis-perf.pdf"
+                                >
+                                  Slides
+                                </a>
+                                ]
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>4:45-5:20</td>
+                              <td>
+                                <a href="https://hiraditya.github.io/"
+                                  >Aditya Kumar (Facebook)</a
+                                >
+                              </td>
+                              <td>
+                                Performance improvement opportunities in the
+                                open source C++ standard libraries
+                              </td>
+                              <td><a href="#ak">[Abstract]</a></td>
+                              <td>
+                                [<a
+                                  href="https://llvm.org/devmtg/2021-02-28/slides/Aditya-c++-libraries.pdf"
+                                >
+                                  Slides
+                                </a>
+                                ]
+                              </td>
+                            </tr>
+
+                            <b
+                              >Note to presenters: Please plan to leave some
+                              time (typically 5 minutes) for questions.</b
+                            >
+                            <!-- END SCHEDULE -->
+
+                            <!-- BEGIN ABSTRACT -->
+                            <div class="www_sectiontitle">Abstracts</div>
+                            <div>
+                              <ul>
+                                <li>
+                                  <a id="pw"
+                                    ><b>Patrick Walton: </b>Rust+LLVM</a
+                                  >
+                                  <p>
+                                    The Rust project keeps on top of new
+                                    developments in LLVM. In this talk I'll go
+                                    into our new code generation framework, as
+                                    well as our use of new features like
+                                    ThinLTO.
+                                  </p>
+                                </li>
+                                <li>
+                                  <a id="vm1"
+                                    ><b
+                                      >Vinay Madhusudan, Ranjith Kumar and
+                                      Prashantha Nr: </b
+                                    >Moving LLVM’s code generator to MLIR
+                                    framework</a
+                                  >
+                                  <p>
+                                    hase ordering is a generic issue in
+                                    compilation. Separation of concern has been
+                                    achieved by delegating majority of target
+                                    independent optimizations to Opt framework.
+                                    Machine specific optimizations and final
+                                    code generation is done at MIR level. There
+                                    are instances of loss of optimization in
+                                    Translation from LLVM IR to MIR. MLIR is
+                                    emerging as a new higher level abstraction
+                                    for LLVM infrastructure. Capability to
+                                    represent higher language constructs like
+                                    multi dimensional arrays has made
+                                    optimizations more natural. Newer machine
+                                    learning workloads are more suited to pass
+                                    through MLIR. With an additional layer in
+                                    compilation, there is more danger of losing
+                                    optimizations in Translation. To reduce the
+                                    same we intend to translate from MLIR to MIR
+                                    using the existing MIR infrastructure to
+                                    represent targets. On a longer timeframe
+                                    LLVM IR should be subsumed by MLIR. In this
+                                    work we have prototyped an MIR dialect in
+                                    MLIR which can be used to represent the
+                                    Target specific assembly. We have also
+                                    ported the required GlobalIsel passes to
+                                    MLIR through which we could generate X86
+                                    assembly from std dialect scalar operations
+                                    via LLVM dialect. Our aim is to provide a
+                                    different MLIR Dialect for each of the LLVM
+                                    Targets and also to port the existing
+                                    llvm/lib/CodeGen/* and llvm/lib/Target/* to
+                                    MLIR based infrastructure.
+                                  </p>
+                                </li>
+                                <li>
+                                  <a id="rj"
+                                    ><b>Ruijie Fang: </b>Improving Hot/Cold
+                                    Splitting Optimization in LLVM</a
+                                  >
+                                  <p>
+                                    The hot/cold splitting optimization pass in
+                                    LLVM is a mid-end optimization pass that
+                                    aims to improve instruction cache locality
+                                    by splitting cold blocks into a separate
+                                    function, using profile and static analysis
+                                    information. Many incremental improvements
+                                    have been made since its first inclusion in
+                                    the LLVM mid-end. The objective of this talk
+                                    is to summarize our progress on improving
+                                    the outlining ability of the hot/cold
+                                    splitting optimization pass in the LLVM
+                                    compiler on two real-world workloads: qemu
+                                    (both userspace and full-system emulation)
+                                    and Firefox. Throughout this presentation,
+                                    we will discuss several ideas to improve
+                                    Hot/Cold Splitting on these real-world
+                                    workloads including section splitting,
+                                    longjmp outlining, and outlining exception
+                                    handling blocks, and scheduling hot/cold
+                                    splitting early in the optimization
+                                    pipeline. Experimental data, as well as
+                                    analysis, will be provided to show how these
+                                    efforts perform on real-world workloads.
+                                  </p>
+                                </li>
+                                <li>
+                                  <a id="vc"
+                                    ><b>Vishal Chebrolu: </b>Instrumentation to
+                                    Prevent Programs Buffer-Overflow Attacks</a
+                                  >
+                                  <p>
+                                    Memory corruption errors are a serious
+                                    problem in languages like C and C++. Errors
+                                    like out-of-bound access to the buffers when
+                                    explored critically by attackers can lead to
+                                    security vulnerabilities like
+                                    buffer-overflow attacks.
+                                    AddressSanitizer(ASAN) is a fast memory
+                                    error detector which detects a number of
+                                    memory bugs. We provide a mechanism for
+                                    improvising the AddressSanitizer tool to
+                                    prevent C/C++ programs from halting due to
+                                    memory corruption errors like out-of-bound
+                                    accesses to heap memory, use-after-free,
+                                    invalid free, and double free. The changes
+                                    are made in the instrumentation module to
+                                    instrument recovery blocks instead of the
+                                    error-reporting blocks for each type of
+                                    accesses and also provide a method for
+                                    dealing with pointer aliasing within
+                                    functions. The instrumentation ensures the
+                                    addressable memory is increased dynamically
+                                    at runtime according to the execution of the
+                                    program based on a scale of reallocation,
+                                    which is used to decide whether to increase
+                                    the addressable memory or not to consider
+                                    the specific access. These changes can be
+                                    employed in cases where system availability
+                                    is of vital concern or when there is a need
+                                    to reuse legacy code with increased memory
+                                    demands, in which case the bounds are
+                                    expanded safely during runtime.
+                                  </p>
+                                </li>
+
+                                <li>
+                                  <a id="ar"
+                                    ><b>Arun Rangasamy: </b>Superblock Scheduler
+                                    for Code-Size Sensitive Applications</a
+                                  >
+                                  <p>
+                                    Load latency and taken branch penalty often
+                                    limit performance in in-order CPUs. Code
+                                    size is of paramount significance in many
+                                    embedded applications. This talk is about an
+                                    implementation of a super-block scheduler in
+                                    LLVM, which addresses all three concerns.
+                                  </p>
+                                </li>
+
+                                <li>
+                                  <a id="vm2"
+                                    ><b
+                                      >Vinay M, Ranjith Kumar H, Siddharth
+                                      Tiwary and Prashantha Nr: </b
+                                    >Classical Loop Nest Transformation
+                                    Framework on MLIR</a
+                                  >
+                                  <p>
+                                    MLIR is fast emerging as a high level
+                                    program representation for aggressive
+                                    program transformations. With
+                                    representations for high level source
+                                    constructs like multidimensional arrays, it
+                                    is emerging as a preferred representation
+                                    for machine learning compiler infrastructure
+                                    like Tensorflow. In this work, we
+                                    demonstrate support for classical loop
+                                    transformation framework in MLIR. Associated
+                                    analysis like alias analysis, mem2reg have
+                                    also been supported. We show gain in at
+                                    least one SPEC 2017 fortran benchmark.
+                                  </p>
+                                </li>
+
+                                <li>
+                                  <a id="pn"
+                                    ><b>Prashantha Nr and Ranjith Kumar: </b>LTO
+                                    and Data Layout Optimisations in MLIR</a
+                                  >
+                                  <p>
+                                    Compilation is a process of gradual lowering
+                                    of source code to target code. LLVM is a
+                                    well established open source compiler with
+                                    LLVM and MIR representations. For high level
+                                    optiimzations, LLVM IR is not suitable. MLIR
+                                    has been proposed as a higher level IR for
+                                    high level optimisations. Link time
+                                    optimisations are not yet proposed for MLIR.
+                                    In this talk we would like to propose Link
+                                    Time Optimisations(LTO) for MLIR. Also we
+                                    would like to present two Data Layout
+                                    Optimizations(DLO) which utilise the LTO
+                                    framework. One of the SPEC 2017 benchmark
+                                    gains ~35% using the proposed framework.
+                                  </p>
+                                </li>
+
+                                <li>
+                                  <a id="rs"
+                                    ><b>Reshabh Sharma: </b>Finding the cracks
+                                    between the analysis</a
+                                  >
+                                  <p>
+                                    Compilers are complex. They use various
+                                    analysis to drive different transformations
+                                    to reliably generate optimized code. There
+                                    has been a lot of work for ensuring the
+                                    correctness of these analysis and
+                                    transformation. We present an approach
+                                    inspired from differential testing to find
+                                    bugs or unexpected behaviors which are
+                                    caused by the interaction of specific
+                                    analysis. We focus on finding such behaviors
+                                    inside LLVM, where the individual analysis
+                                    seems to do correct at their end. We can
+                                    classify analysis as fundamental and
+                                    derived, derived analysis uses the results
+                                    from fundamental analysis. Post dominator
+                                    tree is a fundamental analysis while region
+                                    tree detection analysis which uses post
+                                    dominator tree will be a derived analysis.
+                                    Any change made in the result of a
+                                    fundamental analysis may or may not get
+                                    reflected in the results of the derived
+                                    analysis. Though, the result for any derived
+                                    analysis should remain same if all the
+                                    fundamental analysis it depends on does not
+                                    change for a given mutation (given that the
+                                    analysis itself is inert to that mutation).
+                                    These unexpected changes are the behaviors
+                                    we are trying to catch. We will use region
+                                    tree generation analysis to demonstrate our
+                                    technique. We will also show a test case
+                                    where region tree generation analysis misses
+                                    to detect a region for a mutation that
+                                    ideally should have had no impact. At last,
+                                    we will discuss how the region detection
+                                    analysis is doing the right thing at its end
+                                    and how its interaction with a fundamental
+                                    analysis caused this bug.
+                                  </p>
+                                </li>
+
+                                <li>
+                                  <a id="gk"
+                                    ><b>Gokcen Kestor: </b>COMET: Domain
+                                    Specific Compilation for Heterogenous
+                                    Targets</a
+                                  >
+                                  <p>
+                                    The increasing complexity of heterogeneous
+                                    systems has made it difficult for
+                                    general-purpose compilers to automatically
+                                    generate efficient code. Domain-specific
+                                    languages (DSL) and compilers capture high-
+                                    level semantic information to successfully
+                                    generate efficient code for heterogenous
+                                    targets. COMET introduces DSL and compiler
+                                    infrastructure which leverages high-level
+                                    domain-specific optimizations in multi-level
+                                    Intermediate representations (IR) while
+                                    progressively lowering of high-level
+                                    representations to low-level IR to improve
+                                    performance. Our compiler has been
+                                    implemented on top of the MLIR framework and
+                                    currently targeting computational chemistry
+                                    and graph analytics domains.
+                                  </p>
+                                </li>
+                                <li>
+                                  <a id="sb"
+                                    ><b>Stefanos Baziotis: </b>Latest
+                                    Advancements in Automatic Vectorization
+                                    Research</a
+                                  >
+                                  <p>
+                                    In this talk, I want to connect developers
+                                    the state-of-the-art in automatic
+                                    vectorization and more specifically, in
+                                    those advancements that I believe have a
+                                    potential to be useful to LLVM. Three main
+                                    topics will be presented: - Outer-Loop
+                                    Vectorization - Recursive Tree Traversal
+                                    Vectorization - Dynamic Vectorization My
+                                    goal is neither just to provide a list of
+                                    papers nor to present what has already
+                                    presented in the papers. Rather, it is to
+                                    provide an intuitive but accurate
+                                    explanation and overview of the latest
+                                    research.
+                                  </p>
+                                </li>
+                                <li>
+                                  <a id="ae"
+                                    ><b>Alexis Engelke and Martin Schulz: </b
+                                    >Instrew: Fast LLVM-based dynamic Binary
+                                    Instrumentation and Translation</a
+                                  >
+                                  <p>
+                                    Dynamic binary instrumentation and dynamic
+                                    binary translation are two closely related
+                                    techniques that can be used to analyze,
+                                    modify and optimize existing binary code.
+                                    Binary instrumentation is key to many
+                                    debugging and performance analysis
+                                    approaches, allowing for the transparent
+                                    insertion of debugging or performance probes
+                                    without requiring recompilation, while
+                                    binary translation is essential to enable
+                                    transparent porting of code to new
+                                    architectures with new and/or modified
+                                    instruction sets, and is also heavily used
+                                    in computer architecture research.
+                                    State-of-the-art tools, like Valgrind,
+                                    DynamoRIO or PIN for binary instrumentation
+                                    or QEMU for binary translation, however,
+                                    typically either have a high performance
+                                    overhead or allow only minor low-level
+                                    modifications. To address these performance
+                                    and functionality limitations, the latter
+                                    --- QEMU --- has been extended to make use
+                                    of the LLVM framework (HQEMU, DBILL) in
+                                    order to take advantage of its optimization
+                                    potential. However, this approach still uses
+                                    the existing QEMU intermediate format in the
+                                    translation process and hence inherits many
+                                    of the imitations of QEMU. Additionally, it
+                                    relies on a modified LLVM library, reducing
+                                    portability and maintainability. In the
+                                    Instrew project we, therefore, go a step
+                                    further and solely rely on an unmodified
+                                    LLVM for code instrumentation and
+                                    translation, shortcutting the translation
+                                    process, avoiding the limitations of an
+                                    additional intermediate language with its
+                                    own limitations (as in QEMU with its TCG
+                                    representation) and taking full advantage of
+                                    code generation features of LLVM. In this
+                                    talk, we describe the general architecture
+                                    of Instrew and show results comparing the
+                                    performance to state-of-the-art tools.
+                                    Additionally, we identify key problems of
+                                    LLVM in the context of representing machine
+                                    code in the high-level LLVM-IR.
+                                  </p>
+                                </li>
+
+                                <li>
+                                  <a id="db"
+                                    ><b>Denis Bakhvalov: </b>Performance Tuning:
+                                    Future Compiler Improvements</a
+                                  >
+                                  <p>
+                                    We live in an increasingly data-centric
+                                    world, where we generate enormous amounts of
+                                    data each day. Unfortunately, modern CPUs
+                                    are not enjoying big improvements in
+                                    single-core performance as they used to in
+                                    the past decades. That's why performance
+                                    tuning is becoming more important than it
+                                    has been for the last 40 years. According to
+                                    the popular paper "There’s plenty of room at
+                                    the top" by Leiserson et al., SW tuning will
+                                    be one of the key drivers for performance
+                                    gains in the near future. Obviously,
+                                    compilers play a big role here. This talk
+                                    summarizes the key directions of how
+                                    compilers can help performance tuning in the
+                                    future.
+                                  </p>
+                                </li>
+
+                                <li>
+                                  <a id="ak"
+                                    ><b>Aditya Kumar: </b>Performance
+                                    improvement opportunities in the open source
+                                    C++ standard libraries</a
+                                  >
+                                  <p>
+                                    The C++ standard library (TC++SL) is a
+                                    collection of classes and functions. These
+                                    are written in C++ and are part of the C++
+                                    standard itself. All popular compiler
+                                    toolchains come with a C++ standard library.
+                                    The popular ones are libstdc++(GNU),
+                                    libc++(LLVM) also popularly known as libcxx,
+                                    msvc-stl. Needless to say, the standard
+                                    library plays a very important role in the
+                                    runtime performance of many systems. Over a
+                                    period of time I have collected a list of
+                                    performance opportunities in the standard
+                                    C++ libraries. Some of them I found online
+                                    from the mailing list and bugzilla. Others
+                                    by reading source code, and previous
+                                    experience with the performance analysis of
+                                    libstdc++ and libc++. In this presentation I
+                                    will share performance improvement
+                                    opportunities in the open source C++
+                                    standard libraries.
+                                  </p>
+                                </li>
+                              </ul>
+                            </div>
+
+                            <!-- END ABSTRACT -->
+
+                            <div class="www_sectiontitle" id="contact">
+                              Contact
+                            </div>
+                            <p>
+                              In case of any queries please reach out to the
+                              workshop organizers: "Johannes Doerfert (jdoerfert
+                              at anl.gov)", "Sebastian Pop(spop at amazon.com)",
+                              "Aditya Kumar (aditya7 at fb.com)", and
+                              "Unnikrishnan C (unnikrishnan at iitpkd.ac.in)"
+                            </p>
+
+                            <div class="www_sectiontitle" id="about">About</div>
+                            <h4>Past Attendees</h4>
+                            <ul>
+                              <li>
+                                Active developers of projects in the LLVM
+                                Umbrella (LLVM core, Clang, LLDB, libc++,
+                                compiler_rt, klee, lld, OpenMP, etc).
+                              </li>
+                              <li>
+                                Anyone interested in using these as part of
+                                another project.
+                              </li>
+                              <li>Students and Researchers.</li>
+                              <li>
+                                Compiler, programming language, and runtime
+                                enthusiasts.
+                              </li>
+                              <li>
+                                Those interested in using compiler and toolchain
+                                technology in novel and interesting ways.
+                              </li>
+                            </ul>
+
+                            <h4>Panels</h4>
+                            Panel sessions are guided discussions about a
+                            specific topic. The panel consists of ~3 developers
+                            who discuss a topic through prepared questions from
+                            a moderator. The audience is also given the
+                            opportunity to ask questions of the panel.
+
+                            <h4>Birds of a Feather (BoF)</h4>
+                            A BoF session, an informal meeting at conferences,
+                            where the attendees group together based on a shared
+                            interest and carry out discussions without any
+                            pre-planned agenda.
+
+                            <h4>Technical Talks</h4>
+                            These 20-30 minute talks cover all topics from core
+                            infrastructure talks, to project's using LLVM's
+                            infrastructure. Attendees will take away technical
+                            information that could be pertinent to their project
+                            or general interest.
+
+                            <h4>Tutorials</h4>
+                            Tutorials are 50-60 minute sessions that dive down
+                            deep into a technical topic. Expect in depth
+                            examples and explanations.
+
+                            <!-- *********************************************************************** -->
+                            <hr />
+
+                            <!--#include virtual="../../footer.incl" -->
+                          </td></a
+                        >
+                      </td>
+                    </tr>
+                  </td></a
+                >
+              </td>
+            </tr>
+          </td></a
+        >
+      </td>
+    </tr>
+  </table>
+</div>

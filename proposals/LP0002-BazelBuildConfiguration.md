@@ -1,3 +1,6 @@
+---
+permalink: "proposals/LP0002-BazelBuildConfiguration.html"
+---
 # Add Bazel Build Configuration to the LLVM Monorepo
 
 *   Proposal:

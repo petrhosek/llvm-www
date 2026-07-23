@@ -1,3 +1,6 @@
+---
+permalink: "proposals/LP0004-project-governance.html"
+---
 # LLVM Project Governance
 
 * Proposal: [LP-0004](https://github.com/llvm/llvm-www/blob/HEAD/proposals/LP0004-project-governance.md)

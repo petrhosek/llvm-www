@@ -1,0 +1,263 @@
+---
+layout: "default.11ty.js"
+permalink: "devmtg/2023-08-07/index.html"
+---
+
+<div style="float: left; width: 100%">
+  <div class="www_sectiontitle">
+    The Third Workshop on LLVM in Parallel Processing (LLPP) will be held at
+    ICPP 2023
+  </div>
+
+  <p>
+    The LLVM framework is a vast ecosystem that stretches far beyond a "simple"
+    C/C++ compiler. The variety of programming-language and toolchain-related
+    parts includes the components to support a host of parallel programming
+    models and libraries, including CUDA, HIP, OpenMP, SYCL, and the C++
+    parallel algorithms. In addition, LLVM serves as a vehicle for various
+    languages in which parallelism is a first class citizen, such as Julia or
+    Chapel. The workshop is held in conjunction with the ICPP during the
+    workshop day. If you are interested in attending the workshop, please
+    register at the
+    <a href="https://icpp23.sci.utah.edu">ICPP website.</a>
+  </p>
+
+  <br />
+  <div style="width: 100%">
+    <table>
+      <tr>
+        <td valign="top">
+          <ol>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ol>
+        </td>
+
+        <td valign="top">
+          <ul>
+            <li><b>Conference Dates</b>: August 7th - August 10th, 2023</li>
+            <li><b>Workshop Date</b>: August 7th, 2023</li>
+            <li><b>Location</b>: Salt Lake City, Utah, USA</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="www_sectiontitle" id="schedule">Schedule</div>
+
+  <table width="100%" border="1">
+    <tbody>
+      <tr style="font-weight: bold">
+        <td style="min-width: 160px">
+          <p>Time (EDT)</p>
+        </td>
+        <td>
+          <p>Speaker</p>
+        </td>
+        <td>
+          <p>Title</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8:30 - 8:35 (5 min)</p>
+        </td>
+        <td>
+          <p>
+            Johannes Doerfert<br />
+            Konstantinos Parasyris
+          </p>
+        </td>
+        <td>
+          <p>Welcome and introduction</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>8:35 - 9:00 (25 min)</p>
+        </td>
+        <td>
+          <p>John Regehr</p>
+        </td>
+        <td>
+          <p>Minotaur: A SIMD-Oriented Synthesizing Superoptimizer</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>9:00 - 9:25 (25 min)</p>
+        </td>
+        <td>
+          <p>Mahesh Lakshminarasimhan</p>
+        </td>
+        <td>
+          <p>Optimizing Data Layout Transformations for MLIR-Based Compilers</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>9:25 - 10:00 (35 min)</p>
+        </td>
+        <td>
+          <p>Konstantinos Parasyris</p>
+        </td>
+        <td>
+          <p>
+            Scalable Tuning of OpenMP GPU Applications via Kernel Record and
+            Replay
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>10:00 - 10:30 (30 min)</p>
+        </td>
+        <td>
+          <p></p>
+        </td>
+        <td colspan="3" style="background-color: rgb(214, 214, 214)">
+          <p>Break</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>10:30 - 10:55 (25 min)</p>
+        </td>
+        <td>
+          <p>Amir Mohammad Tavakkoli</p>
+        </td>
+        <td>
+          <p>PEAK: High-performance Transform Dialect</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>11:00 - 11:25 (25 min)</p>
+        </td>
+        <td>
+          <p>Johannes Doerfert</p>
+        </td>
+        <td>
+          <p>
+            Maximizing Parallelism and GPU Utilization For Direct GPU
+            Compilation Through Ensemble Execution
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>11:25 - 12:00 (35 min)</p>
+        </td>
+        <td>
+          <p></p>
+        </td>
+        <td colspan="3" style="background-color: rgb(214, 214, 214)">
+          <p>Open Discussion</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <b>Topics of Interest</b><br />
+  Focus areas LLPP include but are not limited to:
+  <ul>
+    <li>
+      Parallelism-aware compilation and optimization
+      <ul>
+        <li>Parallelism analysis in compilation</li>
+        <li>Parallelism-aware compiler optimizations</li>
+      </ul>
+    </li>
+    <li>
+      Parallel programming languages and models
+      <ul>
+        <li>Domain-specific parallel programming languages</li>
+        <li>Novel parallelism models and implementations</li>
+      </ul>
+    </li>
+    <li>
+      Performance analysis and tuning in LLVM
+      <ul>
+        <li>Performance analysis tools for parallelism</li>
+        <li>Tuning tools for parallel execution</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>
+    <b>Proceedings</b><br />
+    Accepted papers will be published by the ACM International Conference
+    Proceedings Series (ICPS), in conjunction with those of other ICPP
+    workshops, in a volume entitled 51st International Conference on Parallel
+    Processing Workshops (ICPP 2023 Workshops). This volume will be available
+    for download via the ACM Digital Library.
+  </p>
+
+  <p>
+    <b>Submission Guidelines</b><br />
+    LLPP follows the same submission guidelines as the ICPP conference, please
+    visit
+    <a href="https://icpp23.sci.utah.edu/submissions/call-for-papers.html"
+      >ICPP CFP</a
+    >. In brief, paper submissions should be in the US letter
+    <a href="https://www.acm.org/publications/proceedings-template"
+      >ACM format</a
+    >, not exceed 10 pages (incl. references), prepared for double-blind review,
+    and submitted in the PDF document format.
+  </p>
+
+  <p>
+    <b>Important Dates (AoE)</b><br />
+    Paper submission: June 9th, 2023<br />
+    Author notification: June 16th, 2023<br />
+    Camera-ready submission: June 26th, 2023<br />
+    Workshop date: August 7th, 2023<br />
+  </p>
+
+  <p>
+    <b>Organizing Committee</b><br />
+    Johannes Doerfert, Lawrence Livermore National Laboratory, USA<br />
+    Giorgis Georgakoudis, Lawrence Livermore National Laboratory, USA<br />
+    Konstantinos Parasyris, Lawrence Livermore National Laboratory, USA<br />
+  </p>
+
+  <p>
+    <b>Program Committee</b><br />
+    Zujun Tan, Princeton University, USA<br />
+    Tom Deakin, University of Bristol, UK<br />
+    Sunita Chandrasekaran, University of Delaware, USA<br />
+    Shilei Tian, Stony Brook University, USA<br />
+    Kevin Sala, Barcelona Supercomputing Center, Spain<br />
+    JP Lehr, AMD, Germany<br />
+    Jan Huckelheim, Argonne National Laboratory, USA<br />
+    Georgiana Mania, Deutsches Klimarechenzentrum and University of Hamburg,
+    Germany<br />
+    Alister Johnson, University of Oregon, USA<br />
+    Alexis Perry-Holby, Los Alamos National Laboratory, USA<br />
+    Aiden Grossman, UC Davis, USA<br />
+    Adrien Roussel, CEA, France<br />
+    <br />
+  </p>
+
+  <div class="www_sectiontitle" id="contact">Contact</div>
+  <p>
+    In case of any queries please reach out to the workshop organizers: Johannes
+    Doerfert (jdoerfert@llnl.gov), Giorgis Georgakoudis
+    (georgakoudis1@llnl.gov), and Konstantinos Parasyris (parasyris1@llnl.gov).
+  </p>
+
+  <div class="www_sectiontitle" id="about">About</div>
+
+  The workshop will have proceedings. More information on the paper format is to
+  follow. Submissions can be made on the
+  <a href="https://easychair.org/my/conference?conf=llpp23"
+    >LLPP submission page</a
+  >. We will consider invited talks, tutorials, panels, and other
+  non-research-paper submissions. Please reach out if you are interested.
+
+  <!-- *********************************************************************** -->
+  <hr />
+</div>
+

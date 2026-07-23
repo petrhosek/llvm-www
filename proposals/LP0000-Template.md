@@ -1,3 +1,6 @@
+---
+permalink: "proposals/LP0000-Template.html"
+---
 # Proposal Name
 
 *   Proposal: [LP-0123](link to the file on github when it lands)

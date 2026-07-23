@@ -1,3 +1,6 @@
+---
+permalink: "proposals/LP0001-LLVMDecisionMaking.html"
+---
 ## Introduce a new LLVM process to resolve contentious decisions
 
 *   Proposal: [LP-0001](https://github.com/llvm/llvm-www/blob/HEAD/proposals/LP0001-LLVMDecisionMaking.md)
