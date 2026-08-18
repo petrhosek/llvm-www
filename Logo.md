@@ -1,103 +1,47 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "Logo.html"
 ---
+# LLVM Logo
 
-<div class="www_sectiontitle">LLVM Logo</div>
+The LLVM logo is a stylized [wyvern](http://en.wikipedia.org/wiki/Wyvern) (a kind of [dragon](http://en.wikipedia.org/wiki/Dragon)). Dragons have connotations of power, speed and intelligence, and can also be sleek, elegant, and modular (err, maybe not). In addition, there is a series of influential [compiler books](http://en.wikipedia.org/wiki/Dragon_Book_\(computer_science\)) going back to 1977 which featured dragons on the cover.
 
-<p>
-  The LLVM logo is a stylized
-  <a href="http://en.wikipedia.org/wiki/Wyvern">wyvern</a> (a kind of
-  <a href="http://en.wikipedia.org/wiki/Dragon">dragon</a>). Dragons have
-  connotations of power, speed and intelligence, and can also be sleek, elegant,
-  and modular (err, maybe not). In addition, there is a series of influential
-  <a href="http://en.wikipedia.org/wiki/Dragon_Book_(computer_science)"
-    >compiler books</a
-  >
-  going back to 1977 which featured dragons on the cover.
-</p>
+![Small Wyvern logo](img/LLVMWyvernSmall.png)
 
-<p>
-  <img
-    src="img/LLVMWyvernSmall.png"
-    alt="Small Wyvern logo"
-    width="700"
-    height="439"
-  />
-</p>
+You can also download a larger version of [this image](img/LLVMWyvernBig.png) here.
 
-<p>
-  You can also download a larger version of
-  <a href="img/LLVMWyvernBig.png">this image</a> here.
-</p>
+# Older Dragon Logo
 
-<div class="www_sectiontitle">Older Dragon Logo</div>
+LLVM used an older dragon logo for many years. This version is endearing for many reasons, including an unproven theory that it has its head upside down (and an anonymous Australian takes the controversial view that its body is actually upside down)!
 
-<p>
-  LLVM used an older dragon logo for many years. This version is endearing for
-  many reasons, including an unproven theory that it has its head upside down
-  (and an anonymous Australian takes the controversial view that its body is
-  actually upside down)!
-</p>
+Here is the image in a couple of sizes:
 
-<p>Here is the image in a couple of sizes:</p>
+![small dragon logo](img/DragonSmall.png)
 
-<p>
-  <img
-    src="img/DragonSmall.png"
-    alt="small dragon logo"
-    width="136"
-    height="136"
-  />
-</p>
+![](img/DragonMedium.png)
 
-<p>
-  <img
-    src="img/DragonMedium.png"
-    alg="medium dragon logo"
-    width="400"
-    height="400"
-  />
-</p>
+## Derivative Versions of the Older Logo
 
-<div class="www_subsection">Derivative Versions of the Older Logo</div>
+Here are several derivative versions of the dragon logo, which may be more suitable for use as icons etc. These were contributed by Teresa Chang:
 
-<div class="www_text">
-  <p>
-    Here are several derivative versions of the dragon logo, which may be more
-    suitable for use as icons etc. These were contributed by Teresa Chang:
-  </p>
+![](img/LLVM-Logo-Derivative-1.png)
 
-  <img src="img/LLVM-Logo-Derivative-1.png" />
-  <div>
-    <img src="img/LLVM-Logo-Derivative-2.png" />
-    <div>
-      <img src="img/LLVM-Logo-Derivative-3.png" />
-      <div>
-        <img src="img/LLVM-Logo-Derivative-4.png" />
-        <div>
-          <img src="img/LLVM-Logo-Derivative-5.png" />
-          <div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+![](img/LLVM-Logo-Derivative-2.png)
 
-<div class="www_subsection">Usage Rights of the Older Logo</div>
+![](img/LLVM-Logo-Derivative-3.png)
 
-<div class="www_text">
-  <p>
-    This dragon image is owned by Apple Inc. and is available for your download
-    and use royalty-free. By downloading this image, Apple grants you, and you
-    accept, a non-exclusive license to use this image. All right, title and
-    interest in the image, including the copyright therein, is retained by
-    Apple.
-  </p>
+![](img/LLVM-Logo-Derivative-4.png)
 
-  <p><a href="img/DragonFull.png">Full Resolution Image</a></p>
-  <p><a href="img/Dragon.ai">Adobe Illustrator Version</a></p>
-</div>
+![](img/LLVM-Logo-Derivative-5.png)
+
+## Usage Rights of the Older Logo
+
+This dragon image is owned by Apple Inc. and is available for your download and use royalty-free. By downloading this image, Apple grants you, and you accept, a non-exclusive license to use this image. All right, title and interest in the image, including the copyright therein, is retained by Apple.
+
+[Full Resolution Image](img/DragonFull.png)
+
+[Adobe Illustrator Version](img/Dragon.ai)
 
 <!-- *********************************************************************** -->
-<hr />
+
+* * *

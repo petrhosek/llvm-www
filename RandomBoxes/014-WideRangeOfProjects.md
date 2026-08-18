@@ -1,6 +1,4 @@
 ---
 permalink: "RandomBoxes/014-WideRangeOfProjects.html"
 ---
-LLVM is currently being used for a broad range of compiler, architecture,
-program safety, and operating systems research. Just think what a flexible and
-adaptable compiler system can do for you!
+LLVM is currently being used for a broad range of compiler, architecture, program safety, and operating systems research. Just think what a flexible and adaptable compiler system can do for you!

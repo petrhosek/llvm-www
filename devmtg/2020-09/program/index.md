@@ -1,882 +1,120 @@
 ---
 permalink: "devmtg/2020-09/program/index.html"
 ---
-<!doctype html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="robots" content="all,follow" />
-    <meta name="googlebot" content="index,follow,snippet,archive" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+Program          <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->         
 
-    <title>Program</title>
-    <meta name="author" content="" />
+  [![Program logo](/devmtg/2020-09/img/LLVMLogo.png) ![Program logo](/devmtg/2020-09/img/LLVMLogo-small.png) Program - go to homepage](/devmtg/2020-09/)
 
-    <meta name="description" content="" />
+Toggle Navigation
 
-    <meta name="generator" content="Hugo 0.71.0" />
+*   [Home](/devmtg/2020-09/)
+*   [Schedule](/devmtg/2020-09/schedule/)
+*   [Program](/devmtg/2020-09/program/)
+*   [Speakers](/devmtg/2020-09/speakers/)
+*   [Sponsors](/devmtg/2020-09/sponsors/)
+*   [LLVM](https://llvm.org)
 
-    <link
-      href="//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800"
-      rel="stylesheet"
-      type="text/css"
-    />
+# Program
 
-    <link
-      rel="stylesheet"
-      href="//use.fontawesome.com/releases/v5.11.2/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"
-    />
+**Keynote:**
 
-    <link href="/devmtg/2020-09/css/animate.css" rel="stylesheet" />
+*   Undef and Poison: Present and Future - *Juneyoung Lee* \[ [Video](https://youtu.be/ZMaZH3YYJqY) \] \[ [PDF Slides](../slides/Lee-UndefPoison.pdf) \] \[ [PPT Slides](../slides/Lee-UndefPoison.pptx) \]
 
-    <link
-      href="/devmtg/2020-09/css/style.default.css"
-      rel="stylesheet"
-      id="theme-stylesheet"
-    />
+**Technical Talks:**
 
-    <link href="/devmtg/2020-09/css/custom.css" rel="stylesheet" />
+*   Clang & Linux: Asm Goto with Outputs - *Bill Wendling, Nick Desaulniers* \[ [Video](https://youtu.be/vcPD490s-hE) \] \[ [Slides](../slides/Wendling_Desaulniers_asm_goto_w_outputs.pdf) \]
+*   LLVM Libc: Current Status, Challenges and Future Plans - *Siva Chandra Reddy, Guillaume Chatelet, Paula Asker, David Finkelstein* \[ [Video](https://youtu.be/Dm8-ug9L0Gc) \] \[ [Slides](../Reddy-Libc_Status_Challenges_Future_Plans.pdf) \]
+*   Branch Coverage: Squeezing more out of LLVM Source-based Code Coverage - *Alan Phipps* \[ [Video](https://youtu.be/H1hvtJPGWNQ) \] \[ [PDF Slides](../slides/PhippsAlan_BranchCoverage_LLVM_Conf_Talk_final.pdf) \] \[ [PPT Slides](../slides/PhippsAlan_BranchCoverage_LLVM_Conf_Talk_final.pptx) \]
+*   Memory tagging in LLVM and Android - *Evgenii Stepanov, Kostya Serebryany, Peter Collingbourne, Mitch Phillips* \[ [Video](https://youtu.be/tqG9pr1K5G8) \] \[ [Slides](../slides/Stepanov-Memory_tagging_in_LLVM_and_Android.pdf) \]
+*   Towards a representation of arbitrary alias graph in LLVM IR for Fortran code - *Kelvin Li; Tarique Islam* \[ [Video](https://youtu.be/Vp4GklTXDys) \] \[ [Slides](../slides/Islam-Li-Fortran_alias_representation.pdf) \]
+*   Control-flow sensitive escape analysis in Falcon JIT - *Artur Pilipenko* \[ [Video](https://youtu.be/WHiU2-h_kRM) \] \[ [Slides](../slides/Pilipenko-Falcon-EA-LLVM-Dev-Mtg.pdf) \]
+*   Extending Clang for checking compliance with automotive coding standards - *Milena Vujosevic Janicic* \[ [Video](https://youtu.be/-6dL-7xkIV0) \] \[ [Slides](../slides/Janicic-Extending_Clang_Compliance_Automotive_Standards.pdf) \]
+*   An Update on Optimizing Multiple Exit Loops - *Philip Reames* \[ [Video](https://youtu.be/gyiEb4860rM)\] \[ [Slides](../slides/Reames-Update_on_Optimizing_Multiple_Exit_Loops.pdf) \]
+*   Code Size Compiler Optimizations and Techniques - *Aditya Kumar* \[ [Video](https://youtu.be/puZ2B408VsM) \] \[ [Slides](../slides/Kumar-LLVMDevCodeSizePdf.pdf) \]
+*   Accelerate Matrix Multiplication Using the New POWER Outer Product Instructions - *Baptiste Saleil, João Carvalho* \[ [Video](https://youtu.be/NYR8zn2kLL4) \] \[ Slides \]
+*   CIL : Common MLIR Dialect for C/C++ and Fortran - *Prashantha NR, Vinay Madhusudan, Ranjith Kumar, Srihari* \[ [Video](https://youtu.be/3gcw-8C9UbA) \] \[ [Slides](../slides/CIL_Common_MLIR_Abstraction.pdf) \]
+*   Building compiler extension for LLVM 10.0.1 - *Serge Guelton* \[ [Video](https://youtu.be/PkfTHdoUzT8) \] \[ [Slides](http://serge-sans-paille.github.io/talks/llvmdev2020/output/index.html) \]
+*   LLVM-based mutation testing for C and C++ - *Alex Denisov; Stanislav Pankevich* \[ [Video](https://youtu.be/DfoS9kdTWmI) \] \[ [Slides](../slides/Denisov-LLVM-based_mutation_testing_for_C_and_CPlusPlus.pdf) \]
+*   Matrix Support in Clang and LLVM- *Florian Hahn* \[ [Video](https://youtu.be/I8TIBvvM2K0) \] \[ [Slides](../slides/Hahn-Matrix_Support_in_LLVM_and_Clang.pdf) \]
+*   Adding CUDA® Support to Cling: JIT Compile to GPUs - *Simeon Ehrig* \[ [Video](https://youtu.be/XjjZRhiFDVs) \] \[ [Slides](../slides/Ehrig-Adding_CUDA_support_to_Cling.pdf) \]
+*   The Present and Future of Interprocedural Optimization in LLVM - *Johannes Doerfert, Brian Homerding, Stefanos Baziotis, Stefan Stipanovic, Hideto Ueno, Kuter Dinel, Shinji Okumura, Luofan Chen* \[ [Video](https://youtu.be/uC-x_Je_sIw) \] \[ [PDF Slides](../slides/The_Present_and_Future_of_Interprocedural_Optimization_in_LLVM.pdf) \] \[ [PPT Slides](../slides/The_Present_and_Future_of_Interprocedural_Optimization_in_LLVM.pptx) \]
+*   Pushing Back Lit’s Boundaries to Test Libc++ - *L. Dionne* \[ [Video](https://youtu.be/z5-wo0TW26M) \] \[ [Slides](../slides/Dionne-Pushing_Lits_Boundaries_to_testLibCPlusPlus.pdf) \]
+*   Evolving “convergent”: Lessons from Control Flow in AMDGPU - *N. Hähnle* \[ [Video](https://youtu.be/_Z5DuiVCFAw) \] \[ [Slides](../slides/Hahnle-Evolving_convergent_Lessons_from_Control_Flow_in_AMDGPU.pdf) \]
+*   How to update debug info in compiler transformations - *A. Prantl; V. Kumar* \[ Video \] \[ [Slides](../slides/Prantl-Kumar-How_to_update_debug_info.pdf) \]
+*   Proposal for A Framework for More Effective Loop Optimizations - *M. Kruse; H. Finkel* \[ [Video](https://youtu.be/zHHUh0c5wig) \] \[ [Slides](../slides/KruseFinkel-Proposal_for_A_Framework_for_More_Effective_Loop_Optimizations.pdf) \]
+*   Changing Everything With Clang Plugins: A Story About Syntax Extensions, Clang’s AST, and Quantum Computing = *H. Finkel; A. Mccaskey* \[ [Video](https://youtu.be/A9COzFs-gEg) \] \[ [Slides](../slides/Finkel-Changing_Everything_With_Clang_Plugins.pdf) \]
+*   (OpenMP) Parallelism-Aware Optimizations - *J. Doerfert; S. Stipanovic; H. Mosquera; J. Chesterfield; G. Georgakoudis; J. Huber* \[ [Video](https://youtu.be/gtxWkeLCxmU) \] \[ [Slides](../slides/OpenMP_Parallelism_Aware_Optimizations.pdf) \]
+*   Checked C: Adding memory safety support to LLVM - *M. Grang; K. Kjeer* \[ [Video](https://youtu.be/EuxAzvtX9CI) \]\[ [Slides](../slides/Checked_C_Adding_Memory_Safety_to_LLVM.pdf) \]
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+**Tutorials:**
 
-    <link
-      rel="shortcut icon"
-      href="/devmtg/2020-09/img/favicon.ico"
-      type="image/x-icon"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="/devmtg/2020-09/img/apple-touch-icon.png"
-    />
+*   Everything I know about debugging LLVM - *N. Desaulniers* \[ [Video](https://youtu.be/y4b-sgp6VYA) \] \[ [Slides](https://clangbuiltlinux.github.io/llvm-dev-conf-2020/nick/debugging_llvm.html#/) \]
+*   LLVM in a Bare Metal Environment - *H. Qadeer* \[ [Video](https://youtu.be/D9vCJwwTKaw) \] \[ [Slides](../slides/Qadeer-LLVM_in_a_Bare_Metal_Environment.pdf) \]
+*   LLVM PGO Instrumentation: Example of CallSite-Aware Profiling - *P. Kosov; S. Yakushkin* \[ [Video](https://youtu.be/kauauderlAU) \] \[ [Slides](../slides/PGO_Instrumentation.pdf) \]
+*   Understanding Changes made by a Pass in the Opt Pipeline. - *J. Schmeiser* \[ [Video](https://youtu.be/3RCDB3_wUEM) \] \[ [Slides](../slides/Schmeiser-Understanding_Changes_made_by_pass_in_the_opt_pipeline.pdf) \]
+*   Using clang-tidy for customized checkers and large scale source tree refactoring - *V. Bridgers* \[ [Video](https://youtu.be/UfLH7dORav8) \] \[ [Slides](../slides/Clang-tidy_for_Customized_Checkers_and_Large_Scale.pdf) \]
+*   Finding Your Way Around the LLVM Dependence Analysis Zoo - *S. Baziotis; S. Moll* \[ [Video](https://youtu.be/1e5y6WDbXCQ) \] \[ [Slides](../slides/Finding_Your_Way_Around_the_LLVM_Dependence_Analysis_Zoo.pdf) \] \[ [Slides PPT](../slides/Clang-tidy_for_Customized_Checkers_and_Large_Scale.pptx) \]
+*   Using the clang static analyzer to find bugs - *V. Bridgers* \[ [Video](https://youtu.be/nTslG8HtKeA) \] \[ [Slides PDF](../slides/Using_the_clang_static_ananalyzer_to_find_bugs.pdf) \] \[ [Slides PPT](../slides/Using_the_clang_static_analyzer_to_find_bugs.pptx) \]
+*   A Deep Dive into the Interprocedural Optimization Infrastructure - *J. Doerfert; B. Homerding; S. Baziotis; S. Stipanovic; H. Ueno; K. Dinel; S. Okumura; L. Chen* \[ [Video](https://youtu.be/I4Iv-HefknA) \] \[ [Slides](../slides/A_Deep_Dive_into_Interprocedural_Optimization.pdf) \]
+*   MLIR Tutorial - *M. Amini* \[ [Video](https://youtu.be/Y4SvqTtOIDk) \] \[ [Slides](../slides/MLIR_Tutorial.pdf) \]
 
-    <link href="/devmtg/2020-09/css/owl.carousel.css" rel="stylesheet" />
-    <link href="/devmtg/2020-09/css/owl.theme.css" rel="stylesheet" />
+**Lightning Talks:**
 
-    <link
-      rel="alternate"
-      href="https://llvm.org/index.xml"
-      type="application/rss+xml"
-      title="2020 Virtual LLVM Developers Meeting"
-    />
+*   Finding and Outlining Similarities in LLVM IR - *A. Litteken* \[ [Video](https://youtu.be/HaN83qMyAhY) \] \[ [Slides](../slides/Finding-outlining-ir-level-Andrew-Litteken.pdf) \]
+*   A fast algorithm for global code motion of congruent instructions - *A. Kumar; S. Pop* \[ [Video](https://youtu.be/Ar17O-bb90E) \] \[ [Slides](../slides/A_fast_algorithm_for_global_code_motion_of_congruent_instructions.pdf) \]
+*   From Implicit Pass Dependencies to Effectiveness Prediction - *H. Ueno; J. Doerfert; E. Park; G. Georgakoudis; T. Jayatilaka; S. Badruswamy* \[ [Video](https://youtu.be/QvF68tOt_w8) \] \[ [Slides](../slides/Ueno-From_Implicit_Pass_Dependencies_to_Effectiveness_Prediction.pdf) \]
+*   Using Clang as An Alternative C/C++ Frontend of The ROSE Source-to-Source Compiler - *A. Wang; P. Lin; C. Liao; Y. Yan* \[ [Video](https://youtu.be/BUXUhno8pfE) \] \[ [Slides](../slides/Wang-Using_Clang_as_An_Alternative_Frontend_of_the_ROSE.pdf) \]
+*   OpenACC support in Flang with a MLIR dialect - *V. Clement; J. Vetter* \[ [Video](https://youtu.be/vVmCLdSboWc) \] \[ [Slides](../slides/Clement-OpenACC_support_in_Flang_with_a_MLIR_dialect.pdf) \]
+*   Fragmenting the DWARF to Enable Dead Debug Data Elimination - *J. Henderson* \[ [Video](https://youtu.be/0y6TlfFhCsU) \] \[ [Slides](../slides/Henderson-DebugDebugDataElimination.pdf) \] \[ [PPT Slides](../slides/Henderson-Dead_Debug_Data_Elimination_Using_Fragemented_DWARF.pptx) \]
+*   Source-based Code Coverage for Embedded Use Cases - *A. Phipps; C. Addison* \[ [Video](https://youtu.be/H3BXmS8gZJY) \] \[ [Slides](../slides/PhippsAlan_EmbeddedCodeCoverage_LLVM_Conf_Talk_final.pdf) \] \[ [PPT Slides](../slides/PhippsAlan_EmbeddedCodeCoverage_LLVM_Conf_Talk_final.pptx) \]
+*   pre-merge checks for LLVM - *M. Goncharov; C. Kühnel* \[ [Video](https://youtu.be/IWL-YHCClIA) \] \[ [Slides](../slides/Goncharov-Pre-merge_checks.pdf) \]
+*   Getting stack size just right on XCore - *J. McCrea* \[ [Video](https://youtu.be/I22VVp09sAY) \] \[ [Slides](../slides/McCrea-Getting_Stack_Size_Just_Right_on_XCore.pdf) \]
+*   Compile Faster with the Program Repository and ccache - *Y. Yi; P. Bowen-Huggett* \[ [Video](https://youtu.be/9bQEtJHkDTw) \] \[ [Slides](../slides/Yi-Compile_Faster_with_the_Program_Repository_and_ccache.pdf) \]
+*   GWP-TSan: Zero-Cost Detection of Data Races in Production - *M. Morehouse; K. Serebryany* \[ [Video](https://youtu.be/2KvaKEyMVEU) \] \[ [Slides](../slides/Morehouse-GWP-Tsan.pdf) \]
+*   CompilerInvocation to -cc1 command line - *D. Grumberg* \[ [Video](https://youtu.be/0QJIPn7N6GA) \] \[ [Slides](../slides/Grumberg-Frontend_Option_Parsing.pdf) \]
+*   Outer-Loop Vectorization Legality Analysis for RV: One Step Closer to a Powerful Vectorizer for LLVM - *S. Baziotis* \[ [Video](https://youtu.be/u3AYUZXpa0w) \] \[ [Slides](../slides/Baziotis-Outer-Loop_Vectorization_Legality_Analysis_for_LLVM.pdf) \]
+*   Flang Update - *S. Scalpone* \[ [Video](https://youtu.be/rO59gcuq0LU) \] \[ [Slides](../slides/Scalpone-FlangUpdate.pdf) \]
+*   Code Feature Analysis, Tracking, and Future Usage - *T. Jayatilaka; J. Doerfert; G. Georgakoudis; E. Park; H. Ueno; S. Badruswamy* \[ [Video](https://youtu.be/pS9N_08x0GQ) \] \[ [Slides](../slides/Jayatilaka-Code_Feature_Analysis_Tracking_and_Future_Usage.pdf) \]
+*   Lowering XLA HLO using RISE - A Functional Pattern-based MLIR Dialect - *M. Lücke; A. Smith; M. Steuwer* \[ [Video](https://youtu.be/fJZK9FWmpdc) \] \[ [Slides](../slides/Lucke-Rise-A_Functional_Pattern-based_MLIR_Dialect.pdf)\]
+*   SYCL for CUDA: An overview of implementing PI for CUDA - *A. Johnston* \[ [Video](https://youtu.be/yy9uaydiVAU) \] \[ [Slides](../slides/Johnston-SYCL_for_CUDA.pdf) \]
+*   Extending LLDB to More Scripting Languages - *J. Devlieghere* \[ [Video](https://youtu.be/UgfzdAr9AFg) \] \[ [Slides](../slides/Devlieghere-LLDB_scripting.pdf) \]
+*   Adding a Subtarget Support to LLVM in Five Minutes - *E. Yakubova* \[ [Video](https://youtu.be/Slpszob1z4A) \] \[ [Slides](../slides/Yakubova-Adding_a_Subtarget_Support_to_LLVM_in_Five_Min.pdf) \]
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@GoHugoIO" />
-    <meta name="twitter:title" content="Program" />
+**Birds of a Feather:**
 
-    <meta name="twitter:description" content="" />
-  </head>
+*   ClangBuiltLinux BoF - *N. Desaulniers*
+*   Loop Optimization BoF - *M. Kruse; K. Barton*
+*   LLVM Just-In-Time Compilers BoF - *L. Hames*
+*   Code Size Optimization - *S. Bartell; V. Adve*
 
-  <body>
-    <div id="all">
-      <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
-        <div class="navbar navbar-default yamm" role="navigation" id="navbar">
-          <div class="container">
-            <div class="navbar-header">
-              <a class="navbar-brand home" href="/devmtg/2020-09/">
-                <img
-                  src="/devmtg/2020-09/img/LLVMLogo.png"
-                  alt="Program logo"
-                  class="hidden-xs hidden-sm"
-                />
-                <img
-                  src="/devmtg/2020-09/img/LLVMLogo-small.png"
-                  alt="Program logo"
-                  class="visible-xs visible-sm"
-                />
-                <span class="sr-only">Program - go to homepage</span>
-              </a>
-              <div class="navbar-buttons">
-                <button
-                  type="button"
-                  class="navbar-toggle btn-template-main"
-                  data-toggle="collapse"
-                  data-target="#navigation"
-                >
-                  <span class="sr-only">Toggle Navigation</span>
-                  <i class="fas fa-align-justify"></i>
-                </button>
-              </div>
-            </div>
+**Student Research Competition**
 
-            <div class="navbar-collapse collapse" id="navigation">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                  <a href="/devmtg/2020-09/">Home</a>
-                </li>
+*   Enzyme: High-Performance Automatic Differentiation of LLVM - *W. Moses; V. Churavy*
+*   SPAM: Stateless Permutation of Application Memory with LLVM - *M. Ziad; M. Arroyo; S. Sethumadhavan*
+*   HPVM-FPGFA: Leveraging Compiler Optimizations for Hardware-Agnostic FPGA Programming - *A. Ejjeh; K. Kanwar; M. Kotsifakou; V. Adve; R. Rutenbar*
+*   Guided Linking: shrinking and speeding up dynamically linked code - *S. Bartell; V. Adve*
+*   ApproxTuner: A Compiler and Runtime System for Adaptive Approximations - *H. Sharif; M. Kotsifakou; Y. Zhao; A. Kothari; B. Schreiber; E. Wang; Y. Sarita; N. Zhao; K. Joshi; V. Adve; S. Misailovic; S. Adve*
 
-                <li class="dropdown">
-                  <a href="/devmtg/2020-09/schedule/">Schedule</a>
-                </li>
+**Posters:**
 
-                <li class="dropdown active">
-                  <a href="/devmtg/2020-09/program/">Program</a>
-                </li>
+*   CIRCT: MLIR for Hardware Design - *A. Wilson; S. Neuendorffer; C. Lattner;*
+*   An Approach to Generate Correctly Rounded Math Libraries for New Floating Point Variants - *J. Lim; M. Aanjaneya; J. Gustafson; S. Nagarakatte*
+*   Compiling a Higher-Order Smart Contract Language to LLVM - *V. Nagaraj; J. Johannsen; A. Trunov; G. Pirlea; A. Kumar; I. Sergey*
+*   To -jInfinity & Beyond - *W. Moses; K. Kwok; L. Sha*
+*   llvm-diva – Debug Information Visual Analyzer - *C. Enciso*
+*   Quickly Finding RISC-V Code Quality Issues with Differential Analysis - *L. Marques*
+*   Error estimates of floating-point numbers and Jacobian matrix computation in Clad - *V. Vassilev; A. Penev; R. Shakhov*
+*   Data Dependency using MSSA: Analysis and Contrast - *R. Sharma; W. Tsang*
+*   Connecting Clang to The ROSE Source-to-Source Compiler - *A. Wang; P. Lin; C. Liao; Y. Yan*
+*   Incremental Compilation Support in Clang - *V. Vassilevv; D. Lange*
+*   Enzyme: High-Performance Automatic Differentiation of LLVM - *W. Moses; V. Churavy*
 
-                <li class="dropdown">
-                  <a href="/devmtg/2020-09/speakers/">Speakers</a>
-                </li>
+#### About us
 
-                <li class="dropdown">
-                  <a href="/devmtg/2020-09/sponsors/">Sponsors</a>
-                </li>
+The [LLVM Foundation](https://foundation.llvm.org) is a nonprofit that supports the LLVM Project. We support the LLVM community by helping it to grow, foster community interactions, work to keep LLVM development productive through infrastructure, and work to ensure the long term health of the LLVM project.
 
-                <li class="dropdown">
-                  <a href="https://llvm.org">LLVM</a>
-                </li>
-              </ul>
-            </div>
+* * *
 
-            <div class="collapse clearfix" id="search">
-              <form class="navbar-form" role="search">
-                <div class="input-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Search"
-                  />
-                  <span class="input-group-btn">
-                    <button type="submit" class="btn btn-template-main">
-                      <i class="fas fa-search"></i>
-                    </button>
-                  </span>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </header>
+Copyright (c) 2020, LLVM Foundation; all rights reserved.
 
-      <div id="heading-breadcrumbs">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h1>Program</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="content">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div>
-                <p><strong>Keynote:</strong></p>
-                <ul>
-                  <li>
-                    Undef and Poison: Present and Future -
-                    <em>Juneyoung Lee</em> [
-                    <a href="https://youtu.be/ZMaZH3YYJqY">Video</a> ] [
-                    <a href="../slides/Lee-UndefPoison.pdf"> PDF Slides</a> ] [
-                    <a href="../slides/Lee-UndefPoison.pptx">PPT Slides</a> ]
-                  </li>
-                </ul>
-                <p><strong>Technical Talks:</strong></p>
-                <ul>
-                  <li>
-                    Clang &amp; Linux: Asm Goto with Outputs -
-                    <em>Bill Wendling, Nick Desaulniers</em> [
-                    <a href="https://youtu.be/vcPD490s-hE">Video</a> ] [
-                    <a
-                      href="../slides/Wendling_Desaulniers_asm_goto_w_outputs.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    LLVM Libc: Current Status, Challenges and Future Plans -
-                    <em
-                      >Siva Chandra Reddy, Guillaume Chatelet, Paula Asker,
-                      David Finkelstein</em
-                    >
-                    [ <a href="https://youtu.be/Dm8-ug9L0Gc">Video</a> ] [
-                    <a href="../Reddy-Libc_Status_Challenges_Future_Plans.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Branch Coverage: Squeezing more out of LLVM Source-based
-                    Code Coverage - <em>Alan Phipps</em> [
-                    <a href="https://youtu.be/H1hvtJPGWNQ">Video</a> ] [
-                    <a
-                      href="../slides/PhippsAlan_BranchCoverage_LLVM_Conf_Talk_final.pdf"
-                      >PDF Slides</a
-                    >
-                    ] [
-                    <a
-                      href="../slides/PhippsAlan_BranchCoverage_LLVM_Conf_Talk_final.pptx"
-                      >PPT Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Memory tagging in LLVM and Android -
-                    <em
-                      >Evgenii Stepanov, Kostya Serebryany, Peter Collingbourne,
-                      Mitch Phillips</em
-                    >
-                    [ <a href="https://youtu.be/tqG9pr1K5G8">Video</a> ] [
-                    <a
-                      href="../slides/Stepanov-Memory_tagging_in_LLVM_and_Android.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Towards a representation of arbitrary alias graph in LLVM IR
-                    for Fortran code - <em>Kelvin Li; Tarique Islam</em> [
-                    <a href="https://youtu.be/Vp4GklTXDys">Video</a> ] [
-                    <a
-                      href="../slides/Islam-Li-Fortran_alias_representation.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Control-flow sensitive escape analysis in Falcon JIT -
-                    <em>Artur Pilipenko</em> [
-                    <a href="https://youtu.be/WHiU2-h_kRM">Video</a> ] [
-                    <a href="../slides/Pilipenko-Falcon-EA-LLVM-Dev-Mtg.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Extending Clang for checking compliance with automotive
-                    coding standards - <em>Milena Vujosevic Janicic</em> [
-                    <a href="https://youtu.be/-6dL-7xkIV0">Video</a> ] [
-                    <a
-                      href="../slides/Janicic-Extending_Clang_Compliance_Automotive_Standards.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    An Update on Optimizing Multiple Exit Loops -
-                    <em>Philip Reames</em> [
-                    <a href="https://youtu.be/gyiEb4860rM">Video</a>] [
-                    <a
-                      href="../slides/Reames-Update_on_Optimizing_Multiple_Exit_Loops.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Code Size Compiler Optimizations and Techniques -
-                    <em>Aditya Kumar</em> [
-                    <a href="https://youtu.be/puZ2B408VsM">Video</a> ] [
-                    <a href="../slides/Kumar-LLVMDevCodeSizePdf.pdf">Slides</a>
-                    ]
-                  </li>
-                  <li>
-                    Accelerate Matrix Multiplication Using the New POWER Outer
-                    Product Instructions -
-                    <em>Baptiste Saleil, João Carvalho</em> [
-                    <a href="https://youtu.be/NYR8zn2kLL4">Video</a> ] [ Slides
-                    ]
-                  </li>
-                  <li>
-                    CIL : Common MLIR Dialect for C/C++ and Fortran -
-                    <em
-                      >Prashantha NR, Vinay Madhusudan, Ranjith Kumar,
-                      Srihari</em
-                    >
-                    [ <a href="https://youtu.be/3gcw-8C9UbA">Video</a> ] [
-                    <a href="../slides/CIL_Common_MLIR_Abstraction.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Building compiler extension for LLVM 10.0.1 -
-                    <em>Serge Guelton</em> [
-                    <a href="https://youtu.be/PkfTHdoUzT8">Video</a> ] [
-                    <a
-                      href="http://serge-sans-paille.github.io/talks/llvmdev2020/output/index.html"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    LLVM-based mutation testing for C and C++ -
-                    <em>Alex Denisov; Stanislav Pankevich</em> [
-                    <a href="https://youtu.be/DfoS9kdTWmI">Video</a> ] [
-                    <a
-                      href="../slides/Denisov-LLVM-based_mutation_testing_for_C_and_CPlusPlus.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Matrix Support in Clang and LLVM- <em>Florian Hahn</em> [
-                    <a href="https://youtu.be/I8TIBvvM2K0">Video</a> ] [
-                    <a
-                      href="../slides/Hahn-Matrix_Support_in_LLVM_and_Clang.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Adding CUDA® Support to Cling: JIT Compile to GPUs -
-                    <em>Simeon Ehrig</em> [
-                    <a href="https://youtu.be/XjjZRhiFDVs">Video</a> ] [
-                    <a href="../slides/Ehrig-Adding_CUDA_support_to_Cling.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    The Present and Future of Interprocedural Optimization in
-                    LLVM -
-                    <em
-                      >Johannes Doerfert, Brian Homerding, Stefanos Baziotis,
-                      Stefan Stipanovic, Hideto Ueno, Kuter Dinel, Shinji
-                      Okumura, Luofan Chen</em
-                    >
-                    [ <a href="https://youtu.be/uC-x_Je_sIw">Video</a> ] [
-                    <a
-                      href="../slides/The_Present_and_Future_of_Interprocedural_Optimization_in_LLVM.pdf"
-                      >PDF Slides</a
-                    >
-                    ] [
-                    <a
-                      href="../slides/The_Present_and_Future_of_Interprocedural_Optimization_in_LLVM.pptx"
-                      >PPT Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Pushing Back Lit&rsquo;s Boundaries to Test Libc++ -
-                    <em>L. Dionne</em> [
-                    <a href="https://youtu.be/z5-wo0TW26M">Video</a> ] [
-                    <a
-                      href="../slides/Dionne-Pushing_Lits_Boundaries_to_testLibCPlusPlus.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Evolving “convergent”: Lessons from Control Flow in AMDGPU -
-                    <em>N. Hähnle</em> [
-                    <a href="https://youtu.be/_Z5DuiVCFAw">Video</a> ] [
-                    <a
-                      href="../slides/Hahnle-Evolving_convergent_Lessons_from_Control_Flow_in_AMDGPU.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    How to update debug info in compiler transformations -
-                    <em>A. Prantl; V. Kumar</em> [ <a href="">Video</a> ] [
-                    <a
-                      href="../slides/Prantl-Kumar-How_to_update_debug_info.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Proposal for A Framework for More Effective Loop
-                    Optimizations - <em>M. Kruse; H. Finkel</em> [
-                    <a href="https://youtu.be/zHHUh0c5wig">Video</a> ] [
-                    <a
-                      href="../slides/KruseFinkel-Proposal_for_A_Framework_for_More_Effective_Loop_Optimizations.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Changing Everything With Clang Plugins: A Story About Syntax
-                    Extensions, Clang&rsquo;s AST, and Quantum Computing =
-                    <em>H. Finkel; A. Mccaskey</em> [
-                    <a href="https://youtu.be/A9COzFs-gEg">Video</a> ] [
-                    <a
-                      href="../slides/Finkel-Changing_Everything_With_Clang_Plugins.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    (OpenMP) Parallelism-Aware Optimizations -
-                    <em
-                      >J. Doerfert; S. Stipanovic; H. Mosquera; J. Chesterfield;
-                      G. Georgakoudis; J. Huber</em
-                    >
-                    [ <a href="https://youtu.be/gtxWkeLCxmU">Video</a> ] [
-                    <a
-                      href="../slides/OpenMP_Parallelism_Aware_Optimizations.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Checked C: Adding memory safety support to LLVM -
-                    <em>M. Grang; K. Kjeer</em> [
-                    <a href="https://youtu.be/EuxAzvtX9CI">Video</a> ][
-                    <a
-                      href="../slides/Checked_C_Adding_Memory_Safety_to_LLVM.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                </ul>
-                <p><strong>Tutorials:</strong></p>
-                <ul>
-                  <li>
-                    Everything I know about debugging LLVM -
-                    <em>N. Desaulniers</em> [
-                    <a href="https://youtu.be/y4b-sgp6VYA">Video</a> ] [
-                    <a
-                      href="https://clangbuiltlinux.github.io/llvm-dev-conf-2020/nick/debugging_llvm.html#/"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    LLVM in a Bare Metal Environment - <em>H. Qadeer</em> [
-                    <a href="https://youtu.be/D9vCJwwTKaw">Video</a> ] [
-                    <a
-                      href="../slides/Qadeer-LLVM_in_a_Bare_Metal_Environment.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    LLVM PGO Instrumentation: Example of CallSite-Aware
-                    Profiling - <em>P. Kosov; S. Yakushkin</em> [
-                    <a href="https://youtu.be/kauauderlAU">Video</a> ] [
-                    <a href="../slides/PGO_Instrumentation.pdf">Slides</a> ]
-                  </li>
-                  <li>
-                    Understanding Changes made by a Pass in the Opt Pipeline. -
-                    <em>J. Schmeiser</em> [
-                    <a href="https://youtu.be/3RCDB3_wUEM">Video</a> ] [
-                    <a
-                      href="../slides/Schmeiser-Understanding_Changes_made_by_pass_in_the_opt_pipeline.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Using clang-tidy for customized checkers and large scale
-                    source tree refactoring - <em>V. Bridgers</em> [
-                    <a href="https://youtu.be/UfLH7dORav8">Video</a> ] [
-                    <a
-                      href="../slides/Clang-tidy_for_Customized_Checkers_and_Large_Scale.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Finding Your Way Around the LLVM Dependence Analysis Zoo -
-                    <em>S. Baziotis; S. Moll</em> [
-                    <a href="https://youtu.be/1e5y6WDbXCQ">Video</a> ] [
-                    <a
-                      href="../slides/Finding_Your_Way_Around_the_LLVM_Dependence_Analysis_Zoo.pdf"
-                      >Slides</a
-                    >
-                    ] [
-                    <a
-                      href="../slides/Clang-tidy_for_Customized_Checkers_and_Large_Scale.pptx"
-                      >Slides PPT</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Using the clang static analyzer to find bugs -
-                    <em>V. Bridgers</em> [
-                    <a href="https://youtu.be/nTslG8HtKeA">Video</a> ] [
-                    <a
-                      href="../slides/Using_the_clang_static_ananalyzer_to_find_bugs.pdf"
-                      >Slides PDF</a
-                    >
-                    ] [
-                    <a
-                      href="../slides/Using_the_clang_static_analyzer_to_find_bugs.pptx"
-                      >Slides PPT</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    A Deep Dive into the Interprocedural Optimization
-                    Infrastructure -
-                    <em
-                      >J. Doerfert; B. Homerding; S. Baziotis; S. Stipanovic; H.
-                      Ueno; K. Dinel; S. Okumura; L. Chen</em
-                    >
-                    [ <a href="https://youtu.be/I4Iv-HefknA">Video</a> ] [
-                    <a
-                      href="../slides/A_Deep_Dive_into_Interprocedural_Optimization.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    MLIR Tutorial - <em>M. Amini</em> [
-                    <a href="https://youtu.be/Y4SvqTtOIDk">Video</a> ] [
-                    <a href="../slides/MLIR_Tutorial.pdf">Slides</a> ]
-                  </li>
-                </ul>
-                <p><strong>Lightning Talks:</strong></p>
-                <ul>
-                  <li>
-                    Finding and Outlining Similarities in LLVM IR -
-                    <em>A. Litteken</em> [
-                    <a href="https://youtu.be/HaN83qMyAhY">Video</a> ] [
-                    <a
-                      href="../slides/Finding-outlining-ir-level-Andrew-Litteken.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    A fast algorithm for global code motion of congruent
-                    instructions - <em>A. Kumar; S. Pop</em> [
-                    <a href="https://youtu.be/Ar17O-bb90E">Video</a> ] [
-                    <a
-                      href="../slides/A_fast_algorithm_for_global_code_motion_of_congruent_instructions.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    From Implicit Pass Dependencies to Effectiveness Prediction
-                    -
-                    <em
-                      >H. Ueno; J. Doerfert; E. Park; G. Georgakoudis; T.
-                      Jayatilaka; S. Badruswamy</em
-                    >
-                    [ <a href="https://youtu.be/QvF68tOt_w8">Video</a> ] [
-                    <a
-                      href="../slides/Ueno-From_Implicit_Pass_Dependencies_to_Effectiveness_Prediction.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Using Clang as An Alternative C/C++ Frontend of The ROSE
-                    Source-to-Source Compiler -
-                    <em>A. Wang; P. Lin; C. Liao; Y. Yan</em> [
-                    <a href="https://youtu.be/BUXUhno8pfE">Video</a> ] [
-                    <a
-                      href="../slides/Wang-Using_Clang_as_An_Alternative_Frontend_of_the_ROSE.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    OpenACC support in Flang with a MLIR dialect -
-                    <em>V. Clement; J. Vetter</em> [
-                    <a href="https://youtu.be/vVmCLdSboWc">Video</a> ] [
-                    <a
-                      href="../slides/Clement-OpenACC_support_in_Flang_with_a_MLIR_dialect.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Fragmenting the DWARF to Enable Dead Debug Data Elimination
-                    - <em>J. Henderson</em> [
-                    <a href="https://youtu.be/0y6TlfFhCsU">Video</a> ] [
-                    <a href="../slides/Henderson-DebugDebugDataElimination.pdf"
-                      >Slides</a
-                    >
-                    ] [
-                    <a
-                      href="../slides/Henderson-Dead_Debug_Data_Elimination_Using_Fragemented_DWARF.pptx"
-                      >PPT Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Source-based Code Coverage for Embedded Use Cases -
-                    <em>A. Phipps; C. Addison</em> [
-                    <a href="https://youtu.be/H3BXmS8gZJY">Video</a> ] [
-                    <a
-                      href="../slides/PhippsAlan_EmbeddedCodeCoverage_LLVM_Conf_Talk_final.pdf"
-                      >Slides</a
-                    >
-                    ] [
-                    <a
-                      href="../slides/PhippsAlan_EmbeddedCodeCoverage_LLVM_Conf_Talk_final.pptx"
-                      >PPT Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    pre-merge checks for LLVM -
-                    <em>M. Goncharov; C. Kühnel</em> [
-                    <a href="https://youtu.be/IWL-YHCClIA">Video</a> ] [
-                    <a href="../slides/Goncharov-Pre-merge_checks.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Getting stack size just right on XCore -
-                    <em>J. McCrea</em> [
-                    <a href="https://youtu.be/I22VVp09sAY">Video</a> ] [
-                    <a
-                      href="../slides/McCrea-Getting_Stack_Size_Just_Right_on_XCore.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Compile Faster with the Program Repository and ccache -
-                    <em>Y. Yi; P. Bowen-Huggett</em> [
-                    <a href="https://youtu.be/9bQEtJHkDTw">Video</a> ] [
-                    <a
-                      href="../slides/Yi-Compile_Faster_with_the_Program_Repository_and_ccache.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    GWP-TSan: Zero-Cost Detection of Data Races in Production -
-                    <em>M. Morehouse; K. Serebryany</em> [
-                    <a href="https://youtu.be/2KvaKEyMVEU">Video</a> ] [
-                    <a href="../slides/Morehouse-GWP-Tsan.pdf">Slides</a> ]
-                  </li>
-                  <li>
-                    CompilerInvocation to -cc1 command line -
-                    <em>D. Grumberg</em> [
-                    <a href="https://youtu.be/0QJIPn7N6GA">Video</a> ] [
-                    <a href="../slides/Grumberg-Frontend_Option_Parsing.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Outer-Loop Vectorization Legality Analysis for RV: One Step
-                    Closer to a Powerful Vectorizer for LLVM -
-                    <em>S. Baziotis</em> [
-                    <a href="https://youtu.be/u3AYUZXpa0w">Video</a> ] [
-                    <a
-                      href="../slides/Baziotis-Outer-Loop_Vectorization_Legality_Analysis_for_LLVM.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Flang Update - <em>S. Scalpone</em> [
-                    <a href="https://youtu.be/rO59gcuq0LU">Video</a> ] [
-                    <a href="../slides/Scalpone-FlangUpdate.pdf">Slides</a> ]
-                  </li>
-                  <li>
-                    Code Feature Analysis, Tracking, and Future Usage -
-                    <em
-                      >T. Jayatilaka; J. Doerfert; G. Georgakoudis; E. Park; H.
-                      Ueno; S. Badruswamy</em
-                    >
-                    [ <a href="https://youtu.be/pS9N_08x0GQ">Video</a> ] [
-                    <a
-                      href="../slides/Jayatilaka-Code_Feature_Analysis_Tracking_and_Future_Usage.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Lowering XLA HLO using RISE - A Functional Pattern-based
-                    MLIR Dialect - <em>M. Lücke; A. Smith; M. Steuwer</em> [
-                    <a href="https://youtu.be/fJZK9FWmpdc">Video</a> ] [
-                    <a
-                      href="../slides/Lucke-Rise-A_Functional_Pattern-based_MLIR_Dialect.pdf"
-                      >Slides</a
-                    >]
-                  </li>
-                  <li>
-                    SYCL for CUDA: An overview of implementing PI for CUDA -
-                    <em>A. Johnston</em> [
-                    <a href="https://youtu.be/yy9uaydiVAU">Video</a> ] [
-                    <a href="../slides/Johnston-SYCL_for_CUDA.pdf">Slides</a> ]
-                  </li>
-                  <li>
-                    Extending LLDB to More Scripting Languages -
-                    <em>J. Devlieghere</em> [
-                    <a href="https://youtu.be/UgfzdAr9AFg">Video</a> ] [
-                    <a href="../slides/Devlieghere-LLDB_scripting.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                  <li>
-                    Adding a Subtarget Support to LLVM in Five Minutes -
-                    <em>E. Yakubova</em> [
-                    <a href="https://youtu.be/Slpszob1z4A">Video</a> ] [
-                    <a
-                      href="../slides/Yakubova-Adding_a_Subtarget_Support_to_LLVM_in_Five_Min.pdf"
-                      >Slides</a
-                    >
-                    ]
-                  </li>
-                </ul>
-                <p><strong>Birds of a Feather:</strong></p>
-                <ul>
-                  <li>ClangBuiltLinux BoF - <em>N. Desaulniers</em></li>
-                  <li>Loop Optimization BoF - <em>M. Kruse; K. Barton</em></li>
-                  <li>LLVM Just-In-Time Compilers BoF - <em>L. Hames</em></li>
-                  <li>Code Size Optimization - <em>S. Bartell; V. Adve</em></li>
-                </ul>
-                <p><strong>Student Research Competition</strong></p>
-                <ul>
-                  <li>
-                    Enzyme: High-Performance Automatic Differentiation of LLVM -
-                    <em>W. Moses; V. Churavy</em>
-                  </li>
-                  <li>
-                    SPAM: Stateless Permutation of Application Memory with LLVM
-                    - <em>M. Ziad; M. Arroyo; S. Sethumadhavan</em>
-                  </li>
-                  <li>
-                    HPVM-FPGFA: Leveraging Compiler Optimizations for
-                    Hardware-Agnostic FPGA Programming -
-                    <em
-                      >A. Ejjeh; K. Kanwar; M. Kotsifakou; V. Adve; R.
-                      Rutenbar</em
-                    >
-                  </li>
-                  <li>
-                    Guided Linking: shrinking and speeding up dynamically linked
-                    code - <em>S. Bartell; V. Adve</em>
-                  </li>
-                  <li>
-                    ApproxTuner: A Compiler and Runtime System for Adaptive
-                    Approximations -
-                    <em
-                      >H. Sharif; M. Kotsifakou; Y. Zhao; A. Kothari; B.
-                      Schreiber; E. Wang; Y. Sarita; N. Zhao; K. Joshi; V. Adve;
-                      S. Misailovic; S. Adve</em
-                    >
-                  </li>
-                </ul>
-                <p><strong>Posters:</strong></p>
-                <ul>
-                  <li>
-                    CIRCT: MLIR for Hardware Design -
-                    <em>A. Wilson; S. Neuendorffer; C. Lattner;</em>
-                  </li>
-                  <li>
-                    An Approach to Generate Correctly Rounded Math Libraries for
-                    New Floating Point Variants -
-                    <em>J. Lim; M. Aanjaneya; J. Gustafson; S. Nagarakatte</em>
-                  </li>
-                  <li>
-                    Compiling a Higher-Order Smart Contract Language to LLVM -
-                    <em
-                      >V. Nagaraj; J. Johannsen; A. Trunov; G. Pirlea; A. Kumar;
-                      I. Sergey</em
-                    >
-                  </li>
-                  <li>
-                    To -jInfinity &amp; Beyond -
-                    <em>W. Moses; K. Kwok; L. Sha</em>
-                  </li>
-                  <li>
-                    llvm-diva – Debug Information Visual Analyzer -
-                    <em>C. Enciso</em>
-                  </li>
-                  <li>
-                    Quickly Finding RISC-V Code Quality Issues with Differential
-                    Analysis - <em>L. Marques</em>
-                  </li>
-                  <li>
-                    Error estimates of floating-point numbers and Jacobian
-                    matrix computation in Clad -
-                    <em>V. Vassilev; A. Penev; R. Shakhov</em>
-                  </li>
-                  <li>
-                    Data Dependency using MSSA: Analysis and Contrast -
-                    <em>R. Sharma; W. Tsang</em>
-                  </li>
-                  <li>
-                    Connecting Clang to The ROSE Source-to-Source Compiler -
-                    <em>A. Wang; P. Lin; C. Liao; Y. Yan</em>
-                  </li>
-                  <li>
-                    Incremental Compilation Support in Clang -
-                    <em>V. Vassilevv; D. Lange</em>
-                  </li>
-                  <li>
-                    Enzyme: High-Performance Automatic Differentiation of LLVM -
-                    <em>W. Moses; V. Churavy</em>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <footer id="footer">
-        <div class="container">
-          <div class="col-md-4 col-sm-6">
-            <h4>About us</h4>
-
-            <p>
-              The <a href="https://foundation.llvm.org">LLVM Foundation</a> is a
-              nonprofit that supports the LLVM Project. We support the LLVM
-              community by helping it to grow, foster community interactions,
-              work to keep LLVM development productive through infrastructure,
-              and work to ensure the long term health of the LLVM project.
-            </p>
-
-            <hr class="hidden-md hidden-lg hidden-sm" />
-          </div>
-
-          <div class="col-md-4 col-sm-6"></div>
-        </div>
-      </footer>
-
-      <div id="copyright">
-        <div class="container">
-          <div class="col-md-12">
-            <p class="pull-left">
-              Copyright (c) 2020, LLVM Foundation; all rights reserved.
-            </p>
-
-            <p class="pull-right">
-              Template by
-              <a
-                href="https://bootstrapious.com/p/universal-business-e-commerce-template"
-                >Bootstrapious</a
-              >. Ported to Hugo by
-              <a href="https://github.com/devcows/hugo-universal-theme"
-                >DevCows</a
-              >.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script
-      src="//code.jquery.com/jquery-3.1.1.min.js"
-      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-      crossorigin="anonymous"
-    ></script>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
-
-    <script src="/devmtg/2020-09/js/front.js"></script>
-
-    <script src="/devmtg/2020-09/js/owl.carousel.min.js"></script>
-  </body>
-</html>
+Template by [Bootstrapious](https://bootstrapious.com/p/universal-business-e-commerce-template). Ported to Hugo by [DevCows](https://github.com/devcows/hugo-universal-theme).

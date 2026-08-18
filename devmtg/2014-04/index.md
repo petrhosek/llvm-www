@@ -1,367 +1,77 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "devmtg/2014-04/index.html"
 ---
+# 2014 European LLVM Conference
 
-<div class="www_sectiontitle">2014 European LLVM Conference</div>
+![EuroLLVM](EuroLLVM2014.jpg)
 
-<img
-  src="EuroLLVM2014.jpg"
-  style="width: auto !important; max-width: 100%"
-  alt="EuroLLVM"
-/>
+### **SPONSORED BY:** [ARM](http://www.arm.com/), [QuIC](http://www.qualcomm.com/quicinc/), [Codeplay](http://www.codeplay.com/), [HSA Foundation](http://www.hsafoundation.com/), [Google](http://www.google.com/), [Parrot](http://www.parrot.com), and [SICSA](http://www.sicsa.ac.uk).
 
-<h3>
-  <b>SPONSORED BY:</b> <a href="http://www.arm.com/">ARM</a>,
-  <a href="http://www.qualcomm.com/quicinc/">QuIC</a>,
-  <a href="http://www.codeplay.com/">Codeplay</a>,
-  <a href="http://www.hsafoundation.com/">HSA Foundation</a>,
-  <a href="http://www.google.com/">Google</a>,
-  <a href="http://www.parrot.com">Parrot</a>, and
-  <a href="http://www.sicsa.ac.uk">SICSA</a>.
-</h3>
+1.  [Information](#announcements)
+2.  [Programme](#callfor)
 
-<table>
-  <tr>
-    <td valign="top">
-      <ol>
-        <li><a href="#announcements">Information</a></li>
-        <li><a href="#callfor">Programme</a></li>
-      </ol>
-    </td>
-    <td valign="top">
-      <ul>
-        <li><b>What</b>: The 4th European LLVM Meeting</li>
-        <li>
-          <b>Why</b>: To network, learn how LLVM is used, and exchange ideas
-        </li>
-        <li><b>When</b>: Monday 7th - Tuesday 8th April 2014</li>
-        <li><b>Where</b>: Edinburgh, Scotland</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+*   **What**: The 4th European LLVM Meeting
+*   **Why**: To network, learn how LLVM is used, and exchange ideas
+*   **When**: Monday 7th - Tuesday 8th April 2014
+*   **Where**: Edinburgh, Scotland
 
-<h2 id="announcements">Information</h2>
+## Information
 
-<p>
-  The 4th European LLVM conference (EuroLLVM) took place on April 7th-8th 2014
-  in Edinburgh, Scotland. A total of 211 participants from across the world
-  registered for the conference. The event was hosted by the University of
-  Edinburgh's School of Informatics. Thanks to all who came!
-</p>
+The 4th European LLVM conference (EuroLLVM) took place on April 7th-8th 2014 in Edinburgh, Scotland. A total of 211 participants from across the world registered for the conference. The event was hosted by the University of Edinburgh's School of Informatics. Thanks to all who came!
 
-<table border="0">
-  <tr>
-    <td valign="top">
-      <font color="red"><b>NEWS&nbsp;&nbsp;</b></font>
-    </td>
-    <td>
-      <ul>
-        <li>All available videos have been added.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+**NEWS**  
+
+*   All available videos have been added.
 
 <!-- *********************************************************************** -->
-<h3 id="callfor">Programme</h3>
 
-<table border="1">
-  <tr>
-    <th>Speaker</th>
-    <th>Title</th>
-    <th>&nbsp;</th>
-  </tr>
-  <tr>
-    <td>Tobias Edler von Koch<br />(University of Edinburgh)</td>
-    <td>Conference Opening &amp; Welcome</td>
-    <td>
-      <a href="PDFs/Talks/WelcomeTalk.pdf">[Slides]</a>
-      <a href="https://www.youtube.com/watch?v=Kp6uVAcjRFw">[Video]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Chandler Carruth<br />(Google)</td>
-    <td>Keynote: Passes in LLVM, Part 1</td>
-    <td>
-      <a href="PDFs/Talks/Passes.pdf">[Slides]</a>
-      <a href="https://www.youtube.com/watch?v=rY02LT08-J8">[Video]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Marshall Clow<br />(Qualcomm)</td>
-    <td>Keynote: What's new in C++14, and how you can take advantage of it</td>
-    <td>
-      <a href="PDFs/Talks/Slides%20-%20Marshall.pdf">[Slides]</a>
-      <a href="https://www.youtube.com/watch?v=hsinAb_R6lo">[Video]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Rafael &Aacute;vila de Esp&iacute;ndola<br />(World Wide Studios/Sony
-      Computer Entertainment)
-    </td>
-    <td>LTO: History and work to be done</td>
-    <td>
-      <a href="PDFs/Talks/LTO-slides.pdf">[Slides]</a>
-      <a href="https://www.youtube.com/watch?v=9XUQ-1pI5_c">[Video]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Reinoud Elhorst, Mark Batty, David Chisnall<br />(University of Cambridge)
-    </td>
-    <td>Efficient code generation for weakly ordered architectures</td>
-    <td>
-      <a href="PDFs/Talks/Reinoud-EuroLLVM.pdf">[Slides]</a>
-      <a href="PDFs/Talks/Reinoud-report.pdf">[Report]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Andy Thomason<br />(Goldsmiths)</td>
-    <td>How to build LLVM in under ten seconds</td>
-    <td>
-      <a href="PDFs/Talks/Tenseconds.pdf">[Slides]</a>
-      <a href="http://www.andythomason.com/lecture_notes/euro_llvm/talk.html"
-        >[Web version]</a
-      >
-    </td>
-  </tr>
-  <tr>
-    <td>Ulrich Weigand<br />(IBM Linux Technology Center)</td>
-    <td>A new ABI for little-endian PowerPC64: design and implementation</td>
-    <td>
-      <a href="PDFs/Talks/Euro-LLVM-2014-Weigand.pdf">[Slides]</a>
-      <a href="https://www.youtube.com/watch?v=zikDZ1Fi-qw">[Video]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>JF Bastien<br />(Google)</td>
-    <td>Portable Native Client. Fast, Secure, Simple: Pick Three.</td>
-    <td>
-      <a href="PDFs/Talks/PortableNativeClient.pdf">[Slides]</a>
-      <a
-        href="https://docs.google.com/presentation/d/1WJ4dTHbUUmEu-mo9fEAxNO7LrAUumu4nFRdZLn670Mw"
-        >[Notes]</a
-      >
-      <a href="https://www.youtube.com/watch?v=iYBSgdvv0BY">[Video]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Marcello Maggioni<br />(Codeplay Software)</td>
-    <td>Branching in Data-Parallel Languages using Predication with LLVM</td>
-    <td>
-      <a href="PDFs/Talks/pred_presentation.pdf">[Slides]</a>
-      <a href="https://www.youtube.com/watch?v=xh6RWegAza0">[Video]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Daniel Jasper<br />(Google)</td>
-    <td>clang-tidy - Lint-like checks and beyond</td>
-    <td>
-      <a href="PDFs/Talks/clang-tidy%20LLVM%20Euro%202014.pdf">[Slides]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Greg Bedwell<br />(SN Systems Ltd/Sony Computer Entertainment)</td>
-    <td>PlayStation(R)4 CPU Toolchain: Launch Post-mortem</td>
-    <td>
-      <a
-        href="PDFs/Talks/GBedwell_PS4CPUToolchain_EuroLLVM2014_distribution.pdf"
-        >[Slides]</a
-      >
-      <a href="https://www.youtube.com/watch?v=zNqueISGrd8">[Video]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Andrew MacPherson<br />(Fabric Software Inc.)</td>
-    <td>Fabric Engine and KL: LLVM for 3D Digital Content Creation</td>
-    <td>
-      <a href="PDFs/Talks/FabricEngine-LLVM.pdf">[Slides]</a>
-      <a href="https://www.youtube.com/watch?v=7zuuE0BuhYw">[Video]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Frej Drejhammar<br />(Swedish Institute of Computer Science)</td>
-    <td>BEAMJIT: An LLVM based just-in-time compiler for Erlang</td>
-    <td>
-      <a href="PDFs/Talks/drejhammar.pdf">[Slides]</a>
-      <a href="https://www.youtube.com/watch?v=oF3qYFh_xuI">[Video]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Tom Spink<br />(University of Edinburgh)</td>
-    <td>
-      Custom Alias-analysis in an LLVM-backed region-based Dynamic Binary
-      Translator
-    </td>
-    <td>
-      <a href="PDFs/Talks/Spink.pdf">[Slides]</a>
-      <a href="https://www.youtube.com/watch?v=D8O-pVgyX_8">[Video]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Hans Wennborg<br />(Google)</td>
-    <td>clang-cl: what it is, how it works, and how to use it</td>
-    <td>
-      <a href="PDFs/Talks/clang-cl.pdf">[Slides]</a>
-      <a href="https://www.youtube.com/watch?v=PX3UOXAlk0A">[Video]</a>
-    </td>
-  </tr>
-</table>
+### Programme
 
-<h4>Tutorials</h4>
+| Speaker | Title |   |
+| --- | --- | --- |
+| Tobias Edler von Koch<br>(University of Edinburgh) | Conference Opening & Welcome | [\[Slides\]](PDFs/Talks/WelcomeTalk.pdf) [\[Video\]](https://www.youtube.com/watch?v=Kp6uVAcjRFw) |
+| Chandler Carruth<br>(Google) | Keynote: Passes in LLVM, Part 1 | [\[Slides\]](PDFs/Talks/Passes.pdf) [\[Video\]](https://www.youtube.com/watch?v=rY02LT08-J8) |
+| Marshall Clow<br>(Qualcomm) | Keynote: What's new in C++14, and how you can take advantage of it | [\[Slides\]](PDFs/Talks/Slides%20-%20Marshall.pdf) [\[Video\]](https://www.youtube.com/watch?v=hsinAb_R6lo) |
+| Rafael Ávila de Espíndola<br>(World Wide Studios/Sony Computer Entertainment) | LTO: History and work to be done | [\[Slides\]](PDFs/Talks/LTO-slides.pdf) [\[Video\]](https://www.youtube.com/watch?v=9XUQ-1pI5_c) |
+| Reinoud Elhorst, Mark Batty, David Chisnall<br>(University of Cambridge) | Efficient code generation for weakly ordered architectures | [\[Slides\]](PDFs/Talks/Reinoud-EuroLLVM.pdf) [\[Report\]](PDFs/Talks/Reinoud-report.pdf) |
+| Andy Thomason<br>(Goldsmiths) | How to build LLVM in under ten seconds | [\[Slides\]](PDFs/Talks/Tenseconds.pdf) [\[Web version\]](http://www.andythomason.com/lecture_notes/euro_llvm/talk.html) |
+| Ulrich Weigand<br>(IBM Linux Technology Center) | A new ABI for little-endian PowerPC64: design and implementation | [\[Slides\]](PDFs/Talks/Euro-LLVM-2014-Weigand.pdf) [\[Video\]](https://www.youtube.com/watch?v=zikDZ1Fi-qw) |
+| JF Bastien<br>(Google) | Portable Native Client. Fast, Secure, Simple: Pick Three. | [\[Slides\]](PDFs/Talks/PortableNativeClient.pdf) [\[Notes\]](https://docs.google.com/presentation/d/1WJ4dTHbUUmEu-mo9fEAxNO7LrAUumu4nFRdZLn670Mw) [\[Video\]](https://www.youtube.com/watch?v=iYBSgdvv0BY) |
+| Marcello Maggioni<br>(Codeplay Software) | Branching in Data-Parallel Languages using Predication with LLVM | [\[Slides\]](PDFs/Talks/pred_presentation.pdf) [\[Video\]](https://www.youtube.com/watch?v=xh6RWegAza0) |
+| Daniel Jasper<br>(Google) | clang-tidy - Lint-like checks and beyond | [\[Slides\]](PDFs/Talks/clang-tidy%20LLVM%20Euro%202014.pdf) |
+| Greg Bedwell<br>(SN Systems Ltd/Sony Computer Entertainment) | PlayStation(R)4 CPU Toolchain: Launch Post-mortem | [\[Slides\]](PDFs/Talks/GBedwell_PS4CPUToolchain_EuroLLVM2014_distribution.pdf) [\[Video\]](https://www.youtube.com/watch?v=zNqueISGrd8) |
+| Andrew MacPherson<br>(Fabric Software Inc.) | Fabric Engine and KL: LLVM for 3D Digital Content Creation | [\[Slides\]](PDFs/Talks/FabricEngine-LLVM.pdf) [\[Video\]](https://www.youtube.com/watch?v=7zuuE0BuhYw) |
+| Frej Drejhammar<br>(Swedish Institute of Computer Science) | BEAMJIT: An LLVM based just-in-time compiler for Erlang | [\[Slides\]](PDFs/Talks/drejhammar.pdf) [\[Video\]](https://www.youtube.com/watch?v=oF3qYFh_xuI) |
+| Tom Spink<br>(University of Edinburgh) | Custom Alias-analysis in an LLVM-backed region-based Dynamic Binary Translator | [\[Slides\]](PDFs/Talks/Spink.pdf) [\[Video\]](https://www.youtube.com/watch?v=D8O-pVgyX_8) |
+| Hans Wennborg<br>(Google) | clang-cl: what it is, how it works, and how to use it | [\[Slides\]](PDFs/Talks/clang-cl.pdf) [\[Video\]](https://www.youtube.com/watch?v=PX3UOXAlk0A) |
 
-<table border="1">
-  <tr>
-    <th>Speaker</th>
-    <th>Title</th>
-    <th>&nbsp;</th>
-  </tr>
-  <tr>
-    <td>Nick Lewycky<br />(Google)</td>
-    <td>Refactoring a large C++ codebase using clang</td>
-    <td>
-      <a href="PDFs/Talks/NickRefactoring.pdf">[Slides]</a>
-      <a href="PDFs/Talks/Nick-talk.tar.gz">[Code]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Fraser Cormack, Pierre-Andr&eacute; Saulais<br />(Codeplay Software)
-    </td>
-    <td>Building an LLVM Backend</td>
-    <td>
-      <a href="PDFs/Talks/Building%20an%20LLVM%20backend.pdf">[Slides]</a>
-    </td>
-  </tr>
-</table>
+#### Tutorials
 
-<h4>Lightning Talks &amp; Posters</h4>
+| Speaker | Title |   |
+| --- | --- | --- |
+| Nick Lewycky<br>(Google) | Refactoring a large C++ codebase using clang | [\[Slides\]](PDFs/Talks/NickRefactoring.pdf) [\[Code\]](PDFs/Talks/Nick-talk.tar.gz) |
+| Fraser Cormack, Pierre-André Saulais<br>(Codeplay Software) | Building an LLVM Backend | [\[Slides\]](PDFs/Talks/Building%20an%20LLVM%20backend.pdf) |
 
-<p>
-  <a href="https://www.youtube.com/watch?v=5EfcRTHsy2g">Video</a> of the
-  lightning talks.
-</p>
+#### Lightning Talks & Posters
 
-<table border="1">
-  <tr>
-    <th>Author</th>
-    <th>Title</th>
-    <th>&nbsp;</th>
-  </tr>
-  <tr>
-    <td>Kostya Serebryany (Google)</td>
-    <td>Detecting "container overflow" bugs</td>
-    <td>
-      <a
-        href="PDFs/LightningTalks/EuroLLVM%202014%20--%20container%20overflow.pdf"
-        >[Slides]</a
-      >
-    </td>
-  </tr>
-  <tr>
-    <td>Gabor Greif</td>
-    <td>3-bit Waymarking</td>
-    <td><a href="PDFs/LightningTalks/waymark.pdf">[Slides]</a></td>
-  </tr>
-  <tr>
-    <td>Jason Evans (Facebook)</td>
-    <td>Targeting HHVM's JIT compiler to LLVM</td>
-    <td><a href="PDFs/LightningTalks/HHVM_2014.pdf">[Slides]</a></td>
-  </tr>
-  <tr>
-    <td>Tobias Rieger (HU Berlin)</td>
-    <td>
-      Async Magic - std::async in C++ and its consequences for optimizations
-    </td>
-    <td>
-      <a href="PDFs/LightningTalks/async%20magic%20presentation.pdf"
-        >[Slides]</a
-      >
-    </td>
-  </tr>
-  <tr>
-    <td>Kostya Serebryany (Google)</td>
-    <td>"AsanCoverage" -- coverage combined with AddressSanitizer</td>
-    <td>
-      <a href="PDFs/LightningTalks/EuroLLVM'14%20--%20ASan%20%2B%20Coverage.pdf"
-        >[Slides]</a
-      >
-    </td>
-  </tr>
-  <tr>
-    <td>Gabor Ballabas (University of Szeged, Hungary)</td>
-    <td>LLVM AArch64 buildbot</td>
-    <td>
-      <a href="PDFs/LightningTalks/aarch64_buildbot.pdf">[Slides]</a>
-      <a href="PDFs/Posters/aarch64_buildbot_poster.pdf">[Poster]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Tilmann Scheller (Samsung Electronics)</td>
-    <td>Fast JIT code generation</td>
-    <td>
-      <a href="PDFs/LightningTalks/fast-jit-code-generation.pdf">[Slides]</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Franz Richter-Gottfried<br />
-      (Friedrich-Alexander-University Erlangen-Nuremberg)
-    </td>
-    <td>OCLAcc - OpenCL for FPGA-Accelerators</td>
-    <td><a href="PDFs/Posters/poster_oclacc.pdf">[Poster]</a></td>
-  </tr>
-  <tr>
-    <td>Marcello Maggioni (Codeplay Software)</td>
-    <td>LLVM Data Structures</td>
-    <td><a href="PDFs/LightningTalks/data_structure_llvm.pdf">[Slides]</a></td>
-  </tr>
-  <tr>
-    <td>Jonathan Roelofs (CodeSourcery / Mentor Graphics)</td>
-    <td>Which targets does clang support?</td>
-    <td>
-      <a
-        href="PDFs/LightningTalks/2014-3-31_ClangTargetSupport_LighteningTalk.pdf"
-        >[Slides]</a
-      >
-    </td>
-  </tr>
-  <tr>
-    <td>Andrey Bokhanko (Intel)</td>
-    <td>Intel Clang-Based C++ Compiler</td>
-    <td><a href="PDFs/Posters/ClangIntel.pdf">[Poster]</a></td>
-  </tr>
-  <tr>
-    <td>
-      Virgile Prevosto and Franck V&eacute;drine (CEA LIST)<br />
-      Bart Jacobs and Gijs van Spauwen (KU Leuven)
-    </td>
-    <td>Clang as a C++ front-end for Frama-C and VeriFast</td>
-    <td><a href="PDFs/Posters/FramaC.pdf">[Poster]</a></td>
-  </tr>
-  <tr>
-    <td>
-      Yi-Hong Lyu<br />
-      (Institute of Information Science, Academia Sinica)
-    </td>
-    <td>
-      DBILL: An Efficient and Retargetable Dynamic Binary Instrumentation
-      Framework using LLVM Backend
-    </td>
-    <td><a href="PDFs/Posters/DBILL_poster.pdf">[Poster]</a></td>
-  </tr>
-  <tr>
-    <td>Simon Cook (Embecosm)</td>
-    <td>Machine Guided Energy Efficient Compilation (MAGEEC) and LLVM</td>
-    <td><a href="PDFs/Posters/mageec-poster.pdf">[Poster]</a></td>
-  </tr>
-</table>
+[Video](https://www.youtube.com/watch?v=5EfcRTHsy2g) of the lightning talks.
 
-<p>
-  For historical interest, the full conference programme can be found
-  <a href="EuroLLVMProg.html">here</a>.
-</p>
+| Author | Title |   |
+| --- | --- | --- |
+| Kostya Serebryany (Google) | Detecting "container overflow" bugs | [\[Slides\]](PDFs/LightningTalks/EuroLLVM%202014%20--%20container%20overflow.pdf) |
+| Gabor Greif | 3-bit Waymarking | [\[Slides\]](PDFs/LightningTalks/waymark.pdf) |
+| Jason Evans (Facebook) | Targeting HHVM's JIT compiler to LLVM | [\[Slides\]](PDFs/LightningTalks/HHVM_2014.pdf) |
+| Tobias Rieger (HU Berlin) | Async Magic - std::async in C++ and its consequences for optimizations | [\[Slides\]](PDFs/LightningTalks/async%20magic%20presentation.pdf) |
+| Kostya Serebryany (Google) | "AsanCoverage" -- coverage combined with AddressSanitizer | [\[Slides\]](PDFs/LightningTalks/EuroLLVM'14%20--%20ASan%20%2B%20Coverage.pdf) |
+| Gabor Ballabas (University of Szeged, Hungary) | LLVM AArch64 buildbot | [\[Slides\]](PDFs/LightningTalks/aarch64_buildbot.pdf) [\[Poster\]](PDFs/Posters/aarch64_buildbot_poster.pdf) |
+| Tilmann Scheller (Samsung Electronics) | Fast JIT code generation | [\[Slides\]](PDFs/LightningTalks/fast-jit-code-generation.pdf) |
+| Franz Richter-Gottfried<br>(Friedrich-Alexander-University Erlangen-Nuremberg) | OCLAcc - OpenCL for FPGA-Accelerators | [\[Poster\]](PDFs/Posters/poster_oclacc.pdf) |
+| Marcello Maggioni (Codeplay Software) | LLVM Data Structures | [\[Slides\]](PDFs/LightningTalks/data_structure_llvm.pdf) |
+| Jonathan Roelofs (CodeSourcery / Mentor Graphics) | Which targets does clang support? | [\[Slides\]](PDFs/LightningTalks/2014-3-31_ClangTargetSupport_LighteningTalk.pdf) |
+| Andrey Bokhanko (Intel) | Intel Clang-Based C++ Compiler | [\[Poster\]](PDFs/Posters/ClangIntel.pdf) |
+| Virgile Prevosto and Franck Védrine (CEA LIST)<br>Bart Jacobs and Gijs van Spauwen (KU Leuven) | Clang as a C++ front-end for Frama-C and VeriFast | [\[Poster\]](PDFs/Posters/FramaC.pdf) |
+| Yi-Hong Lyu<br>(Institute of Information Science, Academia Sinica) | DBILL: An Efficient and Retargetable Dynamic Binary Instrumentation Framework using LLVM Backend | [\[Poster\]](PDFs/Posters/DBILL_poster.pdf) |
+| Simon Cook (Embecosm) | Machine Guided Energy Efficient Compilation (MAGEEC) and LLVM | [\[Poster\]](PDFs/Posters/mageec-poster.pdf) |
 
+For historical interest, the full conference programme can be found [here](EuroLLVMProg.html).

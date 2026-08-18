@@ -1,8 +1,4 @@
 ---
 permalink: "RandomBoxes/002-LLVM-TV.html"
 ---
-<img align="right" src="img/logo-llvmtv.png" width="116" height="129" /> Check
-out the
-<a href="http://llvm.org/ProjectsWithLLVM/#llvmtv">LLVM Visualization Tool</a>,
-a neat tool for graphically inspecting LLVM programs. It lets you view the CFG,
-Call Graph, SSA def-use chains, and data structures in a bytecode file.
+![](img/logo-llvmtv.png) Check out the [LLVM Visualization Tool](http://llvm.org/ProjectsWithLLVM/#llvmtv), a neat tool for graphically inspecting LLVM programs. It lets you view the CFG, Call Graph, SSA def-use chains, and data structures in a bytecode file.

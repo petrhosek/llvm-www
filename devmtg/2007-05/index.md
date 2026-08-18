@@ -1,536 +1,63 @@
 ---
 permalink: "devmtg/2007-05/index.html"
 ---
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<!-- FIXME: we need to add the meta tag to the head tag, which we can't do with
-     the current web page. Duplicate this block and hope it all works out. -->
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <title>The LLVM Compiler Infrastructure Project</title>
-    <link rel="stylesheet" href="/llvm.css" type="text/css" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="RSS 2.0"
-      href="http://llvm.org/devmtg/2007-05/podcast.xml"
-    />
-  </head>
+<!-- FIXME: we need to add the meta tag to the head tag, which we can't do with the current web page. Duplicate this block and hope it all works out. -->  The LLVM Compiler Infrastructure Project   <!--#include virtual="../../header.incl" --> <!-- <html> <head> <link rel="stylesheet" href="http://llvm.org/llvm.css" type="text/css"> </head>-->
 
-  <!--#include virtual="../../header.incl" -->
+# May 25, 2007LLVM Developers' Meeting Proceedings
 
-  <!--
-<html>
-<head>
-  <link rel="stylesheet" href="http://llvm.org/llvm.css" type="text/css">
-</head>-->
+~60 people attended.
 
-  <div class="www_sectiontitle">
-    May 25, 2007<br />LLVM Developers' Meeting Proceedings
-  </div>
+These videos are also viewable on [youtube](http://www.youtube.com/view_play_list?p=AA11ACE45D6B0E4C).
 
-  <div class="www_text">
-    <p>~60 people attended.</p>
+Chris Hanson contributed a [podcast feed](podcast.xml) that you [subscribe to](itpc://llvm.org/devmtg/2007-05/podcast.xml) in iTunes or on Apple TV.
 
-    <p>
-      These videos are also viewable on
-      <a href="http://www.youtube.com/view_play_list?p=AA11ACE45D6B0E4C"
-        >youtube</a
-      >.
-    </p>
+<!-- *********************************************************************** --> <!-- *********************************************************************** -->
 
-    <p>
-      Chris Hanson contributed a <a href="podcast.xml">podcast feed</a> that you
-      <a href="itpc://llvm.org/devmtg/2007-05/podcast.xml">subscribe to</a> in
-      iTunes or on Apple TV.
-    </p>
-  </div>
+# Proceedings
 
-  <!-- *********************************************************************** -->
+All videos are presented in QuickTime format, all slides are in PDF format.
 
-  <!-- *********************************************************************** -->
-  <div class="www_sectiontitle"><a name="proceedings">Proceedings</a></div>
-  <div class="www_text">
-    <p>
-      All videos are presented in QuickTime format, all slides are in PDF
-      format.
-    </p>
+[video](https://youtu.be/FNtmemyeEHY)Vikram Adve  
+Chris Lattner **A brief history of LLVM** - During this brief session, Vikram and Chris (the originators of LLVM) presented a brief history of the early history of LLVM. [video](https://youtu.be/nl5SXEDkMEc)Everyone **Introductions** - Everyone introduced themselves to the group.
 
-    <table class="www">
-      <tr>
-        <th>Event</th>
-        <th>Media</th>
-        <th>Who</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <th rowspan="3">
-          <h3>Session 0:<br />Introductions</h3>
-        </th>
-      </tr>
+### Break
 
-      <tr>
-        <td><a href="https://youtu.be/FNtmemyeEHY">video</a></td>
+[slides](03-Patel-Passmanager.pdf)  
+[video](https://youtu.be/4yzjAXiMbvk) Devang Patel **Demystifying The LLVM Pass Manager** - The PassManager, which manages the execution of all LLVM passes, was recently revised to be simpler and more useful. This talk will help you understand what the new pass manager does and how to use it. [slides](04-Cheng-Codegen.pdf)  
+[video](https://youtu.be/ZWmHZD_-fZ0) Evan Cheng **The LLVM Code Generator** - An overview of the LLVM generic code generator design and changes to it that are coming in the future. [slides](05-Lewycky-Predsimplify.pdf)  
+[video](https://youtu.be/y4xRGfFZT-0) Nick Lewycky **Introduction To Predicate Simplifier** - A review of the design and implementation of LLVM's Predicate Simplifier Pass, otherwise known as VRP (Value Range Propagation). [video](https://youtu.be/cRIuetDrCq0)  
+[slides](06-Spencer-HLVM.pdf) Reid Spencer **HLVM** - An overview of HLVM, its current status and its goals after integration with LLVM.
 
-        <td>Vikram&nbsp;Adve<br />Chris&nbsp;Lattner</td>
-        <td>
-          <b>A brief history of LLVM</b> - During this brief session, Vikram and
-          Chris (the originators of LLVM) presented a brief history of the early
-          history of LLVM.
-        </td>
-      </tr>
+### Lunch
 
-      <tr>
-        <td><a href="https://youtu.be/nl5SXEDkMEc">video</a></td>
-        <td>Everyone</td>
-        <td>
-          <b>Introductions</b> - Everyone introduced themselves to the group.
-        </td>
-      </tr>
+[slides (PDF)](07-Michel-Cell.pdf)Scott Michel **The Cell BE Symbiotic Processor Element Backend** - A presentation of the practice and experience that resulted from Aerospace's implementation of an LLVM back-end Target for the Cell BE Symbiotic Processor Element. [video](https://youtu.be/sRvetnQhXPQ)  
+[slides (PDF)](08-Criswell-SVA.pdf)  
+[slides (PPT)](08-Criswell-SVA.ppt) John Criswell **Secure Virtual Architecture** - A presentation on our research to create a virtual machine that operates below the operating system and a brief introduction to some of the novel security capabilities that our architecture can enable. [slides](09-Naroff-CFE.pdf)  
+[video](https://youtu.be/Xx7zFn31PLQ) Steve Naroff **New LLVM C Front-end** - This talk describes a new from-scratch C frontend (which is aiming to support Objective C and C++ someday) for LLVM, built as a native part of the LLVM system and in the LLVM design style. [slides](10-Lattner-OpenGL.pdf) [video](https://youtu.be/TPyo6NYNYis) Chris Lattner **LLVM in OpenGL and for Dynamic Languages** - A presentation put together in 10 minutes, talking about LLVM being used for OpenGL and some speculative talk about dynamic languages.
 
-      <tr>
-        <td><h3>Break</h3></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
+#### Break
 
-      <tr>
-        <th rowspan="5">
-          <h3>Session 1:<br />Learning LLVM</h3>
-        </th>
-        <th>Media</th>
-        <th>Speaker</th>
-        <th>Description</th>
-      </tr>
+[video](https://youtu.be/T5GgX8tE3R8)Christopher Lamb **Concurrency Primitives** - For multi-threaded shared memory models. [video](https://youtu.be/npCXLaGdArY)Reid Spencer **LLVM Roadmap** - Does the development community care to disclose and maintain advance information about what is being worked on? [video](https://youtu.be/CIp103RdKic)Chris Lattner **Adoption Goals** - While our adoption has increased greatly recently, we're still tiny compared to other compiler and virtual machine systems. [video](https://youtu.be/uTVcG0qVS0I)Reid Spencer  
+Chris Lattner**Project Management, License, Naming**[video](https://youtu.be/iINSIqwaQX0)Chris Lattner**Feedback on the Meeting**
 
-      <tr>
-        <td>
-          <a href="03-Patel-Passmanager.pdf">slides</a><br />
-          <a href="https://youtu.be/4yzjAXiMbvk">video</a>
-        </td>
-        <td>Devang&nbsp;Patel</td>
-        <td>
-          <b>Demystifying The LLVM Pass Manager</b> - The PassManager, which
-          manages the execution of all LLVM passes, was recently revised to be
-          simpler and more useful. This talk will help you understand what the
-          new pass manager does and how to use it.
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="04-Cheng-Codegen.pdf">slides</a><br />
-          <a href="https://youtu.be/ZWmHZD_-fZ0">video</a>
-        </td>
-        <td>Evan&nbsp;Cheng</td>
-        <td>
-          <b>The LLVM Code Generator</b> - An overview of the LLVM generic code
-          generator design and changes to it that are coming in the future.
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="05-Lewycky-Predsimplify.pdf">slides</a><br />
-          <a href="https://youtu.be/y4xRGfFZT-0">video</a>
-        </td>
-        <td>Nick&nbsp;Lewycky</td>
-        <td>
-          <b>Introduction To Predicate Simplifier</b> - A review of the design
-          and implementation of LLVM's Predicate Simplifier Pass, otherwise
-          known as VRP (Value Range Propagation).
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="https://youtu.be/cRIuetDrCq0">video</a><br />
-          <a href="06-Spencer-HLVM.pdf">slides</a>
-        </td>
-        <td>Reid&nbsp;Spencer</td>
-        <td>
-          <b>HLVM</b> - An overview of HLVM, its current status and its goals
-          after integration with LLVM.
-        </td>
-      </tr>
+<!-- *********************************************************************** -->
 
-      <tr>
-        <td><h3>Lunch</h3></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
+# Attendees
 
-      <tr>
-        <th rowspan="5">
-          <h3>Session 2:<br />Using LLVM</h3>
-        </th>
-        <th>Media</th>
-        <th>Speaker</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td><a href="07-Michel-Cell.pdf">slides (PDF)</a></td>
-        <td>Scott&nbsp;Michel</td>
-        <td>
-          <b>The Cell BE Symbiotic Processor Element Backend</b> - A
-          presentation of the practice and experience that resulted from
-          Aerospace's implementation of an LLVM back-end Target for the Cell BE
-          Symbiotic Processor Element.
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="https://youtu.be/sRvetnQhXPQ">video</a><br />
-          <a href="08-Criswell-SVA.pdf">slides (PDF)</a><br />
-          <a href="08-Criswell-SVA.ppt">slides (PPT)</a>
-        </td>
+The table below lists the confirmed attendees for the meeting.
 
-        <td>John&nbsp;Criswell</td>
-        <td>
-          <b>Secure Virtual Architecture</b> - A presentation on our research to
-          create a virtual machine that operates below the operating system and
-          a brief introduction to some of the novel security capabilities that
-          our architecture can enable.
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="09-Naroff-CFE.pdf">slides</a><br />
-          <a href="https://youtu.be/Xx7zFn31PLQ">video</a>
-        </td>
-        <td>Steve&nbsp;Naroff</td>
-        <td>
-          <b>New LLVM C Front-end</b> - This talk describes a new from-scratch C
-          frontend (which is aiming to support Objective C and C++ someday) for
-          LLVM, built as a native part of the LLVM system and in the LLVM design
-          style.
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="10-Lattner-OpenGL.pdf">slides</a>
-          <a href="https://youtu.be/TPyo6NYNYis">video</a>
-        </td>
-        <td>Chris&nbsp;Lattner</td>
-        <td>
-          <b>LLVM in OpenGL and for Dynamic Languages</b> - A presentation put
-          together in 10 minutes, talking about LLVM being used for OpenGL and
-          some speculative talk about dynamic languages.
-        </td>
-      </tr>
+<table><tbody><tr style="vertical-align: top"><td><table class="www"><tbody><tr><th colspan="2">Confirmed Attendees</th></tr><tr><th>Name</th><th>Organization</th></tr><tr><td>Vikram Adve</td><td>UIUC</td></tr><tr><td>Bob Archer</td><td>Adobe Systems Incorporated.</td></tr><tr><td>Owen Anderson</td><td>Independent</td></tr><tr><td>Ryan Brown</td><td>Google</td></tr><tr><td>Evan Cheng</td><td>Apple Inc.</td></tr><tr><td>Josh Conner</td><td>Apple Inc.</td></tr><tr><td>John Criswell</td><td>UIUC</td></tr><tr><td>Kat Danielson</td><td>Apple Inc.</td></tr><tr><td>Mike Engler</td><td>Adobe Systems Incorporated.</td></tr><tr><td>Rafael Espíndola</td><td>Google</td></tr><tr><td>Tomas Evensen</td><td>Wind River</td></tr><tr><td>Samuel Figueroa</td><td>Apple Inc.</td></tr><tr><td>Han Gao</td><td>Adobe Systems Incorporated.</td></tr><tr><td>Dan Gohman</td><td>Cray Inc.</td></tr><tr><td>Lang Hames</td><td>University of Sydney</td></tr><tr><td>Stuart Hastings</td><td>Apple Inc.</td></tr><tr><td>Victor Hernandez</td><td>Apple Inc.</td></tr><tr><td>Robert Hundt</td><td>Google</td></tr><tr><td>Dale Johannesen</td><td>Apple Inc.</td></tr><tr><td>Ted Kremenek</td><td>Independent</td></tr><tr><td>Christopher Lamb</td><td>Ageia Technologies, Inc.</td></tr><tr><td>Chris Lattner</td><td>Apple Inc.</td></tr><tr><td>Tanya Lattner</td><td>Independent</td></tr><tr><td>Andrew Lenharth</td><td>UIUC</td></tr><tr><td>Julien Lerouge</td><td>Apple Inc.</td></tr><tr><td>Nick Lewycky</td><td>Independent</td></tr></tbody></table></td><td><table class="www"><tbody><tr><th colspan="2">Confirmed Attendees</th></tr><tr><th>Name</th><th>Organization</th></tr><tr><td>Efrem Lipkin</td><td>CoDesign</td></tr><tr><td>Gabe McArthur</td><td>Independent</td></tr><tr><td>Paul McJones</td><td>Adobe Systems Incorporated.</td></tr><tr><td>Scott Michel</td><td>Aerospace</td></tr><tr><td>Dan Moniz</td><td>Matasano</td></tr><tr><td>Alireza Moshtaghi</td><td>Microchip Technology</td></tr><tr><td>Lakshmankumar Mukkavilli</td><td>Cisco Systems</td></tr><tr><td>Robert Mykland</td><td>Ascenium Corp.</td></tr><tr><td>Steve Naroff</td><td>Apple Inc.</td></tr><tr><td>Devang Patel</td><td>Apple Inc.</td></tr><tr><td>Fernando Magno Quintao Pereira</td><td>UCLA</td></tr><tr><td>Jeff Poznanovic</td><td>Cray Inc.</td></tr><tr><td>Ron Price</td><td>Apple Inc.</td></tr><tr><td>Chuck Rose</td><td>Adobe Systems Incorporated.</td></tr><tr><td>Mark Schimmel</td><td>Wind River</td></tr><tr><td>Reid Spencer</td><td>Independent</td></tr><tr><td>Raju Subbian</td><td>Wind River</td></tr><tr><td>Mark Thomas</td><td>Aerospace</td></tr><tr><td>Sarah Thompson</td><td>NASA, Ames Research Center</td></tr><tr><td>Andrew Trick</td><td>HP</td></tr><tr><td>Bill Wendling</td><td>Apple Inc.</td></tr><tr><td>Marcel Weiher</td><td>MetaObject</td></tr><tr><td>James Weisner</td><td>Ascenium Corp.</td></tr><tr><td>Calum Wilkie</td><td>Microchip Technology</td></tr><tr><td>Scott Williams</td><td>Google</td></tr></tbody></table></td></tr></tbody></table>
 
-      <tr>
-        <td><h4>Break</h4></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
+**Total confirmed: 51**
 
-      <tr>
-        <th rowspan="6">
-          <h3>Session 3:<br />Discussions</h3>
-        </th>
-        <th>Media</th>
-        <th>Leader</th>
-        <th>Discussion Topic</th>
-      </tr>
-      <tr>
-        <td><a href="https://youtu.be/T5GgX8tE3R8">video</a></td>
-        <td>Christopher&nbsp;Lamb</td>
-        <td>
-          <b>Concurrency Primitives</b> - For multi-threaded shared memory
-          models.
-        </td>
-      </tr>
-      <tr>
-        <td><a href="https://youtu.be/npCXLaGdArY">video</a></td>
-        <td>Reid&nbsp;Spencer</td>
-        <td>
-          <b>LLVM Roadmap</b> - Does the development community care to disclose
-          and maintain advance information about what is being worked on?
-        </td>
-      </tr>
-      <tr>
-        <td><a href="https://youtu.be/CIp103RdKic">video</a></td>
-        <td>Chris&nbsp;Lattner</td>
-        <td>
-          <b>Adoption Goals</b> - While our adoption has increased greatly
-          recently, we're still tiny compared to other compiler and virtual
-          machine systems.
-        </td>
-      </tr>
-      <tr>
-        <td><a href="https://youtu.be/uTVcG0qVS0I">video</a></td>
-        <td>Reid&nbsp;Spencer<br />Chris&nbsp;Lattner</td>
-        <td><b>Project Management, License, Naming</b></td>
-      </tr>
-      <tr>
-        <td><a href="https://youtu.be/iINSIqwaQX0">video</a></td>
-        <td>Chris&nbsp;Lattner</td>
-        <td><b>Feedback on the Meeting</b></td>
-      </tr>
-    </table>
-  </div>
+*   Michael McCracken
+*   Kelly Wilson
+*   Unconfirmed 1
 
-  <!-- *********************************************************************** -->
-  <div class="www_sectiontitle"><a name="attendees">Attendees</a></div>
-  <div class="www_text">
-    <p>The table below lists the confirmed attendees for the meeting.</p>
-    <table>
-      <tr style="vertical-align: top">
-        <td>
-          <table class="www">
-            <tr>
-              <th colspan="2">Confirmed Attendees</th>
-            </tr>
-            <tr>
-              <th>Name</th>
-              <th>Organization</th>
-            </tr>
-            <tr>
-              <td>Vikram Adve</td>
-              <td>UIUC</td>
-            </tr>
-            <tr>
-              <td>Bob Archer</td>
-              <td>Adobe Systems Incorporated.</td>
-            </tr>
-            <tr>
-              <td>Owen Anderson</td>
-              <td>Independent</td>
-            </tr>
-            <tr>
-              <td>Ryan Brown</td>
-              <td>Google</td>
-            </tr>
-            <tr>
-              <td>Evan Cheng</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>Josh Conner</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>John Criswell</td>
-              <td>UIUC</td>
-            </tr>
-            <tr>
-              <td>Kat Danielson</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>Mike Engler</td>
-              <td>Adobe Systems Incorporated.</td>
-            </tr>
-            <tr>
-              <td>Rafael Esp&iacute;ndola</td>
-              <td>Google</td>
-            </tr>
-            <tr>
-              <td>Tomas Evensen</td>
-              <td>Wind River</td>
-            </tr>
-            <tr>
-              <td>Samuel Figueroa</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>Han Gao</td>
-              <td>Adobe Systems Incorporated.</td>
-            </tr>
-            <tr>
-              <td>Dan Gohman</td>
-              <td>Cray Inc.</td>
-            </tr>
-            <tr>
-              <td>Lang Hames</td>
-              <td>University of Sydney</td>
-            </tr>
-            <tr>
-              <td>Stuart Hastings</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>Victor Hernandez</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>Robert Hundt</td>
-              <td>Google</td>
-            </tr>
-            <tr>
-              <td>Dale Johannesen</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>Ted Kremenek</td>
-              <td>Independent</td>
-            </tr>
-            <tr>
-              <td>Christopher Lamb</td>
-              <td>Ageia Technologies, Inc.</td>
-            </tr>
-            <tr>
-              <td>Chris Lattner</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>Tanya Lattner</td>
-              <td>Independent</td>
-            </tr>
-            <tr>
-              <td>Andrew Lenharth</td>
-              <td>UIUC</td>
-            </tr>
-            <tr>
-              <td>Julien Lerouge</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>Nick Lewycky</td>
-              <td>Independent</td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table class="www">
-            <tr>
-              <th colspan="2">Confirmed Attendees</th>
-            </tr>
-            <tr>
-              <th>Name</th>
-              <th>Organization</th>
-            </tr>
-            <tr>
-              <td>Efrem Lipkin</td>
-              <td>CoDesign</td>
-            </tr>
-            <tr>
-              <td>Gabe McArthur</td>
-              <td>Independent</td>
-            </tr>
-            <tr>
-              <td>Paul McJones</td>
-              <td>Adobe Systems Incorporated.</td>
-            </tr>
-            <tr>
-              <td>Scott Michel</td>
-              <td>Aerospace</td>
-            </tr>
-            <tr>
-              <td>Dan Moniz</td>
-              <td>Matasano</td>
-            </tr>
-            <tr>
-              <td>Alireza Moshtaghi</td>
-              <td>Microchip Technology</td>
-            </tr>
-            <tr>
-              <td>Lakshmankumar Mukkavilli</td>
-              <td>Cisco Systems</td>
-            </tr>
-            <tr>
-              <td>Robert Mykland</td>
-              <td>Ascenium Corp.</td>
-            </tr>
-            <tr>
-              <td>Steve Naroff</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>Devang Patel</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>Fernando Magno Quintao Pereira</td>
-              <td>UCLA</td>
-            </tr>
-            <tr>
-              <td>Jeff Poznanovic</td>
-              <td>Cray Inc.</td>
-            </tr>
-            <tr>
-              <td>Ron Price</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>Chuck Rose</td>
-              <td>Adobe Systems Incorporated.</td>
-            </tr>
-            <tr>
-              <td>Mark Schimmel</td>
-              <td>Wind River</td>
-            </tr>
-            <tr>
-              <td>Reid Spencer</td>
-              <td>Independent</td>
-            </tr>
-            <tr>
-              <td>Raju Subbian</td>
-              <td>Wind River</td>
-            </tr>
-            <tr>
-              <td>Mark Thomas</td>
-              <td>Aerospace</td>
-            </tr>
-            <tr>
-              <td>Sarah Thompson</td>
-              <td>NASA, Ames Research Center</td>
-            </tr>
-            <tr>
-              <td>Andrew Trick</td>
-              <td>HP</td>
-            </tr>
-            <tr>
-              <td>Bill Wendling</td>
-              <td>Apple Inc.</td>
-            </tr>
-            <tr>
-              <td>Marcel Weiher</td>
-              <td>MetaObject</td>
-            </tr>
-            <tr>
-              <td>James Weisner</td>
-              <td>Ascenium Corp.</td>
-            </tr>
-            <tr>
-              <td>Calum Wilkie</td>
-              <td>Microchip Technology</td>
-            </tr>
-            <tr>
-              <td>Scott Williams</td>
-              <td>Google</td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-    <p><b>Total confirmed: 51</b></p>
-    <table class="www">
-      <tr>
-        <th colspan="2">Unconfirmed Attendees</th>
-      </tr>
-      <tr>
-        <th>Name</th>
-        <th>Organization</th>
-      </tr>
-      <tr>
-        <td>Michael McCracken</td>
-        <td>UCSD, Ph.D. Candidate</td>
-      </tr>
-      <tr>
-        <td>Kelly Wilson</td>
-        <td>University of Calgary</td>
-      </tr>
-      <tr>
-        <td>Unconfirmed 1</td>
-        <td>NASA, Ames</td>
-      </tr>
-    </table>
-    <p><b>Total unconfirmed: 3</b></p>
-  </div>
+**Total unconfirmed: 3**
 
-  <!-- *********************************************************************** -->
-  <hr />
-  <!--#include virtual="../../footer.incl" -->
-</html>
+<!-- *********************************************************************** -->
+
+* * *
+
+<!--#include virtual="../../footer.incl" -->

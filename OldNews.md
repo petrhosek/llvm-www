@@ -1,414 +1,82 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "OldNews.html"
 ---
-<table class="www_sectiontitle">
-  <tr>
-    <td>Older Status Updates</td>
-  </tr>
-</table>
-<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2018-July/000079.html"
-  >July 2018</a
->
-- LLVM 6.0.1<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2018-May/000078.html"
-  >May 2018</a
->
-- LLVM 5.0.2<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2018-March/000077.html"
-  >Mar 2018</a
->
-- LLVM 6.0.0<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2017-December/000076.html"
-  >Dec 2017</a
->
-- LLVM 5.0.1<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2017-September/000075.html"
-  >Sep 2017</a
->
-- LLVM 5.0.0<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2017-July/000074.html"
-  >Jul 2017</a
->
-- LLVM 4.0.1<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2017-March/000073.html"
-  >Mar 2017</a
->
-- LLVM 4.0.0<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2016-December/000072.html"
-  >Dec 2016</a
->
-- LLVM 3.9.1<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2016-September/000070.html"
-  >Sep 2016</a
->
-- LLVM 3.9.0<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2016-July/000068.html"
-  >July 2016</a
->
-- LLVM 3.8.1<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2016-March/000067.html"
-  >Mar 2016</a
->
-- LLVM 3.8.0<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2016-January/000066.html"
-  >Jan 2016</a
->
-- LLVM 3.7.1<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2015-September/000065.html"
-  >Sep 2015</a
->
-- LLVM 3.7.0<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2015-July/000061.html"
-  >Jul 2015</a
->
-- LLVM 3.6.2<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2015-May/000059.html"
-  >May 2015</a
->
-- LLVM 3.6.1<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2015-April/000058.html"
-  >Apr 2015</a
->
-- LLVM 3.5.2<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2015-February/000057.html"
-  >Feb 2015</a
->
-- LLVM 3.6<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2015-January/000056.html"
-  >Jan 2015</a
->
-- LLVM 3.5.1<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2014-September/000055.html"
-  >Sep 2014</a
->
-- LLVM 3.5<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2014-June/000053.html"
-  >June 2014</a
->
-- LLVM 3.4.2<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2014-May/000052.html"
-  >May 2014</a
->
-- LLVM 3.4.1<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2014-January/000049.html"
-  >Jan 2014</a
->
-- LLVM 3.4<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2013-June/000046.html"
-  >Jun 2013</a
->
-- LLVM 3.3<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2012-December/000043.html"
-  >Dec 2012</a
->
-- LLVM 3.2<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2012-May/000041.html"
-  >May 2012</a
->
-- LLVM 3.1<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2011-December/000039.html"
-  >Dec 2011</a
->
-- LLVM 3.0<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2011-April/000037.html"
-  >Apr 2011</a
->
-- LLVM 2.9<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2010-October/000036.html"
-  >Oct 2010</a
->
-- LLVM 2.8<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2010-April/000034.html"
-  >Apr 2010</a
->
-- LLVM 2.7<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2009-October/000033.html"
-  >Oct 2009</a
->
-- LLVM 2.6<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2009-March/000031.html"
-  >Mar 2009</a
->
-- LLVM 2.5<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2008-November/000030.html"
-  >Nov 2008</a
->
-- LLVM 2.4<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2008-June/000027.html"
-  >Jun 2008</a
->
-- LLVM 2.3<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2008-February/000025.html"
-  >Feb 2008</a
->
-- LLVM 2.2<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2007-September/000024.html"
-  >Sep 2007</a
->
-- LLVM 2.1<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2007-May/000023.html"
-  >May 2007</a
->
-- LLVM 2.0<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2007-February/000021.html"
-  >Feb 21, 2007</a
->
-Status Update<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2006-November/000020.html"
-  >Nov 19, 2006</a
->
-- LLVM 1.9<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2006-August/000019.html"
-  >Aug 9, 2006</a
->
-- LLVM 1.8<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2006-April/000018.html"
-  >Apr 20, 2006</a
->
-- LLVM 1.7<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2005-November/000017.html"
-  ><b>Nov 8, 2005</b></a
->
-- LLVM 1.6<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2005-May/000016.html"
-  ><b>May 18, 2005</b></a
->
-- LLVM 1.5<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2005-February/000015.html"
-  ><b>Feb 14, 2005</b></a
->
-Status Update<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2004-December/000013.html"
-  ><b>Dec 9, 2004</b></a
->
-- LLVM 1.4<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2004-October/000012.html"
-  ><b>Oct 11, 2004</b></a
->
-Status Update<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2004-August/000011.html"
-  ><b>Aug 13, 2004</b></a
->
-- LLVM 1.3<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2004-July/000010.html"
-  ><b>Jul 12, 2004</b></a
->
-Status Update<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2004-June/000009.html"
-  ><b>Jun 9, 2004</b></a
->
-Status Update<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2004-May/000008.html"
-  ><b>May 6, 2004</b></a
->
-Status Update<br />
-<a href="https://lists.llvm.org/pipermail/llvm-announce/2004-March/000006.html"
-  ><b>Mar 19, 2004</b></a
->
-- LLVM 1.2<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2004-February/000005.html"
-  ><b>Feb 6, 2004</b></a
->
-Status Update<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2003-December/000004.html"
-  ><b>Dec 17, 2003</b></a
->
-- LLVM 1.1<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2003-November/000003.html"
-  ><b>Nov 18, 2003</b></a
->Status Update<br />
-<a
-  href="https://lists.llvm.org/pipermail/llvm-announce/2003-October/000002.html"
-  ><b>Nov 18, 2003</b></a
->
-- LLVM 1.0<br />
-<a href="https://lists.llvm.org/pipermail/llvm-dev/2003-October/000504.html"
-  ><b>Oct 7, 2003</b></a
->
-Status Update<br />
-<a href="https://lists.llvm.org/pipermail/llvm-dev/2003-September/000492.html"
-  ><b>Sep 10, 2003</b></a
->
-Status Update<br />
-<a href="https://lists.llvm.org/pipermail/llvm-dev/2003-August/000451.html"
-  ><b>Aug 15, 2003</b></a
->
-Status Update<br />
-<a href="https://lists.llvm.org/pipermail/llvm-dev/2003-June/000419.html"
-  ><b>Jun 26, 2003</b></a
->
-Status Update<br />
+# Older Status Updates
 
-<br />
+[July 2018](https://lists.llvm.org/pipermail/llvm-announce/2018-July/000079.html) - LLVM 6.0.1  
+[May 2018](https://lists.llvm.org/pipermail/llvm-announce/2018-May/000078.html) - LLVM 5.0.2  
+[Mar 2018](https://lists.llvm.org/pipermail/llvm-announce/2018-March/000077.html) - LLVM 6.0.0  
+[Dec 2017](https://lists.llvm.org/pipermail/llvm-announce/2017-December/000076.html) - LLVM 5.0.1  
+[Sep 2017](https://lists.llvm.org/pipermail/llvm-announce/2017-September/000075.html) - LLVM 5.0.0  
+[Jul 2017](https://lists.llvm.org/pipermail/llvm-announce/2017-July/000074.html) - LLVM 4.0.1  
+[Mar 2017](https://lists.llvm.org/pipermail/llvm-announce/2017-March/000073.html) - LLVM 4.0.0  
+[Dec 2016](https://lists.llvm.org/pipermail/llvm-announce/2016-December/000072.html) - LLVM 3.9.1  
+[Sep 2016](https://lists.llvm.org/pipermail/llvm-announce/2016-September/000070.html) - LLVM 3.9.0  
+[July 2016](https://lists.llvm.org/pipermail/llvm-announce/2016-July/000068.html) - LLVM 3.8.1  
+[Mar 2016](https://lists.llvm.org/pipermail/llvm-announce/2016-March/000067.html) - LLVM 3.8.0  
+[Jan 2016](https://lists.llvm.org/pipermail/llvm-announce/2016-January/000066.html) - LLVM 3.7.1  
+[Sep 2015](https://lists.llvm.org/pipermail/llvm-announce/2015-September/000065.html) - LLVM 3.7.0  
+[Jul 2015](https://lists.llvm.org/pipermail/llvm-announce/2015-July/000061.html) - LLVM 3.6.2  
+[May 2015](https://lists.llvm.org/pipermail/llvm-announce/2015-May/000059.html) - LLVM 3.6.1  
+[Apr 2015](https://lists.llvm.org/pipermail/llvm-announce/2015-April/000058.html) - LLVM 3.5.2  
+[Feb 2015](https://lists.llvm.org/pipermail/llvm-announce/2015-February/000057.html) - LLVM 3.6  
+[Jan 2015](https://lists.llvm.org/pipermail/llvm-announce/2015-January/000056.html) - LLVM 3.5.1  
+[Sep 2014](https://lists.llvm.org/pipermail/llvm-announce/2014-September/000055.html) - LLVM 3.5  
+[June 2014](https://lists.llvm.org/pipermail/llvm-announce/2014-June/000053.html) - LLVM 3.4.2  
+[May 2014](https://lists.llvm.org/pipermail/llvm-announce/2014-May/000052.html) - LLVM 3.4.1  
+[Jan 2014](https://lists.llvm.org/pipermail/llvm-announce/2014-January/000049.html) - LLVM 3.4  
+[Jun 2013](https://lists.llvm.org/pipermail/llvm-announce/2013-June/000046.html) - LLVM 3.3  
+[Dec 2012](https://lists.llvm.org/pipermail/llvm-announce/2012-December/000043.html) - LLVM 3.2  
+[May 2012](https://lists.llvm.org/pipermail/llvm-announce/2012-May/000041.html) - LLVM 3.1  
+[Dec 2011](https://lists.llvm.org/pipermail/llvm-announce/2011-December/000039.html) - LLVM 3.0  
+[Apr 2011](https://lists.llvm.org/pipermail/llvm-announce/2011-April/000037.html) - LLVM 2.9  
+[Oct 2010](https://lists.llvm.org/pipermail/llvm-announce/2010-October/000036.html) - LLVM 2.8  
+[Apr 2010](https://lists.llvm.org/pipermail/llvm-announce/2010-April/000034.html) - LLVM 2.7  
+[Oct 2009](https://lists.llvm.org/pipermail/llvm-announce/2009-October/000033.html) - LLVM 2.6  
+[Mar 2009](https://lists.llvm.org/pipermail/llvm-announce/2009-March/000031.html) - LLVM 2.5  
+[Nov 2008](https://lists.llvm.org/pipermail/llvm-announce/2008-November/000030.html) - LLVM 2.4  
+[Jun 2008](https://lists.llvm.org/pipermail/llvm-announce/2008-June/000027.html) - LLVM 2.3  
+[Feb 2008](https://lists.llvm.org/pipermail/llvm-announce/2008-February/000025.html) - LLVM 2.2  
+[Sep 2007](https://lists.llvm.org/pipermail/llvm-announce/2007-September/000024.html) - LLVM 2.1  
+[May 2007](https://lists.llvm.org/pipermail/llvm-announce/2007-May/000023.html) - LLVM 2.0  
+[Feb 21, 2007](https://lists.llvm.org/pipermail/llvm-announce/2007-February/000021.html) Status Update  
+[Nov 19, 2006](https://lists.llvm.org/pipermail/llvm-announce/2006-November/000020.html) - LLVM 1.9  
+[Aug 9, 2006](https://lists.llvm.org/pipermail/llvm-announce/2006-August/000019.html) - LLVM 1.8  
+[Apr 20, 2006](https://lists.llvm.org/pipermail/llvm-announce/2006-April/000018.html) - LLVM 1.7  
+[**Nov 8, 2005**](https://lists.llvm.org/pipermail/llvm-announce/2005-November/000017.html) - LLVM 1.6  
+[**May 18, 2005**](https://lists.llvm.org/pipermail/llvm-announce/2005-May/000016.html) - LLVM 1.5  
+[**Feb 14, 2005**](https://lists.llvm.org/pipermail/llvm-announce/2005-February/000015.html) Status Update  
+[**Dec 9, 2004**](https://lists.llvm.org/pipermail/llvm-announce/2004-December/000013.html) - LLVM 1.4  
+[**Oct 11, 2004**](https://lists.llvm.org/pipermail/llvm-announce/2004-October/000012.html) Status Update  
+[**Aug 13, 2004**](https://lists.llvm.org/pipermail/llvm-announce/2004-August/000011.html) - LLVM 1.3  
+[**Jul 12, 2004**](https://lists.llvm.org/pipermail/llvm-announce/2004-July/000010.html) Status Update  
+[**Jun 9, 2004**](https://lists.llvm.org/pipermail/llvm-announce/2004-June/000009.html) Status Update  
+[**May 6, 2004**](https://lists.llvm.org/pipermail/llvm-announce/2004-May/000008.html) Status Update  
+[**Mar 19, 2004**](https://lists.llvm.org/pipermail/llvm-announce/2004-March/000006.html) - LLVM 1.2  
+[**Feb 6, 2004**](https://lists.llvm.org/pipermail/llvm-announce/2004-February/000005.html) Status Update  
+[**Dec 17, 2003**](https://lists.llvm.org/pipermail/llvm-announce/2003-December/000004.html) - LLVM 1.1  
+[**Nov 18, 2003**](https://lists.llvm.org/pipermail/llvm-announce/2003-November/000003.html)Status Update  
+[**Nov 18, 2003**](https://lists.llvm.org/pipermail/llvm-announce/2003-October/000002.html) - LLVM 1.0  
+[**Oct 7, 2003**](https://lists.llvm.org/pipermail/llvm-dev/2003-October/000504.html) Status Update  
+[**Sep 10, 2003**](https://lists.llvm.org/pipermail/llvm-dev/2003-September/000492.html) Status Update  
+[**Aug 15, 2003**](https://lists.llvm.org/pipermail/llvm-dev/2003-August/000451.html) Status Update  
+[**Jun 26, 2003**](https://lists.llvm.org/pipermail/llvm-dev/2003-June/000419.html) Status Update  
 
-<table class="www_sectiontitle">
-  <tr>
-    <td>Older News</td>
-  </tr>
-</table>
-<br />
+# Older News
 
-<table border="0">
-  <tr>
-    <td valign="top"><b>May&nbsp;21,&nbsp;2003</b></td>
-    <td valign="top">-</td>
-    <td valign="top">
-      Added some new documents to the <a href="#Pubs">publications section</a>.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>May&nbsp;8,&nbsp;2003</b></td>
-    <td valign="top">-</td>
-    <td valign="top">
-      <a href="https://lists.llvm.org/pipermail/llvm-dev/2003-May/000382.html"
-        >Switched over</a
-      >
-      to the rewritten C front-end which supports variable argument functions
-      and has no known miscompilation bugs.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Mar&nbsp;4,&nbsp;2003</b></td>
-    <td valign="top">-</td>
-    <td valign="top">
-      Added a new
-      <a href="docs/AliasAnalysis.html">Alias Analysis</a>
-      document, describing Alias Analysis in LLVM.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Feb&nbsp;6,&nbsp;2003</b></td>
-    <td valign="top">-</td>
-    <td valign="top">
-      Added a new
-      <a href="/OpenProjects.html">open projects</a>
-      page, listing some desired improvements to LLVM.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Jan&nbsp;22,&nbsp;2003</b></td>
-    <td valign="top">-</td>
-    <td valign="top">
-      Implemented a new
-      <a href="nightlytest/">automated nightly testing framework</a>.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Dec&nbsp;14,&nbsp;2002</b></td>
-    <td valign="top">-</td>
-
-    <td valign="top">
-      Added Chris Lattner's
-      <a href="pubs/2002-12-LattnerMSThesis.html">Master's Thesis</a> to the
-      publications list.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Oct&nbsp;28,&nbsp;2002</b></td>
-    <td valign="top">-</td>
-
-    <td valign="top">
-      A new
-      <a href="https://lists.llvm.org/mailman/listinfo/llvm-bugs/"
-        >mailing list</a
-      >
-      has been added for LLVM bug reports and patch submissions.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Sep&nbsp;5,&nbsp;2002</b></td>
-    <td valign="top">-</td>
-
-    <td valign="top">
-      An initial draft of the
-      <a href="docs/ProgrammersManual.html">LLVM Programmer's Manual</a> is up.
-      It will continue to evolve, but it is at least started now.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Sep&nbsp;3,&nbsp;2002</b></td>
-    <td valign="top">-</td>
-
-    <td valign="top">
-      A new
-      <a href="https://lists.llvm.org/mailman/listinfo/llvm-dev"
-        >LLVM Developer's</a
-      >
-      mailing list is available. This is a good place to post questions to, or
-      monitor to find out about major changes to the LLVM source-base.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Aug&nbsp;8,&nbsp;2002</b></td>
-    <td valign="top">-</td>
-    <td valign="top">
-      Published the
-      <a href="docs/WritingAnLLVMPass.html">Writing An LLVM Pass</a> document.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Jul&nbsp;24,&nbsp;2002</b></td>
-    <td valign="top">-</td>
-    <td valign="top">
-      Published the
-      <a href="docs/GettingStarted.html">LLVM Getting Started Guide</a>.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Jul&nbsp;1,&nbsp;2002</b></td>
-    <td valign="top">-</td>
-    <td valign="top">
-      Finished providing initial information about LLVM, we now consider the
-      site to have "gone public".
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Jun&nbsp;28,&nbsp;2002</b></td>
-    <td valign="top">-</td>
-    <td valign="top">
-      Added
-      <a href="pubs/2002-08-09-LLVMCompilationStrategy.html"
-        >The LLVM Instruction Set and Compilation Strategy</a
-      >
-      document.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Jun&nbsp;13,&nbsp;2002</b></td>
-    <td valign="top">-</td>
-    <td valign="top">
-      Web page first published.
-      <p></p>
-    </td>
-  </tr>
-</table>
-<p></p>
-<p></p>
+| **May 21, 2003** | \- | Added some new documents to the [publications section](#Pubs). |
+| --- | --- | --- |
+| **May 8, 2003** | \- | [Switched over](https://lists.llvm.org/pipermail/llvm-dev/2003-May/000382.html) to the rewritten C front-end which supports variable argument functions and has no known miscompilation bugs. |
+| **Mar 4, 2003** | \- | Added a new [Alias Analysis](docs/AliasAnalysis.html) document, describing Alias Analysis in LLVM. |
+| **Feb 6, 2003** | \- | Added a new [open projects](/OpenProjects.html) page, listing some desired improvements to LLVM. |
+| **Jan 22, 2003** | \- | Implemented a new [automated nightly testing framework](nightlytest/). |
+| **Dec 14, 2002** | \- | Added Chris Lattner's [Master's Thesis](pubs/2002-12-LattnerMSThesis.html) to the publications list. |
+| **Oct 28, 2002** | \- | A new [mailing list](https://lists.llvm.org/mailman/listinfo/llvm-bugs/) has been added for LLVM bug reports and patch submissions. |
+| **Sep 5, 2002** | \- | An initial draft of the [LLVM Programmer's Manual](docs/ProgrammersManual.html) is up. It will continue to evolve, but it is at least started now. |
+| **Sep 3, 2002** | \- | A new [LLVM Developer's](https://lists.llvm.org/mailman/listinfo/llvm-dev) mailing list is available. This is a good place to post questions to, or monitor to find out about major changes to the LLVM source-base. |
+| **Aug 8, 2002** | \- | Published the [Writing An LLVM Pass](docs/WritingAnLLVMPass.html) document. |
+| **Jul 24, 2002** | \- | Published the [LLVM Getting Started Guide](docs/GettingStarted.html). |
+| **Jul 1, 2002** | \- | Finished providing initial information about LLVM, we now consider the site to have "gone public". |
+| **Jun 28, 2002** | \- | Added [The LLVM Instruction Set and Compilation Strategy](pubs/2002-08-09-LLVMCompilationStrategy.html) document. |
+| **Jun 13, 2002** | \- | Web page first published. |

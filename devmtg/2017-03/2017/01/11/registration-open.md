@@ -1,308 +1,70 @@
 ---
 permalink: "devmtg/2017-03/2017/01/11/registration-open.html"
 ---
-<!doctype html>
-<!--
-	Arcana by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-  <head>
-    <title>EuroLLVM'17</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <!--[if lte IE 8
-      ]><script src="http://llvm.org/devmtg/2017-03//assets/css/ie/html5shiv.js"></script
-    ><![endif]-->
-    <script src="http://llvm.org/devmtg/2017-03//assets/js/jquery.min.js"></script>
-    <script src="http://llvm.org/devmtg/2017-03//assets/js/jquery.dropotron.min.js"></script>
-    <script src="http://llvm.org/devmtg/2017-03//assets/js/skel.min.js"></script>
-    <script src="http://llvm.org/devmtg/2017-03//assets/js/skel-layers.min.js"></script>
-    <script src="http://llvm.org/devmtg/2017-03//assets/js/init.js"></script>
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="http://llvm.org/devmtg/2017-03//assets/css/skel.css"
-      />
-      <link
-        rel="stylesheet"
-        href="http://llvm.org/devmtg/2017-03//assets/css/style.css"
-      />
-      <link
-        rel="stylesheet"
-        href="http://llvm.org/devmtg/2017-03//assets/css/style-wide.css"
-      />
-    </noscript>
-    <!--[if lte IE 8
-      ]><link
-        rel="stylesheet"
-        href="http://llvm.org/devmtg/2017-03//assets/css/ie/v8.css"
-    /><![endif]-->
-  </head>
-  <body>
-    <!-- Header -->
-    <div id="header">
-      <!-- Logo -->
-      <h2>
-        <a href="http://llvm.org" id="logo1"
-          >The <strong>LLVM</strong> Compiler Infrastructure</a
-        >
-      </h2>
-      <h1>
-        <a href="http://llvm.org/devmtg/2017-03/index.html" id="logo2"
-          >2017 European LLVM Developers Meeting</a
-        >
-      </h1>
-      <h3 class="tight">March 27-28, 2017</h3>
-      <h3>
-        <a href="http://sic.saarland" target="_blank"
-          >Saarland Informatics Campus</a
-        >, Saarbrücken, Germany
-      </h3>
-      <!-- Nav -->
-      <nav id="nav">
-        <ul>
-          <li>
-            <a href="http://llvm.org/devmtg/2017-03/index.html">About</a>
-            <ul>
-              <li>
-                <a href="http://llvm.org/devmtg/2017-03/index.html#program"
-                  >Program</a
-                >
-              </li>
-              <li>
-                <a href="http://llvm.org/devmtg/2017-03/index.html#sponsors"
-                  >Sponsors</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li><a href="http://llvm.org/devmtg/2017-03/blog">News</a></li>
-          <li>
-            <a href="http://llvm.org/devmtg/2017-03/venue.html"
-              >Venue & Accommodation</a
-            >
-            <ul>
-              <li>
-                <a
-                  href="http://llvm.org/devmtg/2017-03/venue.html#accommodation"
-                  >Accommodation</a
-                >
-              </li>
-              <li>
-                <a href="http://llvm.org/devmtg/2017-03/venue.html#directionssb"
-                  >Getting To Saarbrücken</a
-                >
-              </li>
-              <li>
-                <a
-                  href="http://llvm.org/devmtg/2017-03/venue.html#directionsuni"
-                  >Getting To Campus</a
-                >
-              </li>
-              <li>
-                <a href="http://llvm.org/devmtg/2017-03/venue.html#social"
-                  >Social Event Venue: Völklingen Steel Mill</a
-                >
-              </li>
-              <li>
-                <a
-                  href="http://llvm.org/devmtg/2017-03/venue.html#placesofinterest"
-                  >Places of Interest</a
-                >
-              </li>
-            </ul>
-          </li>
-          <!--li >
-                <a href="http://llvm.org/devmtg/2017-03/program.html">Program</a>
-								<ul>
-									<li>
-                    <a href="http://llvm.org/devmtg/2017-03/program.html#presentations">Presentations</a>
-										<ul>
-											<li><a href="#">Lorem dolor</a></li>
-											<li><a href="#">Phasellus magna</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam nisl</a></li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li>
-                    <a href="http://llvm.org/devmtg/2017-03/program.html#tutorials">Tutorials</a>
-										<ul>
-											<li><a href="#">Lorem dolor</a></li>
-											<li><a href="#">Phasellus magna</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam nisl</a></li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li>
-                    <a href="http://llvm.org/devmtg/2017-03/program.html#lightning">Lightning Talks</a>
-										<ul>
-											<li><a href="#">Lorem dolor</a></li>
-											<li><a href="#">Phasellus magna</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam nisl</a></li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li>
-                    <a href="http://llvm.org/devmtg/2017-03/program.html#posters">Posters</a>
-										<ul>
-											<li><a href="#">Lorem dolor</a></li>
-											<li><a href="#">Phasellus magna</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam nisl</a></li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li>
-                    <a href="http://llvm.org/devmtg/2017-03/program.html#bofs">BoFs</a>
-										<ul>
-											<li><a href="#">Lorem dolor</a></li>
-											<li><a href="#">Phasellus magna</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam nisl</a></li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li-->
-          <li>
-            <a href="http://llvm.org/devmtg/2017-03/past.html"
-              >Past Instances</a
-            >
-            <ul>
-              <li>US Developers Meeting</li>
-              <li>
-                <a href="http://llvm.org/devmtg/2016-11/"
-                  >2016: San Jose, CA, USA</a
-                >
-              </li>
-              <li>
-                <a href="http://llvm.org/devmtg/2015-10/"
-                  >2015: San Jose, CA, USA</a
-                >
-              </li>
-              <li>
-                <a href="http://llvm.org/devmtg/2014-10/"
-                  >2014: San Jose, CA, USA</a
-                >
-              </li>
-              <li>
-                <a href="http://llvm.org/devmtg/2013-11/"
-                  >2013: San Francisco, CA, USA</a
-                >
-              </li>
-              <!--li><a href="http://llvm.org/devmtg/2012-11/">2012: San Jose, CA, USA</a></li-->
-              <!--li><a href="http://llvm.org/devmtg/2011-11/">2011: San Jose, CA, USA</a></li-->
-              <!--li><a href="http://llvm.org/devmtg/2010-11/">2010: San Jose, CA, USA</a></li-->
-              <!--li><a href="http://llvm.org/devmtg/2009-10/">2009: Cupertino, CA, USA</a></li-->
-              <!--li><a href="http://llvm.org/devmtg/2008-08/">2008: Cupertino, CA, USA</a></li-->
-              <!--li><a href="http://llvm.org/devmtg/2007-05/">2007: Cupertino, CA, USA</a></li-->
-              <li>European Developers Meeting</li>
-              <li>
-                <a href="http://llvm.org/devmtg/2016-03/"
-                  >2016: Barcelona, Spain</a
-                >
-              </li>
-              <li>
-                <a href="http://llvm.org/devmtg/2015-04/">2015: London, UK</a>
-              </li>
-              <li>
-                <a href="http://llvm.org/devmtg/2014-04/"
-                  >2014: Edinburgh, Scotland</a
-                >
-              </li>
-              <li>
-                <a href="http://llvm.org/devmtg/2013-04/"
-                  >2013: Paris, France</a
-                >
-              </li>
-              <!--li><a href="http://llvm.org/devmtg/2012-04-12/">2012: London, UK</a></li-->
-              <!--li><a href="http://llvm.org/devmtg/2011-09-16/">2011: London, UK</a></li-->
-              <li>Asian Developers Meeting</li>
-              <li>
-                <a href="http://llvm.org/devmtg/2008-08-23/"
-                  >2008: Tokyo, Japan</a
-                >
-              </li>
-              <li><hr /></li>
-              <li><a href="http://llvm.org/devmtg/">show all</a></li>
-            </ul>
-          </li>
-          <!--li ><a href="http://llvm.org/devmtg/2017-03/venue.html">Venue &amp; Accommodation</a></li>-->
-          <!--li ><a href="http://llvm.org/devmtg/2017-03/left-sidebar.html">Left Sidebar</a></li-->
-          <!--li ><a href="http://llvm.org/devmtg/2017-03/right-sidebar.html">Right Sidebar</a></li-->
-          <!--li ><a href="http://llvm.org/devmtg/2017-03/two-sidebar.html">Two Sidebar</a></li-->
-          <!--li ><a href="http://llvm.org/devmtg/2017-03/no-sidebar.html">No Sidebar</a></li-->
-        </ul>
-      </nav>
-    </div>
+<!-- Arcana by HTML5 UP html5up.net | @n33co Free for personal and commercial use under the CCA 3.0 license (html5up.net/license) --> EuroLLVM'17    <!--[if lte IE 8 ]><script src="http://llvm.org/devmtg/2017-03//assets/css/ie/html5shiv.js"></script ><![endif]-->
 
-    <!-- Main -->
-    <section class="wrapper style1">
-      <div class="container">
-        <!-- Blog -->
-        <section>
-          <header class="major">
-            <h2>The Registration is Open</h2>
-            <p>Posted 11 Jan 2017</p>
-          </header>
-          <div class="row">
-            <div class="8u -2u">
-              <section class="box">
-                <a href="#" class="image left"
-                  ><img
-                    src="http://llvm.org/devmtg/2017-03//assets/images/CSUniSBText.jpg"
-                    alt=""
-                /></a>
-                <p>
-                  The registration for the 2017 European Developers Meeting has
-                  been closed due to high demand.
-                </p>
+<!--[if lte IE 8 ]><link rel="stylesheet" href="http://llvm.org/devmtg/2017-03//assets/css/ie/v8.css" /><![endif]--> <!-- Header -->
 
-                <p>
-                  For information on the conference venue, your travels and
-                  accommodation, please check our
-                  <a href="http://llvm.org/devmtg/2017-03/venue.html"
-                    >Venue &amp; Accommodation</a
-                  >
-                  page.
-                </p>
+<!-- Logo -->
 
-                <p>
-                  Keep in mind that the paper submission deadline is the 27th
-                  January! The same deadline holds for our
-                  <a href="http://llvm.org/devmtg/2017-03/index.html#src"
-                    >student research competition</a
-                  >
-                  that features an NVIDIA Titan X (Pascal) GPU as a first prize!
-                </p>
-              </section>
-            </div>
-          </div>
-        </section>
-      </div>
-    </section>
-    <!-- Footer -->
-    <div id="footer">
-      <!-- Copyright -->
-      <div class="copyright">
-        <ul class="menu">
-          <li>
-            &copy;
-            <a href="http://llvm.org/foundation/">The LLVM Foundation</a>. All
-            rights reserved
-          </li>
-          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-          <li>
-            Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </body>
-</html>
+## [The **LLVM** Compiler Infrastructure](http://llvm.org)
+
+# [2017 European LLVM Developers Meeting](http://llvm.org/devmtg/2017-03/index.html)
+
+### March 27-28, 2017
+
+### [Saarland Informatics Campus](http://sic.saarland), Saarbrücken, Germany
+
+<!-- Nav -->
+
+*   [About](http://llvm.org/devmtg/2017-03/index.html)
+    *   [Program](http://llvm.org/devmtg/2017-03/index.html#program)
+    *   [Sponsors](http://llvm.org/devmtg/2017-03/index.html#sponsors)
+*   [News](http://llvm.org/devmtg/2017-03/blog)
+*   [Venue & Accommodation](http://llvm.org/devmtg/2017-03/venue.html)
+    *   [Accommodation](http://llvm.org/devmtg/2017-03/venue.html#accommodation)
+    *   [Getting To Saarbrücken](http://llvm.org/devmtg/2017-03/venue.html#directionssb)
+    *   [Getting To Campus](http://llvm.org/devmtg/2017-03/venue.html#directionsuni)
+    *   [Social Event Venue: Völklingen Steel Mill](http://llvm.org/devmtg/2017-03/venue.html#social)
+    *   [Places of Interest](http://llvm.org/devmtg/2017-03/venue.html#placesofinterest)
+<!--li > <a href="http://llvm.org/devmtg/2017-03/program.html">Program</a> <ul> <li> <a href="http://llvm.org/devmtg/2017-03/program.html#presentations">Presentations</a> <ul> <li><a href="#">Lorem dolor</a></li> <li><a href="#">Phasellus magna</a></li> <li><a href="#">Magna phasellus</a></li> <li><a href="#">Etiam nisl</a></li> <li><a href="#">Veroeros feugiat</a></li> </ul> </li> <li> <a href="http://llvm.org/devmtg/2017-03/program.html#tutorials">Tutorials</a> <ul> <li><a href="#">Lorem dolor</a></li> <li><a href="#">Phasellus magna</a></li> <li><a href="#">Magna phasellus</a></li> <li><a href="#">Etiam nisl</a></li> <li><a href="#">Veroeros feugiat</a></li> </ul> </li> <li> <a href="http://llvm.org/devmtg/2017-03/program.html#lightning">Lightning Talks</a> <ul> <li><a href="#">Lorem dolor</a></li> <li><a href="#">Phasellus magna</a></li> <li><a href="#">Magna phasellus</a></li> <li><a href="#">Etiam nisl</a></li> <li><a href="#">Veroeros feugiat</a></li> </ul> </li> <li> <a href="http://llvm.org/devmtg/2017-03/program.html#posters">Posters</a> <ul> <li><a href="#">Lorem dolor</a></li> <li><a href="#">Phasellus magna</a></li> <li><a href="#">Magna phasellus</a></li> <li><a href="#">Etiam nisl</a></li> <li><a href="#">Veroeros feugiat</a></li> </ul> </li> <li> <a href="http://llvm.org/devmtg/2017-03/program.html#bofs">BoFs</a> <ul> <li><a href="#">Lorem dolor</a></li> <li><a href="#">Phasellus magna</a></li> <li><a href="#">Magna phasellus</a></li> <li><a href="#">Etiam nisl</a></li> <li><a href="#">Veroeros feugiat</a></li> </ul> </li> </ul> &lt;/li--&gt;*   [Past Instances](http://llvm.org/devmtg/2017-03/past.html)
+    *   US Developers Meeting
+    *   [2016: San Jose, CA, USA](http://llvm.org/devmtg/2016-11/)
+    *   [2015: San Jose, CA, USA](http://llvm.org/devmtg/2015-10/)
+    *   [2014: San Jose, CA, USA](http://llvm.org/devmtg/2014-10/)
+    *   [2013: San Francisco, CA, USA](http://llvm.org/devmtg/2013-11/)
+    <!--li><a href="http://llvm.org/devmtg/2012-11/">2012: San Jose, CA, USA</a>&lt;/li--&gt; <!--li><a href="http://llvm.org/devmtg/2011-11/">2011: San Jose, CA, USA</a>&lt;/li--&gt; <!--li><a href="http://llvm.org/devmtg/2010-11/">2010: San Jose, CA, USA</a>&lt;/li--&gt; <!--li><a href="http://llvm.org/devmtg/2009-10/">2009: Cupertino, CA, USA</a>&lt;/li--&gt; <!--li><a href="http://llvm.org/devmtg/2008-08/">2008: Cupertino, CA, USA</a>&lt;/li--&gt; <!--li><a href="http://llvm.org/devmtg/2007-05/">2007: Cupertino, CA, USA</a>&lt;/li--&gt;*   European Developers Meeting
+    *   [2016: Barcelona, Spain](http://llvm.org/devmtg/2016-03/)
+    *   [2015: London, UK](http://llvm.org/devmtg/2015-04/)
+    *   [2014: Edinburgh, Scotland](http://llvm.org/devmtg/2014-04/)
+    *   [2013: Paris, France](http://llvm.org/devmtg/2013-04/)
+    <!--li><a href="http://llvm.org/devmtg/2012-04-12/">2012: London, UK</a>&lt;/li--&gt; <!--li><a href="http://llvm.org/devmtg/2011-09-16/">2011: London, UK</a>&lt;/li--&gt;*   Asian Developers Meeting
+    *   [2008: Tokyo, Japan](http://llvm.org/devmtg/2008-08-23/)
+    *   * * *
+
+    *   [show all](http://llvm.org/devmtg/)
+<!--li ><a href="http://llvm.org/devmtg/2017-03/venue.html">Venue &amp; Accommodation</a></li>--> <!--li ><a href="http://llvm.org/devmtg/2017-03/left-sidebar.html">Left Sidebar</a>&lt;/li--&gt; <!--li ><a href="http://llvm.org/devmtg/2017-03/right-sidebar.html">Right Sidebar</a>&lt;/li--&gt; <!--li ><a href="http://llvm.org/devmtg/2017-03/two-sidebar.html">Two Sidebar</a>&lt;/li--&gt; <!--li ><a href="http://llvm.org/devmtg/2017-03/no-sidebar.html">No Sidebar</a>&lt;/li--&gt;
+
+<!-- Main -->
+
+<!-- Blog -->
+
+## The Registration is Open
+
+Posted 11 Jan 2017
+
+[![](http://llvm.org/devmtg/2017-03//assets/images/CSUniSBText.jpg)](#)
+
+The registration for the 2017 European Developers Meeting has been closed due to high demand.
+
+For information on the conference venue, your travels and accommodation, please check our [Venue & Accommodation](http://llvm.org/devmtg/2017-03/venue.html) page.
+
+Keep in mind that the paper submission deadline is the 27th January! The same deadline holds for our [student research competition](http://llvm.org/devmtg/2017-03/index.html#src) that features an NVIDIA Titan X (Pascal) GPU as a first prize!
+
+<!-- Footer -->
+
+<!-- Copyright -->
+
+*   © [The LLVM Foundation](http://llvm.org/foundation/). All rights reserved
+*   Design: [HTML5 UP](http://html5up.net)
+*   Jekyll Template: [Cloud Cannon](http://cloudcannon.com)

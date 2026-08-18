@@ -1,273 +1,165 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "devmtg/2018-10/cfp-guide.html"
 ---
+# 2018 Bay Area LLVM Developers' Meeting
 
-<div class="www_sectiontitle">2018 Bay Area LLVM Developers' Meeting</div>
 <div style="float: left; width: 68%">
-  <br />
-  <div style="width: 100%">
-    <table>
-      <tr>
-        <td valign="top">
-          <ol>
-            <li><a href="#about">About</a></li>
-            <li><a href="#timeline">Important Dates</a></li>
-            <li><a href="#register">Registration</a></li>
-            <li><a href="#wictw">Women in Compilers & Tools Workshop</a></li>
-            <li><a href="#cfp">Call for Papers</a></li>
-            <li><a href="#grant">Travel Grants for Students</a></li>
-            <li><a href="#coc">Code of Conduct</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ol>
-        </td>
 
-        <td valign="top">
-          <ul>
-            <li><b>Conference Dates</b>: October 17-18, 2018</li>
-            <li>
-              <b>Location</b>: <a href=""> San Jose Convention Center</a>, San
-              Jose, CA
-            </li>
-            <li>
-              <b>Women in Compilers and Tools Workshop</b>: October 16, 2018
-              (1:00-6:30pm)
-            </li>
-            <li>More details to come.</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </div>
+<div style="width: 100%">
 
-  <div class="www_sectiontitle">Writing a Proposal Guide</div>
-  <p>
-    Detailed guidance on writing a proposal for the LLVM Developers’ Meeting
-  </p>
+1.  [About](#about)
+2.  [Important Dates](#timeline)
+3.  [Registration](#register)
+4.  [Women in Compilers & Tools Workshop](#wictw)
+5.  [Call for Papers](#cfp)
+6.  [Travel Grants for Students](#grant)
+7.  [Code of Conduct](#coc)
+8.  [Contact](#contact)
 
-  <p><b>Writing a proposal for the LLVM Developers’ Meeting</b></p>
-  <p>
-    This document is a guide to help you submit the best proposal and increase
-    your chances of your proposal being accepted. The LLVM Developers’ Meeting
-    program committee receives more proposals than can be accepted, so please
-    read this guide careful.
-  </p>
-  <p>
-    If you have never presented at an LLVM Developers’ Meeting, then do not fear
-    this process. We are actively looking for new speakers who are excited about
-    LLVM and helping grow the community through these educational talks! You do
-    not need to be a long time developer to submit a proposal.
-  </p>
+*   **Conference Dates**: October 17-18, 2018
+*   **Location**: San Jose Convention Center, San Jose, CA
+*   **Women in Compilers and Tools Workshop**: October 16, 2018 (1:00-6:30pm)
+*   More details to come.
 
-  <p><b>General Guidelines:</b></p>
-  <p>
-    It should be clear from your abstract what your topic is, who your targeted
-    audience is, and what are the takeaways for attendees. The program committee
-    gets a lot of proposals and does not have time to read 10 page papers for
-    each submission (excluding SRC submissions).
-  </p>
-  <p>
-    Talks about a use of LLVM (etc) should include details about how LLVM is
-    used and not only be about the resulting application. Tutorials on “how to
-    use X” in LLVM (or other subproject) are greatly desired and beneficial to
-    many developers. Entry level topics are encouraged as well.
-  </p>
-  <p>
-    Talks that have been presented at other technical conferences tend to not
-    get accepted. If you have presented this topic before, make it clear what is
-    new and different in your talk.
-  </p>
+</div>
 
-  <p><b>Technical Talk and SRC Talk Proposal Template:</b></p>
-  <p>** Place in Abstract Text Box on the Submission Form **</p>
-  <p>
-    Title:<br />
-    This will be displayed on the website, schedule, and signs. Keep it short
-    and catchy to attract attendees to your talks. A couple of examples are
-    “WebAssembly: Here Be Dragons” or “Beyond Sanitizers: guided fuzzing and
-    security hardening”.
-  </p>
+# Writing a Proposal Guide
 
-  <p>
-    Speaker Name(s), Company, Email: <br />This should be only the people giving
-    the talk. HotCRP allows you to list authors but not speakers. We also
-    recommend you put speakers only in the HotCRP “Contact” field so they are
-    the ones contacted regarding conference details.
-  </p>
-  <p>
-    Important: HotCRP is set to blind submissions. Use the "Contact" Field if
-    you want to make sure your submission is fully blind.
-  </p>
+Detailed guidance on writing a proposal for the LLVM Developers’ Meeting
 
-  <p>
-    Description: <br />1-2 paragraphs. Keep in mind that this is displayed on
-    the schedule and website for attendees to consider when selecting talks. We
-    suggest you proof read and pay attention to grammar.
-  </p>
+**Writing a proposal for the LLVM Developers’ Meeting**
 
-  <p>
-    Details: Here you can include more details about your talk. An outline, demo
-    description, background of the speaker, etc. 1-2 paragraphs is sufficient
-    usually. This section will not be published and is intended for the PC to
-    better understand how interesting your talk will be to the audience. For
-    example, if you would prefer not to reveal some conclusions in the published
-    abstract, explaining them here ensures that the PC can take them into
-    account when evaluating your proposal.
-  </p>
-  <p>SRC Paper: <br />If this is an SRC talk, please attached your paper.</p>
+This document is a guide to help you submit the best proposal and increase your chances of your proposal being accepted. The LLVM Developers’ Meeting program committee receives more proposals than can be accepted, so please read this guide careful.
 
-  <p><b>BoF Talk Proposal Template:</b></p>
-  <p>** Place in Abstract Text Box on the Submission Form **</p>
+If you have never presented at an LLVM Developers’ Meeting, then do not fear this process. We are actively looking for new speakers who are excited about LLVM and helping grow the community through these educational talks! You do not need to be a long time developer to submit a proposal.
 
-  <p>
-    Title: <br />This will be displayed on the website, schedule, and signs.
-    These tend to be very straight forward about the area being discussed. An
-    example is “Future directions and features for LLDB”.
-  </p>
+**General Guidelines:**
 
-  <p>
-    Speaker Name(s), Company, Email:
-    <br />
-    This should be only the people giving the talk. HotCRP allows you to list
-    authors but not speakers. We also recommend you put speakers only in the
-    HotCRP “Contact” field so they are the ones contacted regarding conference
-    details.
-  </p>
+It should be clear from your abstract what your topic is, who your targeted audience is, and what are the takeaways for attendees. The program committee gets a lot of proposals and does not have time to read 10 page papers for each submission (excluding SRC submissions).
 
-  <p>
-    Description: <br />1-2 paragraphs. Keep in mind that this is displayed on
-    the schedule and website for attendees to consider when selecting which BoFs
-    to attend.Provide some talking points or potential subtopics. We suggest you
-    proof read and pay attention to grammar.
-  </p>
+Talks about a use of LLVM (etc) should include details about how LLVM is used and not only be about the resulting application. Tutorials on “how to use X” in LLVM (or other subproject) are greatly desired and beneficial to many developers. Entry level topics are encouraged as well.
 
-  <p>
-    Details: <br />Provide additional details: goals of the BoF, presentation
-    style. BoFs are to brainstorm ideas on a specific topic but you will be more
-    successful if you have a guided discussion with talking points and
-    actionable items at the end.
-  </p>
+Talks that have been presented at other technical conferences tend to not get accepted. If you have presented this topic before, make it clear what is new and different in your talk.
 
-  <p>
-    <b>Tutorial Proposal Template:</b> <br />** Place in Abstract Text Box on
-    the Submission Form **
-  </p>
+**Technical Talk and SRC Talk Proposal Template:**
 
-  <p>
-    Title: <br />This will be displayed on the website, schedule, and signs.
-    Keep it short and catchy to attract attendees to your talks.
-  </p>
+\*\* Place in Abstract Text Box on the Submission Form \*\*
 
-  <p>
-    Speaker Names(s), Company, Email Address: <br />This should be only the
-    people giving the talk. HotCRP allows you to list authors but not speakers.
-    We also recommend you put speakers only in the HotCRP “Contact” field so
-    they are the ones contacted regarding conference details. Typically 1-2
-    speakers.
-  </p>
+Title:  
+This will be displayed on the website, schedule, and signs. Keep it short and catchy to attract attendees to your talks. A couple of examples are “WebAssembly: Here Be Dragons” or “Beyond Sanitizers: guided fuzzing and security hardening”.
 
-  <p>
-    Description: <br />1-2 paragraphs. Keep in mind that this is displayed on
-    the schedule and website for attendees to consider when selecting talks. We
-    suggest you proof read and pay attention to grammar.
-  </p>
+Speaker Name(s), Company, Email:  
+This should be only the people giving the talk. HotCRP allows you to list authors but not speakers. We also recommend you put speakers only in the HotCRP “Contact” field so they are the ones contacted regarding conference details.
 
-  <p>
-    Details: <br />Include additional details such as tutorial outline, what
-    materials you will provide attendees, etc.
-  </p>
+Important: HotCRP is set to blind submissions. Use the "Contact" Field if you want to make sure your submission is fully blind.
 
-  <p>
-    <b>Panel Proposal Template:</b> <br />** Place in Abstract Text Box on the
-    Submission Form **
-  </p>
+Description:  
+1-2 paragraphs. Keep in mind that this is displayed on the schedule and website for attendees to consider when selecting talks. We suggest you proof read and pay attention to grammar.
 
-  <p>
-    Title: <br />This will be displayed on the website, schedule, and signs.
-    Keep it short and catchy to attract attendees to your talks.
-  </p>
+Details: Here you can include more details about your talk. An outline, demo description, background of the speaker, etc. 1-2 paragraphs is sufficient usually. This section will not be published and is intended for the PC to better understand how interesting your talk will be to the audience. For example, if you would prefer not to reveal some conclusions in the published abstract, explaining them here ensures that the PC can take them into account when evaluating your proposal.
 
-  <p>
-    Moderator Name(s), Company, Email Address: <br />The person keeping speakers
-    on track and asking questions.
-  </p>
+SRC Paper:  
+If this is an SRC talk, please attached your paper.
 
-  <p>
-    Speaker Names(s), Company, Email Address: <br />The people on the panel.
-    Typically 2-3 speakers. More than 3 tends to be difficult in the time slot.
-    HotCRP allows you to list authors but not speakers. We also recommend you
-    put speakers only in the HotCRP “Contact” field so they are the ones
-    contacted regarding conference details.
-  </p>
+**BoF Talk Proposal Template:**
 
-  <p>
-    Description: <br />This should list one paragraph about the panel topic and
-    what will be discussed. You should also include detailed 2-3 sentence bios
-    for each speaker on the panel.
-  </p>
+\*\* Place in Abstract Text Box on the Submission Form \*\*
 
-  <p>Details: <br />Include some sample questions for the panel.</p>
+Title:  
+This will be displayed on the website, schedule, and signs. These tend to be very straight forward about the area being discussed. An example is “Future directions and features for LLDB”.
+
+Speaker Name(s), Company, Email:  
+This should be only the people giving the talk. HotCRP allows you to list authors but not speakers. We also recommend you put speakers only in the HotCRP “Contact” field so they are the ones contacted regarding conference details.
+
+Description:  
+1-2 paragraphs. Keep in mind that this is displayed on the schedule and website for attendees to consider when selecting which BoFs to attend.Provide some talking points or potential subtopics. We suggest you proof read and pay attention to grammar.
+
+Details:  
+Provide additional details: goals of the BoF, presentation style. BoFs are to brainstorm ideas on a specific topic but you will be more successful if you have a guided discussion with talking points and actionable items at the end.
+
+**Tutorial Proposal Template:**  
+\*\* Place in Abstract Text Box on the Submission Form \*\*
+
+Title:  
+This will be displayed on the website, schedule, and signs. Keep it short and catchy to attract attendees to your talks.
+
+Speaker Names(s), Company, Email Address:  
+This should be only the people giving the talk. HotCRP allows you to list authors but not speakers. We also recommend you put speakers only in the HotCRP “Contact” field so they are the ones contacted regarding conference details. Typically 1-2 speakers.
+
+Description:  
+1-2 paragraphs. Keep in mind that this is displayed on the schedule and website for attendees to consider when selecting talks. We suggest you proof read and pay attention to grammar.
+
+Details:  
+Include additional details such as tutorial outline, what materials you will provide attendees, etc.
+
+**Panel Proposal Template:**  
+\*\* Place in Abstract Text Box on the Submission Form \*\*
+
+Title:  
+This will be displayed on the website, schedule, and signs. Keep it short and catchy to attract attendees to your talks.
+
+Moderator Name(s), Company, Email Address:  
+The person keeping speakers on track and asking questions.
+
+Speaker Names(s), Company, Email Address:  
+The people on the panel. Typically 2-3 speakers. More than 3 tends to be difficult in the time slot. HotCRP allows you to list authors but not speakers. We also recommend you put speakers only in the HotCRP “Contact” field so they are the ones contacted regarding conference details.
+
+Description:  
+This should list one paragraph about the panel topic and what will be discussed. You should also include detailed 2-3 sentence bios for each speaker on the panel.
+
+Details:  
+Include some sample questions for the panel.
+
 </div>
 
 <!-- *********************************************************************** -->
 
 <div style="float: left; width: 30%; padding-left: 20px">
-  <h2 align="center">Diamond Sponsors:</h2>
-  <div class="sponsors_diamond">
-    <a href="http://www.apple.com">
-      <h1>Apple</h1>
-      Apple</a
-    ><br />
-    <a href="http://www.quicinc.com/"
-      ><img src="logos/quic-stack-version.jpg" /> <br />QuIC</a
-    ><br />
-  </div>
 
-  <h2 align="center">Platinum Sponsors:</h2>
-  <div class="sponsors_platinum">
-    <a href="http://google.com"
-      ><img src="logos/Google-logo_420_color_2x.png" /> <br />Google</a
-    ><br />
-    <a href="http://www.mozilla.org"
-      ><img src="logos/Mozilla.png" /> <br />Mozilla</a
-    ><br />
-    <a href="http://us.playstation.com/corporate/about/"
-      ><img src="logos/psf_pos.jpg" /> <br />Sony Interactive Entertainment</a
-    >
-  </div>
+## Diamond Sponsors:
 
-  <h2 align="center">Gold Sponsors:</h2>
-  <div class="sponsors_gold">
-    <a href="http://www.arm.com/"
-      ><img src="logos/Arm_logo_blue_150LG.png" /> <br />Arm</a
-    ><br />
-    <a href="https://www.mentor.com"
-      ><img src="logos/Mentor-ASB-Logo-Black-Hires.png" /> <br />Mentor</a
-    ><br />
-    <a href="http://intel.com"><img src="logos/Intel-logo.png" /><br />Intel</a
-    ><br />
-    <a href="http://facebook.com/"
-      ><img src="logos/FB-fLogo-Blue-broadcast-2.png" /> <br />Facebook</a
-    ><br />
-    <a href="http://www.hsafoundation.com"
-      ><img src="logos/HSAFoundation-FINAL.PNG" /> <br />HSA Foundation</a
-    ><br />
-    <a href="https://nebulas.io"
-      ><img src="logos/nebulas.png" /> <br />Nebulas</a
-    ><br />
-  </div>
+[
 
-  <h2 align="center">Silver Sponsors:</h2>
-  <div class="sponsors_silver">
-    <a href="http://www.huawei.com/"
-      ><img src="logos/Huawei-Logo.jpg" /> <br />Huawei</a
-    ><br />
-  </div>
+# Apple
 
-  <div align="right"><i>Thank you to our sponsors!</i></div>
+Apple](http://www.apple.com)  
+[![](logos/quic-stack-version.jpg)  
+QuIC](http://www.quicinc.com/)  
+
+## Platinum Sponsors:
+
+[![](logos/Google-logo_420_color_2x.png)  
+Google](http://google.com)  
+[![](logos/Mozilla.png)  
+Mozilla](http://www.mozilla.org)  
+[![](logos/psf_pos.jpg)  
+Sony Interactive Entertainment](http://us.playstation.com/corporate/about/)
+
+## Gold Sponsors:
+
+[![](logos/Arm_logo_blue_150LG.png)  
+Arm](http://www.arm.com/)  
+[![](logos/Mentor-ASB-Logo-Black-Hires.png)  
+Mentor](https://www.mentor.com)  
+[![](logos/Intel-logo.png)  
+Intel](http://intel.com)  
+[![](logos/FB-fLogo-Blue-broadcast-2.png)  
+Facebook](http://facebook.com/)  
+[![](logos/HSAFoundation-FINAL.PNG)  
+HSA Foundation](http://www.hsafoundation.com)  
+[![](logos/nebulas.png)  
+Nebulas](https://nebulas.io)  
+
+## Silver Sponsors:
+
+[![](logos/Huawei-Logo.jpg)  
+Huawei](http://www.huawei.com/)  
+
+*Thank you to our sponsors!*
+
 </div>
 
 <!-- *********************************************************************** -->
 
-<hr />
-
+* * *

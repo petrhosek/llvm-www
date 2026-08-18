@@ -1,61 +1,53 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "devmtg/2016-02/londonmenu.html"
 ---
+# Clang/LLVM Sprint Weekend hosted by Bloomberg (London)
 
-<div class="www_sectiontitle">
-  Clang/LLVM Sprint Weekend hosted by Bloomberg (London)
-</div>
-<div class="www_subsection">Menu - Saturday Breakfast</div>
-<ul>
-  <li>Mini Croissant & butter</li>
-  <li>Mini Danish Pastries</li>
-  <li>Fruit Skewers</li>
-  <li>Freshly squeezed orange juice</li>
-</ul>
+## Menu - Saturday Breakfast
 
-<div class="www_subsection">Menu - Saturday Lunch</div>
-<ul>
-  <li>Sandwiches (mixed)</li>
-  <li>Finger Food Buffet</li>
-  <li>Tortilla Chips with salsa dip</li>
-  <li>Mini Cake & dessert selection</li>
-  <li>Fresh Fruit Skewer</li>
-</ul>
+*   Mini Croissant & butter
+*   Mini Danish Pastries
+*   Fruit Skewers
+*   Freshly squeezed orange juice
 
-<div class="www_subsection">Menu - Saturday Dinner</div>
-<ul>
-  <li>Fish Cakes</li>
-  <li>Lasagna Bolognese</li>
-  <li>Vegetarian Paella</li>
-  <li>Mixed leaf salad</li>
-  <li>Cucumber and olive salad</li>
-</ul>
+## Menu - Saturday Lunch
 
-<div class="www_subsection">Menu - Sunday Breakfast</div>
-<ul>
-  <li>Fresh fruit skewer</li>
-  <li>Open mini bagel with smoked salmon and cream cheese</li>
-  <li>Scrambled egg and tomato on a soft roll</li>
-  <li>Sausage in a soft roll</li>
-  <li>Bacon in a soft roll</li>
-</ul>
+*   Sandwiches (mixed)
+*   Finger Food Buffet
+*   Tortilla Chips with salsa dip
+*   Mini Cake & dessert selection
+*   Fresh Fruit Skewer
 
-<div class="www_subsection">Menu - Sunday Lunch</div>
-<ul>
-  <li>Sandwiches (mixed)</li>
-  <li>Finger Food Buffet</li>
-  <li>Tortilla Chips with salsa dip</li>
-  <li>Mini Cake & dessert selection</li>
-  <li>Fresh Fruit Skewer</li>
-</ul>
+## Menu - Saturday Dinner
 
-<div class="www_subsection">Menu - Snacks (both days)</div>
-<ul>
-  <li>Cheese straws, tortilla chips, kettle crisps and flapjacks</li>
-  <li>Energy drinks and soda and water</li>
-</ul>
+*   Fish Cakes
+*   Lasagna Bolognese
+*   Vegetarian Paella
+*   Mixed leaf salad
+*   Cucumber and olive salad
+
+## Menu - Sunday Breakfast
+
+*   Fresh fruit skewer
+*   Open mini bagel with smoked salmon and cream cheese
+*   Scrambled egg and tomato on a soft roll
+*   Sausage in a soft roll
+*   Bacon in a soft roll
+
+## Menu - Sunday Lunch
+
+*   Sandwiches (mixed)
+*   Finger Food Buffet
+*   Tortilla Chips with salsa dip
+*   Mini Cake & dessert selection
+*   Fresh Fruit Skewer
+
+## Menu - Snacks (both days)
+
+*   Cheese straws, tortilla chips, kettle crisps and flapjacks
+*   Energy drinks and soda and water
 
 <!-- *********************************************************************** -->
-<hr />
 
+* * *

@@ -22,7 +22,7 @@ address     { clear: right; }
                background: url("img/lines.gif");
                border: 2px solid #cccccc }
 
-.www_sectiontitle, .www_subsection {
+h1, h2, .www_sectiontitle, .www_subsection {
                border-width: 1px;
                border-style: solid none solid none;
                text-align: center;
@@ -34,13 +34,13 @@ address     { clear: right; }
                width: 100%;
                margin-bottom: 0.3em; }
 
-.www_subsection { width: 75%;
-                  text-align: left;  font-size: 12pt; }
+h2, .www_subsection { width: 75%;
+                      text-align: left;  font-size: 12pt; }
 
-.www_subsubsection { margin: 1.0em 0.5em 0.5em 0.5em;
-                     font-weight: bold; font-style: oblique;
-                     border-bottom: 1px solid #999999; font-size: 12pt;
-                     width: 75%; }
+h3, .www_subsubsection { margin: 1.0em 0.5em 0.5em 0.5em;
+                         font-weight: bold; font-style: oblique;
+                         border-bottom: 1px solid #999999; font-size: 12pt;
+                         width: 75%; }
 
 .www_code { border: solid 1px gray; background: #eeeeee;
             margin: 0 1em 0 1em; 

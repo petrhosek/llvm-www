@@ -1,9 +1,4 @@
 ---
 permalink: "RandomBoxes/010-Docs.html"
 ---
-LLVM has <b>extensive</b> <a href="/docs/">documentation</a> describing the
-high-level aspects of the compiler system in good detail. LLVM also includes
-<a href="/doxygen/">doxygen</a> and
-<a href="/cvsweb/cvsweb.cgi/llvm">CVSWeb</a> documentation for the low-level
-aspects and individual API references. LLVM is one of the best-documented
-compilers available.
+LLVM has **extensive** [documentation](/docs/) describing the high-level aspects of the compiler system in good detail. LLVM also includes [doxygen](/doxygen/) and [CVSWeb](/cvsweb/cvsweb.cgi/llvm) documentation for the low-level aspects and individual API references. LLVM is one of the best-documented compilers available.

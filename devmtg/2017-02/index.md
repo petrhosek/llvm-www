@@ -1,81 +1,37 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "devmtg/2017-02/index.html"
 ---
+# LLVM devroom at FOSDEM
 
-<div class="www_sectiontitle">LLVM devroom at FOSDEM</div>
-<table>
-  <tr>
-    <td valign="top">
-      <ol>
-        <li><a href="#call">Call for Papers</a></li>
-        <li><a href="#logistics">Logistics</a></li>
-        <li><a href="#register">Registration</a></li>
-      </ol>
-    </td>
-    <td>
-      <ul>
-        <li><b>What</b>: LLVM at FOSDEM.</li>
-        <li><b>When</b>: February 5th, 2017</li>
-        <li><b>Where</b>: K.3.201, ULB Campus Solbosch, Brussels, Belgium</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+1.  [Call for Papers](#call)
+2.  [Logistics](#logistics)
+3.  [Registration](#register)
 
-<div class="www_sectiontitle" id="call">Schedule</div>
+*   **What**: LLVM at FOSDEM.
+*   **When**: February 5th, 2017
+*   **Where**: K.3.201, ULB Campus Solbosch, Brussels, Belgium
 
-<p>
-  At FOSDEM 2017, LLVM will again participate with a dedicated devroom.
-  Complementing the upcoming Euro LLVM 2017, the devroom at FOSDEM provides a
-  great opportunity for LLVM developers and the wider open source community to
-  get together, connect and discuss.
-</p>
+# Schedule
 
-<p>
-  As possibly the largest European Open Source Conference, FOSDEM takes place in
-  Brussels and attracts with more than 400 lectures every year over 5000 hackers
-  - many core contributors of the worlds leading open source projects.
-</p>
+At FOSDEM 2017, LLVM will again participate with a dedicated devroom. Complementing the upcoming Euro LLVM 2017, the devroom at FOSDEM provides a great opportunity for LLVM developers and the wider open source community to get together, connect and discuss.
 
-<p>
-  The schedule is published at the
-  <a href="https://fosdem.org/2017/schedule/track/llvm_toolchain/"
-    >FOSDEM website</a
-  >.
-</p>
+As possibly the largest European Open Source Conference, FOSDEM takes place in Brussels and attracts with more than 400 lectures every year over 5000 hackers - many core contributors of the worlds leading open source projects.
 
-<p>
-  We are reserving a time for impromptu lightning talks at 4pm. There are two
-  talks already scheduled for tht time, but anyone that has any proposal up
-  until 4pm of that evening will be able to spend 5 minutes talking something
-  about LLVM. We have to close at 5pm, so we can only accomodate another 4-5 ish
-  talks.
-</p>
+The schedule is published at the [FOSDEM website](https://fosdem.org/2017/schedule/track/llvm_toolchain/).
 
-<div class="www_sectiontitle" id="logistics">Logistics</div>
+We are reserving a time for impromptu lightning talks at 4pm. There are two talks already scheduled for tht time, but anyone that has any proposal up until 4pm of that evening will be able to spend 5 minutes talking something about LLVM. We have to close at 5pm, so we can only accomodate another 4-5 ish talks.
 
-<p>
-  The mailing list
-  <a href="mailo:llvm-devroom@lists.fosdem.org"
-    >llvm-devroom@lists.fosdem.org</a
-  >
-  can be used to discuss issues of general interest related to the conference
-  organization.
-</p>
+# Logistics
 
-<p>
-  Renato Golin, Sylvestre Ledru, Arnaud de Grandmaison, Tobias Grosser, Kristof
-  Beyls and Diana Picus are organizing this devroom.
-</p>
+The mailing list [llvm-devroom@lists.fosdem.org](mailo:llvm-devroom@lists.fosdem.org) can be used to discuss issues of general interest related to the conference organization.
 
-<div class="www_sectiontitle" id="register">Registration</div>
+Renato Golin, Sylvestre Ledru, Arnaud de Grandmaison, Tobias Grosser, Kristof Beyls and Diana Picus are organizing this devroom.
 
-<p>
-  FOSDEM does not require any registration and is free of charge. However, just
-  like last year, a large crowd must be expected.
-</p>
+# Registration
+
+FOSDEM does not require any registration and is free of charge. However, just like last year, a large crowd must be expected.
 
 <!-- *********************************************************************** -->
-<hr />
 
+* * *

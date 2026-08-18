@@ -1,168 +1,42 @@
 ---
 permalink: "builds/index.html"
 ---
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>LLVM Snapshot Builds</title>
-    <link rel="stylesheet" type="text/css" href="../llvm.css" />
-  </head>
+LLVM Snapshot Builds 
 
-  <body>
-    <div class="rel_title">LLVM Snapshot Builds</div>
+# LLVM Snapshot Builds
 
-    <div class="rel_container">
-      <div class="rel_section">License</div>
+## License
 
-      <div class="rel_boxtext">
-        <p>
-          <a href="https://llvm.org/">LLVM</a> is distributed under an open
-          source
-          <a href="https://llvm.org/releases/11.0.0/LICENSE.TXT">License</a>.
-        </p>
-      </div>
-      <div class="rel_section">Other builds</div>
+[LLVM](https://llvm.org/) is distributed under an open source [License](https://llvm.org/releases/11.0.0/LICENSE.TXT).
 
-      <div class="rel_boxtext">
-        <p>
-          See the <a href="../releases/">releases</a> page for stable releases,
-          and the <a href="../apt/">apt</a> page for nightly packages for Debian
-          and Ubuntu.
-        </p>
-      </div>
+## Other builds
 
-      <div class="rel_section">Windows snapshot builds</div>
+See the [releases](../releases/) page for stable releases, and the [apt](../apt/) page for nightly packages for Debian and Ubuntu.
 
-      <div class="rel_boxtext">
-        <p>
-          <b
-            >The snapshot builds are no longer updated. Use the
-            <a href="../releases/">regular releases</a> instead.</b
-          >
-        </p>
+## Windows snapshot builds
 
-        <p>We provide a periodically updated installer for Windows:</p>
+**The snapshot builds are no longer updated. Use the [regular releases](../releases/) instead.**
 
-        <p>
-          <a
-            href="https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win64.exe"
-            >Windows installer (64-bit)</a
-          >
-          <a
-            href="https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win64.exe.sig"
-            >(.sig)</a
-          >, based on Git commit
-          <a href="https://github.com/llvm/llvm-project/commit/6923b0a7"
-            >6923b0a7</a
-          >
-          (28 August 2020).
-        </p>
+We provide a periodically updated installer for Windows:
 
-        <p>
-          If there is a previous version installed, the installer provides an
-          option to uninstall it.
-        </p>
+[Windows installer (64-bit)](https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win64.exe) [(.sig)](https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win64.exe.sig), based on Git commit [6923b0a7](https://github.com/llvm/llvm-project/commit/6923b0a7) (28 August 2020).
 
-        <p>
-          Currently, the package includes
-          <a href="https://clang.llvm.org">clang</a>,
-          <a href="https://clang.llvm.org/docs/ClangFormat.html">clang-format</a
-          >, <a href="https://lld.llvm.org">lld</a>, and the
-          <a href="https://github.com/google/sanitizers/wiki/AddressSanitizer"
-            >AddressSanitizer</a
-          >
-          runtime from <a href="https://compiler-rt.llvm.org">compiler-rt</a>.
-          Eventually it should grow to encompass other Clang tools, and possibly
-          other LLVM projects such as
-          <a href="https://libcxx.llvm.org">libc++</a>.
-        </p>
+If there is a previous version installed, the installer provides an option to uninstall it.
 
-        <p>
-          To use the LLVM toolchain from Visual Studio after running the
-          installer above, install the
-          <a
-            href="https://marketplace.visualstudio.com/items?itemName=LLVMExtensions.llvm-toolchain"
-            >LLVM Compiler Toolchain Visual Studio extension</a
-          >
-          (supports Visual Studio 2017 and later), select a project in Solution
-          Explorer, open its Property Page (Alt+F7 by default), and in the
-          "General" section of "Configuration Properties" change "Platform
-          Toolset" to "llvm". Alternatively, invoke MSBuild with
-          <code>/p:PlatformToolset=llvm</code> to try out the toolchain without
-          modifying the project files.
-        </p>
+Currently, the package includes [clang](https://clang.llvm.org), [clang-format](https://clang.llvm.org/docs/ClangFormat.html), [lld](https://lld.llvm.org), and the [AddressSanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer) runtime from [compiler-rt](https://compiler-rt.llvm.org). Eventually it should grow to encompass other Clang tools, and possibly other LLVM projects such as [libc++](https://libcxx.llvm.org).
 
-        <p>
-          A
-          <a
-            href="https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win32.exe"
-            >32-bit version</a
-          >
-          <a
-            href="https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win32.exe.sig"
-            >(.sig)</a
-          >
-          of the installer is also available.
-        </p>
+To use the LLVM toolchain from Visual Studio after running the installer above, install the [LLVM Compiler Toolchain Visual Studio extension](https://marketplace.visualstudio.com/items?itemName=LLVMExtensions.llvm-toolchain) (supports Visual Studio 2017 and later), select a project in Solution Explorer, open its Property Page (Alt+F7 by default), and in the "General" section of "Configuration Properties" change "Platform Toolset" to "llvm". Alternatively, invoke MSBuild with `/p:PlatformToolset=llvm` to try out the toolchain without modifying the project files.
 
-        <p>
-          The .sig files are PGP signatures using key
-          <a href="https://releases.llvm.org/11.0.0/hans-gpg-key.asc"
-            >345AD05D</a
-          >.
-        </p>
-      </div>
+A [32-bit version](https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win32.exe) [(.sig)](https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win32.exe.sig) of the installer is also available.
 
-      <div class="rel_section">clang-format plugin for Visual Studio</div>
+The .sig files are PGP signatures using key [345AD05D](https://releases.llvm.org/11.0.0/hans-gpg-key.asc).
 
-      <div class="rel_boxtext">
-        <p>
-          <b
-            >The plugin is no longer updated. Visual Studio has
-            <a
-              href="https://devblogs.microsoft.com/cppblog/clangformat-support-in-visual-studio-2017-15-7-preview-1/"
-              >built-in support for clang-format</a
-            >
-            since 2017 15.7 Preview 1.</b
-          >
-        </p>
+## clang-format plugin for Visual Studio
 
-        <p>
-          We also provide a standalone Visual Studio plugin for clang-format. It
-          requires Visual Studio 2012 Professional or later. Notably, the
-          Express editions do not support plugins.
-        </p>
+**The plugin is no longer updated. Visual Studio has [built-in support for clang-format](https://devblogs.microsoft.com/cppblog/clangformat-support-in-visual-studio-2017-15-7-preview-1/) since 2017 15.7 Preview 1.**
 
-        <p>
-          <a
-            href="https://prereleases.llvm.org/win-snapshots/ClangFormat-6923b0a7.vsix"
-            >Visual Studio plugin installer</a
-          >
-          <a
-            href="https://prereleases.llvm.org/win-snapshots/ClangFormat-6923b0a7.vsix.sig"
-            >(.sig)</a
-          >, based on based on Git commit
-          <a href="https://github.com/llvm/llvm-project/commit/6923b0a7"
-            >6923b0a7</a
-          >. This is also available
-          <a
-            href="https://marketplace.visualstudio.com/items?itemName=LLVMExtensions.ClangFormat"
-            >at the Visual Studio Marketplace</a
-          >. A separate build of the clang-format binary is available as
-          <a
-            href="https://prereleases.llvm.org/win-snapshots/clang-format-6923b0a7.exe"
-            >clang-format-6923b0a7.exe</a
-          >
-          <a
-            href="https://prereleases.llvm.org/win-snapshots/clang-format-6923b0a7.exe.sig"
-            >(.sig)</a
-          >.
-        </p>
-      </div>
-    </div>
-    <!-- rel_container -->
+We also provide a standalone Visual Studio plugin for clang-format. It requires Visual Studio 2012 Professional or later. Notably, the Express editions do not support plugins.
 
-    <!--#include virtual="../attrib.incl" -->
-  </body>
-</html>
+[Visual Studio plugin installer](https://prereleases.llvm.org/win-snapshots/ClangFormat-6923b0a7.vsix) [(.sig)](https://prereleases.llvm.org/win-snapshots/ClangFormat-6923b0a7.vsix.sig), based on based on Git commit [6923b0a7](https://github.com/llvm/llvm-project/commit/6923b0a7). This is also available [at the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=LLVMExtensions.ClangFormat). A separate build of the clang-format binary is available as [clang-format-6923b0a7.exe](https://prereleases.llvm.org/win-snapshots/clang-format-6923b0a7.exe) [(.sig)](https://prereleases.llvm.org/win-snapshots/clang-format-6923b0a7.exe.sig).
+
+<!-- rel_container --> <!--#include virtual="../attrib.incl" -->

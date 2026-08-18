@@ -1,67 +1,35 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "devmtg/2020-02-01/index.html"
 ---
+# LLVM devroom at FOSDEM
 
-<div class="www_sectiontitle">LLVM devroom at FOSDEM</div>
-<table>
-  <tr>
-    <td valign="top">
-      <ol>
-        <li><a href="#schedule">Schedule</a></li>
-        <li><a href="#logistics">Logistics</a></li>
-        <li><a href="#register">Registration</a></li>
-      </ol>
-    </td>
-    <td>
-      <ul>
-        <li><b>What</b>: LLVM at FOSDEM.</li>
-        <li><b>When</b>: February 1st, 2020</li>
-        <li><b>Where</b>: ULB Campus Solbosch, Brussels, Belgium</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+1.  [Schedule](#schedule)
+2.  [Logistics](#logistics)
+3.  [Registration](#register)
 
-<div class="www_sectiontitle" id="schedule">Schedule</div>
+*   **What**: LLVM at FOSDEM.
+*   **When**: February 1st, 2020
+*   **Where**: ULB Campus Solbosch, Brussels, Belgium
 
-<p>
-  At FOSDEM 2020, LLVM will again participate with a dedicated devroom. The
-  devroom at FOSDEM provides a great opportunity for LLVM developers and the
-  wider open source community to get together, connect and discuss.
-</p>
+# Schedule
 
-<p>
-  As possibly the largest European Open Source Conference, FOSDEM takes place in
-  Brussels and attracts more than 650 lectures and over 8000 hackers - many core
-  contributors of the worlds leading open source projects.
-</p>
+At FOSDEM 2020, LLVM will again participate with a dedicated devroom. The devroom at FOSDEM provides a great opportunity for LLVM developers and the wider open source community to get together, connect and discuss.
 
-<p>
-  The schedule and full details of presentations is available on the
-  <a href="https://fosdem.org/2020/schedule/track/llvm/">FOSDEM website</a>.
-</p>
+As possibly the largest European Open Source Conference, FOSDEM takes place in Brussels and attracts more than 650 lectures and over 8000 hackers - many core contributors of the worlds leading open source projects.
 
-<div class="www_sectiontitle" id="logistics">Logistics</div>
+The schedule and full details of presentations is available on the [FOSDEM website](https://fosdem.org/2020/schedule/track/llvm/).
 
-<p>
-  The mailing list
-  <a href="mailo:llvm-devroom@lists.fosdem.org"
-    >llvm-devroom@lists.fosdem.org</a
-  >
-  can be used to discuss issues of general interest related to the conference
-  organization.
-</p>
+# Logistics
 
-<p>Kristof Beyls is organizing this devroom, with help from many others.</p>
+The mailing list [llvm-devroom@lists.fosdem.org](mailo:llvm-devroom@lists.fosdem.org) can be used to discuss issues of general interest related to the conference organization.
 
-<div class="www_sectiontitle" id="register">Registration</div>
+Kristof Beyls is organizing this devroom, with help from many others.
 
-<p>
-  FOSDEM does not require any registration and is free of charge. However, just
-  like previous years, a large crowd must be expected.
-</p>
+# Registration
+
+FOSDEM does not require any registration and is free of charge. However, just like previous years, a large crowd must be expected.
 
 <!-- *********************************************************************** -->
-<hr />
 
+* * *

@@ -1,288 +1,49 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "devmtg/2010-11/index.html"
 ---
+# 2010 LLVM Developers' Meeting
 
-<div class="www_sectiontitle">2010 LLVM Developers' Meeting</div>
-<table>
-  <tr>
-    <td valign="top">
-      <ol>
-        <li><a href="#agenda">Agenda</a></li>
-      </ol>
-    </td>
-    <td>
-      <ul>
-        <li>
-          <b>What</b>: The fourth general meeting of LLVM Developers and Users.
-        </li>
-        <li>
-          <b>Why</b>: To get acquainted, learn how LLVM is used, and exchange
-          ideas.
-        </li>
-        <li><b>When</b>: November 4, 2010</li>
-        <li>
-          <b>Where</b>:
-          <a
-            href="http://www1.hilton.com/en_US/hi/hotel/SJCSHHF-Hilton-San-Jose-California/index.do"
-            >Hilton</a
-          >, 300 Almaden Boulevard, San Jose, CA
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+1.  [Agenda](#agenda)
 
-<div align="center">
-  <h2>
-    <b
-      >SPONSORED BY: <a href="http://apple.com">Apple</a>,
-      <a href="http://www.qualcomm.com/quicinc/">QuIC</a>,
-      <a href="http://google.com">Google</a>,
-      <a href="http://qualcomm.com">Qualcomm</a></b
-    >
-  </h2>
-</div>
+*   **What**: The fourth general meeting of LLVM Developers and Users.
+*   **Why**: To get acquainted, learn how LLVM is used, and exchange ideas.
+*   **When**: November 4, 2010
+*   **Where**: [Hilton](http://www1.hilton.com/en_US/hi/hotel/SJCSHHF-Hilton-San-Jose-California/index.do), 300 Almaden Boulevard, San Jose, CA
 
-<p>
-  The meeting serves as a forum for <a href="http://llvm.org">LLVM</a>,
-  <a href="http://clang.llvm.org">Clang</a>,
-  <a href="http://lldb.llvm.org">LLDB</a> and other LLVM project developers and
-  users to get acquainted, learn how LLVM is used, and exchange ideas about LLVM
-  and its (potential) applications. More broadly, we believe the event will be
-  of particular interest to the following people:
-</p>
+## **SPONSORED BY: [Apple](http://apple.com), [QuIC](http://www.qualcomm.com/quicinc/), [Google](http://google.com), [Qualcomm](http://qualcomm.com)**
 
-<ul>
-  <li>
-    Active developers of projects in the LLVM Umbrella (LLVM core, Clang, LLDB,
-    libc++, compiler_rt, klee, dragonegg, etc).
-  </li>
-  <li>Anyone interested in using these as part of another project.</li>
-  <li>Compiler, programming language, and runtime enthusiasts.</li>
-  <li>
-    Those interested in using compiler and toolchain technology in novel and
-    interesting ways.
-  </li>
-</ul>
-<p>
-  We also invite you to sign up for the
-  <a href="http://lists.llvm.org/mailman/listinfo/llvm-devmeeting"
-    >official Developer Meeting mailing list</a
-  >
-  to be kept informed of updates concerning the meeting:
-</p>
-<div class="www_sectiontitle" id="agenda">Agenda</div>
-<p></p>
-<table id="devmtg">
-  <tr>
-    <th>Media</th>
-    <th>Talk</th>
-  </tr>
+The meeting serves as a forum for [LLVM](http://llvm.org), [Clang](http://clang.llvm.org), [LLDB](http://lldb.llvm.org) and other LLVM project developers and users to get acquainted, learn how LLVM is used, and exchange ideas about LLVM and its (potential) applications. More broadly, we believe the event will be of particular interest to the following people:
 
-  <tr>
-    <td align="center">
-      [<a href="Sehr-NativeClient.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/o54AJUVP3pc">Video</a>]</p>
-    </td>
-    <td><b>Portable Native Client</b><br />David Sehr, <i>Google</i></td>
-  </tr>
+*   Active developers of projects in the LLVM Umbrella (LLVM core, Clang, LLDB, libc++, compiler\_rt, klee, dragonegg, etc).
+*   Anyone interested in using these as part of another project.
+*   Compiler, programming language, and runtime enthusiasts.
+*   Those interested in using compiler and toolchain technology in novel and interesting ways.
 
-  <tr class="alt">
-    <td align="center">
-      [<a href="Villmow-OpenCL.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/uc8cAB009Ok">Video</a>]</p>
-    </td>
-    <td>
-      <b
-        >AMD OpenCL Compiler - Using LLVM to produce a cross-platform
-        heterogeneous compiler tool chain</b
-      ><br />Micah Villmow, <i>AMD Inc.</i>
-    </td>
-  </tr>
+We also invite you to sign up for the [official Developer Meeting mailing list](http://lists.llvm.org/mailman/listinfo/llvm-devmeeting) to be kept informed of updates concerning the meeting:
 
-  <tr>
-    <td align="center">
-      [<a href="Silverstein-IncludeWhatYouUse.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/jPw2sVAhbsQ">Video</a>]</p>
-    </td>
-    <td>
-      <b>Implementing Include-What-You-Use using clang</b><br />Craig
-      Silverstein, <i>Google</i>
-    </td>
-  </tr>
+# Agenda
 
-  <tr class="alt">
-    <td align="center">
-      [<a href="Gregor-libclang.pdf">Slides</a>]
-      <p>
-        [<a href="http://devimages.apple.com/llvm/videos/Libclang.mov">Video</a
-        >]
-      </p>
-    </td>
-    <td>
-      <b>libclang: Thinking Beyond the Compiler</b><br />Doug Gregor,
-      <i>Apple Inc.</i>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      [<a href="Grosser-Polly.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/WwfZkQEuwEE">Video</a>]</p>
-    </td>
-    <td>
-      <b>Polly - Polyhedral optimizations in LLVM</b><br />Tobias Grosser ,
-      <i>University of Passau</i>
-    </td>
-  </tr>
-
-  <tr class="alt">
-    <td align="center">
-      [<a href="Hinnant-libcxx.pdf">Slides</a>]
-      <p>
-        [<a href="http://devimages.apple.com/llvm/videos/LibC++.mov">Video</a>]
-      </p>
-    </td>
-    <td>
-      <b>libc++: A Standard Library for C++0x</b><br />Howard Hinnant,
-      <i>Apple Inc.</i>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      [<a href="Collingbourne-SymbolicCrossChecking.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/ZBXy6NSKwjs">Video</a>]</p>
-    </td>
-    <td>
-      <b>Symbolic Crosschecking of Floating-Point and SIMD Code</b><br />Peter
-      Collingbourne, <i>Imperial College London</i>
-    </td>
-  </tr>
-
-  <tr class="alt">
-    <td align="center">
-      [<a href="Dunbar-MC.pdf">Slides</a>]
-      <p>
-        [<a
-          href="http://devimages.apple.com/llvm/videos/LLVM_Assembler_Infrastructure.mov"
-          >Video</a
-        >]
-      </p>
-    </td>
-    <td>
-      <b>The LLVM Assembler &amp; Machine Code Infrastructure</b><br />Daniel
-      Dunbar, <i>Apple Inc.</i>
-    </td>
-  </tr>
-
-  <tr class="alt">
-    <td align="center">
-      [<a href="Naumann-Cling.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/BjmGOMJWeAo">Video</a>]</p>
-    </td>
-    <td>
-      <b>Creating cling, an interactive interpreter interface for clang</b
-      ><br />Axel Naumann, <i>CERN</i>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      [<a href="Clayton-LLDB.pdf">Slides</a>]
-      <p>
-        [<a
-          href="http://devimages.apple.com/llvm/videos/LLDB_Debugging_Infrastructure.mov"
-          >Video</a
-        >]
-      </p>
-    </td>
-    <td>
-      <b>LLDB: Modular Debugging Infrastructure</b><br />Greg Clayton,
-      <i>Apple Inc.</i>
-    </td>
-  </tr>
-
-  <tr class="alt">
-    <td align="center">
-      [<a href="Muller-Crack.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/5nOiSCr7JPs">Video</a>]</p>
-    </td>
-    <td>
-      <b>The Crack Scripting Language</b><br />Michael Muller, <i>Google</i>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      [<a href="Yang-HardenLLVM.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/WEwEPAF53n4">Video</a>]</p>
-    </td>
-    <td>
-      <b>Hardening LLVM With Random Testing</b><br />Xuejun Yang,
-      <i>University of Utah</i>
-    </td>
-  </tr>
-
-  <tr class="alt">
-    <td align="center">
-      [<a href="Rotem-CToVerilog.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/tOJv1ua1pLg">Video</a>]</p>
-    </td>
-    <td>
-      <b>C-to-Verilog.com : High-level synthesis using LLVM</b><br />Nadav
-      Rotem, <i>Haifa University</i>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      [<a href="Spencer-ObjectFiles.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/xGE3U_iE1-k">Video</a>]</p>
-    </td>
-    <td>
-      <b>Object Files in LLVM</b><br />Michael Spencer,
-      <i>Gainsville University</i>
-    </td>
-  </tr>
-
-  <tr class="alt">
-    <td align="center">
-      [<a href="Golin-EDGToLLVM.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/gdqpZJypYx4">Video</a>]</p>
-    </td>
-    <td>
-      <b>Connecting the EDG front-end to LLVM</b><br />Renato Golin, <i>ARM</i>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      [<a href="Gritz-OpenShadingLang.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/iq-kZG1nuyY">Video</a>]</p>
-    </td>
-    <td>
-      <b>LLVM for Open Shading Language</b><br />Larry Gritz,<i>
-        Sony Pictures Imageworks</i
-      >
-    </td>
-  </tr>
-
-  <tr class="alt">
-    <td align="center">
-      [<a href="Rubow-Click.pdf">Slides</a>]
-      <p>[<a href="https://youtu.be/W4OGYeNLC1w">Video</a>]</p>
-    </td>
-    <td>
-      <b
-        >Experiences on using LLVM to compile Click packet processing code to
-        Stanford NetFPGA hardware</b
-      ><br />Erik Rubow, <i>Ericsson Research Silicon Valley</i>
-    </td>
-  </tr>
-</table>
+| Media | Talk |
+| --- | --- |
+| \[[Slides](Sehr-NativeClient.pdf)\] \[[Video](https://youtu.be/o54AJUVP3pc)\] | **Portable Native Client**<br>David Sehr, *Google* |
+| \[[Slides](Villmow-OpenCL.pdf)\] \[[Video](https://youtu.be/uc8cAB009Ok)\] | **AMD OpenCL Compiler - Using LLVM to produce a cross-platform heterogeneous compiler tool chain**<br>Micah Villmow, *AMD Inc.* |
+| \[[Slides](Silverstein-IncludeWhatYouUse.pdf)\] \[[Video](https://youtu.be/jPw2sVAhbsQ)\] | **Implementing Include-What-You-Use using clang**<br>Craig Silverstein, *Google* |
+| \[[Slides](Gregor-libclang.pdf)\] \[[Video](http://devimages.apple.com/llvm/videos/Libclang.mov)\] | **libclang: Thinking Beyond the Compiler**<br>Doug Gregor, *Apple Inc.* |
+| \[[Slides](Grosser-Polly.pdf)\] \[[Video](https://youtu.be/WwfZkQEuwEE)\] | **Polly - Polyhedral optimizations in LLVM**<br>Tobias Grosser , *University of Passau* |
+| \[[Slides](Hinnant-libcxx.pdf)\] \[[Video](http://devimages.apple.com/llvm/videos/LibC++.mov)\] | **libc++: A Standard Library for C++0x**<br>Howard Hinnant, *Apple Inc.* |
+| \[[Slides](Collingbourne-SymbolicCrossChecking.pdf)\] \[[Video](https://youtu.be/ZBXy6NSKwjs)\] | **Symbolic Crosschecking of Floating-Point and SIMD Code**<br>Peter Collingbourne, *Imperial College London* |
+| \[[Slides](Dunbar-MC.pdf)\] \[[Video](http://devimages.apple.com/llvm/videos/LLVM_Assembler_Infrastructure.mov)\] | **The LLVM Assembler & Machine Code Infrastructure**<br>Daniel Dunbar, *Apple Inc.* |
+| \[[Slides](Naumann-Cling.pdf)\] \[[Video](https://youtu.be/BjmGOMJWeAo)\] | **Creating cling, an interactive interpreter interface for clang**<br>Axel Naumann, *CERN* |
+| \[[Slides](Clayton-LLDB.pdf)\] \[[Video](http://devimages.apple.com/llvm/videos/LLDB_Debugging_Infrastructure.mov)\] | **LLDB: Modular Debugging Infrastructure**<br>Greg Clayton, *Apple Inc.* |
+| \[[Slides](Muller-Crack.pdf)\] \[[Video](https://youtu.be/5nOiSCr7JPs)\] | **The Crack Scripting Language**<br>Michael Muller, *Google* |
+| \[[Slides](Yang-HardenLLVM.pdf)\] \[[Video](https://youtu.be/WEwEPAF53n4)\] | **Hardening LLVM With Random Testing**<br>Xuejun Yang, *University of Utah* |
+| \[[Slides](Rotem-CToVerilog.pdf)\] \[[Video](https://youtu.be/tOJv1ua1pLg)\] | **C-to-Verilog.com : High-level synthesis using LLVM**<br>Nadav Rotem, *Haifa University* |
+| \[[Slides](Spencer-ObjectFiles.pdf)\] \[[Video](https://youtu.be/xGE3U_iE1-k)\] | **Object Files in LLVM**<br>Michael Spencer, *Gainsville University* |
+| \[[Slides](Golin-EDGToLLVM.pdf)\] \[[Video](https://youtu.be/gdqpZJypYx4)\] | **Connecting the EDG front-end to LLVM**<br>Renato Golin, *ARM* |
+| \[[Slides](Gritz-OpenShadingLang.pdf)\] \[[Video](https://youtu.be/iq-kZG1nuyY)\] | **LLVM for Open Shading Language**<br>Larry Gritz, *Sony Pictures Imageworks* |
+| \[[Slides](Rubow-Click.pdf)\] \[[Video](https://youtu.be/W4OGYeNLC1w)\] | **Experiences on using LLVM to compile Click packet processing code to Stanford NetFPGA hardware**<br>Erik Rubow, *Ericsson Research Silicon Valley* |
 
 <!-- *********************************************************************** -->
-<hr />
 
+* * *

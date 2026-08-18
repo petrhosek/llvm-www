@@ -1,1113 +1,155 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "devmtg/2015-04/index.html"
 ---
+# 2015 European LLVM Conference
 
-<div class="www_sectiontitle">2015 European LLVM Conference</div>
+![](EuroLLVM2015.jpg)  
 
-<img src="EuroLLVM2015.jpg" /><br /><br />
+## **SPONSORED BY:  
 
-<h2>
-  <b
-    >SPONSORED BY:
-    <br />
-    <br />
-    &nbsp; &nbsp; &nbsp;
-    <a href="http://www.arm.com">ARM</a>,
-    <a href="http://www.codeplay.com/">Codeplay</a>,
-    <a href="http://www.google.com">Google</a>,
-    <a href="http://www.hsafoundation.com">HSA Foundation</a>,
-    <a href="http://www.intel.com">Intel</a>,
-    <a href="http://www.solidsands.nl">Solid Sands</a>
-    <br />
-    <br />
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; and as sponsors of the LLVM Foundation
-    <br />
-    <br />
-    &nbsp; &nbsp; &nbsp;
-    <a href="http://www.apple.com">Apple</a>,
-    <a href="http://www.qualcomm.com">QuIC</a>,
-    <a href="http://www.google.com">Google</a>,
-    <a href="http://www.sony.com">Sony Computer Entertainment</a>,
-    <a href="http://www.hsafoundation.com">HSA Foundation</a>,
-    <a href="http://www.mentor.com">Mentor</a>, and
-    <a href="http://www.khronos.org">Khronos Group</a>.
-  </b>
-</h2>
-<br />
+      [ARM](http://www.arm.com), [Codeplay](http://www.codeplay.com/), [Google](http://www.google.com), [HSA Foundation](http://www.hsafoundation.com), [Intel](http://www.intel.com), [Solid Sands](http://www.solidsands.nl)  
 
-<table>
-  <tr>
-    <td valign="top">
-      <ol>
-        <li><a href="#program">Programme</a></li>
-        <li><a href="#announcements">Information</a></li>
-        <li><a href="#accomodation">Accomodation</a></li>
-      </ol>
-    </td>
-    <td valign="top">
-      <ul>
-        <li><b>What</b>: The 5th European LLVM Meeting</li>
-        <li>
-          <b>Why</b>: To network, learn how LLVM is used, and exchange ideas
-        </li>
-        <li><b>When</b>: Monday 13th - Tuesday 14th April 2015</li>
-        <li>
-          <b>Where</b>: London, UK
-          <a href="http://www.gold.ac.uk/">Goldsmiths College</a>
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+                        and as sponsors of the LLVM Foundation  
 
-<h3>HiPEAC Newsletter</h3>
+      [Apple](http://www.apple.com), [QuIC](http://www.qualcomm.com), [Google](http://www.google.com), [Sony Computer Entertainment](http://www.sony.com), [HSA Foundation](http://www.hsafoundation.com), [Mentor](http://www.mentor.com), and [Khronos Group](http://www.khronos.org).**
 
-The HiPEAC newsletter published a
-<a
-  href="https://www.hipeac.net/assets/public/publications/newsletter/hipeacinfo43.pdf"
-  >report</a
->
-about EuroLLVM 2015.
+1.  [Programme](#program)
+2.  [Information](#announcements)
+3.  [Accomodation](#accomodation)
 
-<h3 id="content">Presentations, Lightning Talks, BoFs, Posters</h3>
-<table id="devmtg">
-  <tr>
-    <th>Video HD</th>
-    <th>Slides</th>
-    <th>Talk</th>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/sNDavmjNLQE">Video</a></td>
-    <td>&nbsp;</td>
-    <td>
-      <b>Introduction</b><br />
-      Andy Thomason
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/g8DUN8-AKgs">Video</a></td>
-    <td><a href="slides/CConcurrency_EuroLLVM2015.pdf">Slides</a></td>
-    <td>
-      <b>Keynote: C Concurrency: Still Tricky</b><br />
-      Francesco Zappa Nardelli
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/aPuNysndtxM">Video</a></td>
-    <td><a href="slides/ThinLTO_EuroLLVM2015.pdf">Slides</a></td>
-    <td>
-      <b>ThinLTO: A Fine-Grained Demand-Driven Infrastructure</b><br />
-      Teresa Johnson and Xinliang David Li
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/5PBe7p1UZ1U">Video</a></td>
-    <td><a href="slides/Euro-LLVM-2015-Weigand.pdf">Slides</a></td>
-    <td>
-      <b>Supporting the new IBM z13 mainframe and its SIMD vector unit</b><br />
-      Ulrich Weigand
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/rbkS4x5Dh6E">Video</a></td>
-    <td>
-      <a href="slides/LLVMEuro2015LoopFusionAmidComplexControlFlow.pdf"
-        >Slides</a
-      >
-    </td>
-    <td>
-      <b>Loop fusion amid complex control flow</b><br />
-      Ramshankar Ramanarayanan and Dibyendu Das
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/7SprlJpdGyY">Video</a></td>
-    <td><a href="slides/temu-eurollvm-2015.pdf">Slides</a></td>
-    <td>
-      <b>T-EMU 2.0: The Next Generation LLVM Based Micro-Processor Emulator</b
-      ><br />
-      Mattias Holm
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/djAPtopWhRU">Video</a></td>
-    <td><a href="slides/EuroLLVM2015Templight.pdf">Slides</a></td>
-    <td>
-      <b
-        >Templight: A Clang Extension for Debugging and Profiling C++ Template
-        Metaprograms</b
-      ><br />
-      Zoltan Porkolab
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/Qht0bEcUsXw">Video</a></td>
-    <td><a href="slides/LLPE.pdf">Slides</a></td>
-    <td>
-      <b>LLPE: High accurate partial evaluation for LLVM IR</b><br />
-      Christopher Smowton
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/HJP4ZbgWTSo">Video HD</a></td>
-    <td>&nbsp;</td>
-    <td>
-      <b
-        >Keynote: LLVM meets the truly alien: the Mill CPU architecture in a
-        multi-target tool chain</b
-      ><br />
-      Ivan Godard
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/AxTMMpxNoS8">Video</a></td>
-    <td><a href="slides/Roel-SWP-EuroLLVM2015.pdf">Slides</a></td>
-    <td>
-      <b>A high-level implementation of software pipelining in LLVM</b><br />
-      Roel Jordans and David Moloney
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/XHyFSlRmekg">Video</a></td>
-    <td><a href="slides/pslp_slides_EUROLLVM2015.pdf">Slides</a></td>
-    <td>
-      <b>PSLP: Padded SLP Automatic Vectorization</b><br />
-      Vasileios Porpodas, Alberto Magni and Timothy Jones
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/6x1ksvpEohQ">Video</a></td>
-    <td><a href="slides/MaskedIntrinsics.pdf">Slides</a></td>
-    <td>
-      <b>Vectorization Of Control Flow Using New Masked Vector Intrinsics</b
-      ><br />
-      Elena Demikhovsky
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/JtpQZw9NpIU">Video</a></td>
-    <td><a href="slides/Why_should_I_use_LLDB.pdf">Slides</a></td>
-    <td>
-      <b>Why should I use LLDB?</b><br />
-      Deepak Panickal and Ewan Crawford
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/kJ0nrmWny6Y">Video</a></td>
-    <td><a href="slides/LLILC_Euro_LLVM_2015.pptx">Slides</a></td>
-    <td>
-      <b>LLILC: LLVM as a code generator for the CoreCLR</b><br />
-      Andrew Ayers
-    </td>
-  </tr>
+*   **What**: The 5th European LLVM Meeting
+*   **Why**: To network, learn how LLVM is used, and exchange ideas
+*   **When**: Monday 13th - Tuesday 14th April 2015
+*   **Where**: London, UK [Goldsmiths College](http://www.gold.ac.uk/)
 
-  <tr>
-    <td><a href="https://youtu.be/PWqnqVTLzSM">Video</a></td>
-    <td><a href="slides/Clang_static_analysis_toolset_final.pdf">Slides</a></td>
-    <td>
-      <b>Industrial Experiences with the Clang Static Analysis Toolset</b><br />
-      Daniel Krupp, Gyorgy Orban, Gabor Horvath and Bence Babati
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/dBaxCo-sXjQ">Video</a></td>
-    <td>&nbsp;</td>
-    <td>
-      <b>C++ on the web: ponies for developers without pwn&#39;ing users</b
-      ><br />
-      Jf Bastien
-    </td>
-  </tr>
-  <tr>
-    <td><a href="https://youtu.be/mKWxbAvGuu4">Video</a></td>
-    <td><a href="slides/EuroLLVM_2015_CodeGen_SS_VLIW.pdf">Slides</a></td>
-    <td>
-      <b
-        >Challenges of mixed-width vector code generation and static scheduling
-        in LLVM</b
-      ><br />
-      Erkan Diken, Pierre-Andre Saulais, Martin J. O&#39;Riordan and David
-      Moloney
-    </td>
-  </tr>
-</table>
+### HiPEAC Newsletter
 
-<p>
-  <b>Lightning talks:</b>
-  <a href="https://youtu.be/tqkK9HRiVIc">Video</a>
-</p>
-<table id="devmtg">
-  <tr>
-    <th>Media</th>
-    <th>Talk</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>LLVM-based AOT JS Compiler</b><br />
-      Dmitry Borisenkov
-    </td>
-  </tr>
-  <tr>
-    <td><a href="slides/eurollvm-2015-build.pdf">Slides</a></td>
-    <td>
-      <b>Building Clang/LLVM efficiently</b><br />
-      Tilmann Scheller
-    </td>
-  </tr>
-  <tr>
-    <td><a href="slides/eurollvm-2015-spir.pdf">Slides</a></td>
-    <td>
-      <b>SPIR: Standard Portable Intermediate Representation</b><br />
-      Tilmann Scheller
-    </td>
-  </tr>
-  <tr>
-    <td><a href="slides/Funk_Libclang_Integration_KDevelop.pdf">Slides</a></td>
-    <td>
-      <b>Libclang Integration in the KDevelop IDE</b><br />
-      Kevin Funk
-    </td>
-  </tr>
-  <tr>
-    <td><a href="slides/LLVM_Inliner_Enhancement.pdf">Slides</a></td>
-    <td>
-      <b>LLVM Inliner Enhancement</b><br />
-      Jiangning Liu, Pablo Barrio and Kevin Qin
-    </td>
-  </tr>
-  <tr>
-    <td><a href="slides/explicit-cc.pdf">Slides</a></td>
-    <td>
-      <b>Proposing LLVM Extensions for Generating Native Code Fragments</b
-      ><br />
-      Frej Drejhammar and Lars Rasmusson
-    </td>
-  </tr>
-  <tr>
-    <td><a href="slides/llvm-testing-slides.pdf">Slides</a></td>
-    <td>
-      <b>Flexible Runtime Testing of LLVM on Embedded Systems </b><br />
-      Edward Jones
-    </td>
-  </tr>
-  <tr>
-    <td><a href="slides/llvm_magni.pdf">Slides</a></td>
-    <td>
-      <b>SymEngine Symbolic Execution of OpenCL Kernels</b><br />
-      Alberto Magni
-    </td>
-  </tr>
-  <tr>
-    <td><a href="slides/LoopVectorizer-v3.pdf">Slides</a></td>
-    <td>
-      <b>How to vectorize interleaved memory access</b><br />
-      Hao Liu, James Molloy and Jiangning Liu
-    </td>
-  </tr>
-  <tr>
-    <td><a href="slides/recursion-inlining-2015.pdf">Slides</a></td>
-    <td>
-      <b>Recursion inlining in LLVM</b><br />
-      Pablo Barrio, Chandler Carruth and James Molloy
-    </td>
-  </tr>
-  <tr>
-    <td><a href="slides/Verifying_code_gen_dash_g_final.pdf">Slides</a></td>
-    <td>
-      <b>Verifying Code Generation is unaffected by -g/-S </b><br />
-      Russell Gallop
-    </td>
-  </tr>
-  <tr>
-    <td><a href="slides/pimpl.pdf">Slides</a></td>
-    <td>
-      <b>Compiler aided optimization of the pimpl-idiom.</b><br />
-      Alexander Richardson and David Chisnall
-    </td>
-  </tr>
-  <tr>
-    <td><a href="slides/How_fast_goes_the_light.pdf">Slides</a></td>
-    <td>
-      <b>How fast goes the light?</b><br />
-      Arnaud de Grandmaison
-    </td>
-  </tr>
-</table>
+The HiPEAC newsletter published a [report](https://www.hipeac.net/assets/public/publications/newsletter/hipeacinfo43.pdf) about EuroLLVM 2015.
 
-<p><b>BoFs:</b></p>
-<table id="devmtg">
-  <tr>
-    <th>Media</th>
-    <th>Talk</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>Debug Info BoF</b><br />
-      Eric Christopher
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>LTO BoF</b><br />
-      Eric Christopher
-    </td>
-  </tr>
-</table>
+### Presentations, Lightning Talks, BoFs, Posters
 
-<p><b>Posters:</b></p>
-<table id="devmtg">
-  <tr>
-    <th>Media</th>
-    <th>Talk</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>Loop Vectorization: How to vectorize interleaved memory access?</b
-      ><br />
-      Hao Liu, James Molloy and Jiangning Liu
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>LLVM Inliner Enhancements</b><br />
-      Jiangning Liu, Pablo Barrio and Kevin Qin
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>Supporting New Binary Formats in LLVM</b><br />
-      Javed Absar
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>Verifying Code Generation Is Unaffected By -g / -S</b><br />
-      Russell Gallop
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>Hoisting Julia Array Bounds Checks out of Loop Nests using Polly</b
-      ><br />
-      Jan Soendermann, Tobias Grosser and David Chisnall
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>LLVM for Deeply Embedded Systems</b><br />
-      Simon Cook, Jeremy Bennett and Edward Jones
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>AArch64 support for the LLVM ecosystem</b><br />
-      Gabor Ballabas, Akos Kiss and Gabor Loki
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b
-        >Unison: Constraint-Based Register Allocation and Instruction
-        Scheduling</b
-      ><br />
-      Roberto Castaneda Lozano, Gabriel Hjort Blindell, Mats Carlsson and
-      Christian Schulte
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b
-        >Scalable LLVM-based System for Cross-Module Optimizations and Static
-        Analysis</b
-      ><br />
-      Ksenia Dolgorukova
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>LLVM-TURBO: Rapid development of efficient code generators in LLVM</b
-      ><br />
-      Thomas Bernard and Marco Roodzant
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>Flexible runtime testing of LLVM for embedded systems</b><br />
-      Edward Jones
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>OO-Lint for Operator Overloading in C++</b><br />
-      Alexander Hück
-    </td>
-  </tr>
-</table>
+| Video HD | Slides | Talk |
+| --- | --- | --- |
+| [Video](https://youtu.be/sNDavmjNLQE) |   | **Introduction**<br>Andy Thomason |
+| [Video](https://youtu.be/g8DUN8-AKgs) | [Slides](slides/CConcurrency_EuroLLVM2015.pdf) | **Keynote: C Concurrency: Still Tricky**<br>Francesco Zappa Nardelli |
+| [Video](https://youtu.be/aPuNysndtxM) | [Slides](slides/ThinLTO_EuroLLVM2015.pdf) | **ThinLTO: A Fine-Grained Demand-Driven Infrastructure**<br>Teresa Johnson and Xinliang David Li |
+| [Video](https://youtu.be/5PBe7p1UZ1U) | [Slides](slides/Euro-LLVM-2015-Weigand.pdf) | **Supporting the new IBM z13 mainframe and its SIMD vector unit**<br>Ulrich Weigand |
+| [Video](https://youtu.be/rbkS4x5Dh6E) | [Slides](slides/LLVMEuro2015LoopFusionAmidComplexControlFlow.pdf) | **Loop fusion amid complex control flow**<br>Ramshankar Ramanarayanan and Dibyendu Das |
+| [Video](https://youtu.be/7SprlJpdGyY) | [Slides](slides/temu-eurollvm-2015.pdf) | **T-EMU 2.0: The Next Generation LLVM Based Micro-Processor Emulator**<br>Mattias Holm |
+| [Video](https://youtu.be/djAPtopWhRU) | [Slides](slides/EuroLLVM2015Templight.pdf) | **Templight: A Clang Extension for Debugging and Profiling C++ Template Metaprograms**<br>Zoltan Porkolab |
+| [Video](https://youtu.be/Qht0bEcUsXw) | [Slides](slides/LLPE.pdf) | **LLPE: High accurate partial evaluation for LLVM IR**<br>Christopher Smowton |
+| [Video HD](https://youtu.be/HJP4ZbgWTSo) |   | **Keynote: LLVM meets the truly alien: the Mill CPU architecture in a multi-target tool chain**<br>Ivan Godard |
+| [Video](https://youtu.be/AxTMMpxNoS8) | [Slides](slides/Roel-SWP-EuroLLVM2015.pdf) | **A high-level implementation of software pipelining in LLVM**<br>Roel Jordans and David Moloney |
+| [Video](https://youtu.be/XHyFSlRmekg) | [Slides](slides/pslp_slides_EUROLLVM2015.pdf) | **PSLP: Padded SLP Automatic Vectorization**<br>Vasileios Porpodas, Alberto Magni and Timothy Jones |
+| [Video](https://youtu.be/6x1ksvpEohQ) | [Slides](slides/MaskedIntrinsics.pdf) | **Vectorization Of Control Flow Using New Masked Vector Intrinsics**<br>Elena Demikhovsky |
+| [Video](https://youtu.be/JtpQZw9NpIU) | [Slides](slides/Why_should_I_use_LLDB.pdf) | **Why should I use LLDB?**<br>Deepak Panickal and Ewan Crawford |
+| [Video](https://youtu.be/kJ0nrmWny6Y) | [Slides](slides/LLILC_Euro_LLVM_2015.pptx) | **LLILC: LLVM as a code generator for the CoreCLR**<br>Andrew Ayers |
+| [Video](https://youtu.be/PWqnqVTLzSM) | [Slides](slides/Clang_static_analysis_toolset_final.pdf) | **Industrial Experiences with the Clang Static Analysis Toolset**<br>Daniel Krupp, Gyorgy Orban, Gabor Horvath and Bence Babati |
+| [Video](https://youtu.be/dBaxCo-sXjQ) |   | **C++ on the web: ponies for developers without pwn'ing users**<br>Jf Bastien |
+| [Video](https://youtu.be/mKWxbAvGuu4) | [Slides](slides/EuroLLVM_2015_CodeGen_SS_VLIW.pdf) | **Challenges of mixed-width vector code generation and static scheduling in LLVM**<br>Erkan Diken, Pierre-Andre Saulais, Martin J. O'Riordan and David Moloney |
 
-<p><b>Tutorials & workshops:</b></p>
-<table id="devmtg">
-  <tr>
-    <th>Media</th>
-    <th>Talk</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>Fortran Front-End for LLVM</b><br />
-      Carlo Bertolli, Hal Finkel, John Leidel and Kevin O&#39;Brien
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>An LLDB Developer Tutorial</b><br />
-      Siva Chandra Reddy
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b>Debug Info Tutorial</b><br />
-      Eric Christopher and David Blaikie
-    </td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>
-      <b
-        >Your Code Generator Adventure: a journey through code generator
-        generation and optimizations in LLVM-TURBO</b
-      ><br />
-      Liam Fitzpatrick and Marco Roodzant
-    </td>
-  </tr>
-</table>
+**Lightning talks:** [Video](https://youtu.be/tqkK9HRiVIc)
 
-<h3 id="announcements">Information</h3>
+| Media | Talk |
+| --- | --- |
+|  | **LLVM-based AOT JS Compiler**<br>Dmitry Borisenkov |
+| [Slides](slides/eurollvm-2015-build.pdf) | **Building Clang/LLVM efficiently**<br>Tilmann Scheller |
+| [Slides](slides/eurollvm-2015-spir.pdf) | **SPIR: Standard Portable Intermediate Representation**<br>Tilmann Scheller |
+| [Slides](slides/Funk_Libclang_Integration_KDevelop.pdf) | **Libclang Integration in the KDevelop IDE**<br>Kevin Funk |
+| [Slides](slides/LLVM_Inliner_Enhancement.pdf) | **LLVM Inliner Enhancement**<br>Jiangning Liu, Pablo Barrio and Kevin Qin |
+| [Slides](slides/explicit-cc.pdf) | **Proposing LLVM Extensions for Generating Native Code Fragments**<br>Frej Drejhammar and Lars Rasmusson |
+| [Slides](slides/llvm-testing-slides.pdf) | **Flexible Runtime Testing of LLVM on Embedded Systems**<br>Edward Jones |
+| [Slides](slides/llvm_magni.pdf) | **SymEngine Symbolic Execution of OpenCL Kernels**<br>Alberto Magni |
+| [Slides](slides/LoopVectorizer-v3.pdf) | **How to vectorize interleaved memory access**<br>Hao Liu, James Molloy and Jiangning Liu |
+| [Slides](slides/recursion-inlining-2015.pdf) | **Recursion inlining in LLVM**<br>Pablo Barrio, Chandler Carruth and James Molloy |
+| [Slides](slides/Verifying_code_gen_dash_g_final.pdf) | **Verifying Code Generation is unaffected by -g/-S**<br>Russell Gallop |
+| [Slides](slides/pimpl.pdf) | **Compiler aided optimization of the pimpl-idiom.**<br>Alexander Richardson and David Chisnall |
+| [Slides](slides/How_fast_goes_the_light.pdf) | **How fast goes the light?**<br>Arnaud de Grandmaison |
 
-<h3 id="schedule">Preliminary Schedule</h3>
+**BoFs:**
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style type="text/css">
-  .ritz .waffle .s14 {
-    border-right: 1px SOLID #000000;
-    text-align: left;
-    color: #ff0000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s3 {
-    border-right: none;
-    text-align: left;
-    text-decoration: underline;
-    color: #1155cc;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s4 {
-    border-bottom: 1px SOLID #000000;
-    text-align: left;
-    font-weight: bold;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s13 {
-    border-bottom: 1px SOLID #000000;
-    border-right: 1px SOLID #000000;
-    text-align: center;
-    color: #000000;
-    background-color: #f3f3f3;
-    font-size: 10pt;
-    vertical-align: top;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s7 {
-    border-bottom: 1px SOLID #000000;
-    border-right: 1px SOLID #000000;
-    text-align: left;
-    font-weight: bold;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s0 {
-    border-right: none;
-    text-align: left;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s1 {
-    border-left: none;
-    border-right: none;
-  }
-  .ritz .waffle .s18 {
-    border-left: none;
-    text-align: left;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s9 {
-    border-right: 1px SOLID #000000;
-    text-align: left;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s21 {
-    text-align: left;
-    color: #ff0000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s19 {
-    border-left: none;
-    border-right: none;
-    text-align: left;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s11 {
-    border-right: 1px SOLID #000000;
-    vertical-align: top;
-  }
-  .ritz .waffle .s12 {
-    border-bottom: 1px SOLID #000000;
-    border-right: 1px SOLID #000000;
-    text-align: center;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: top;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s10 {
-    border-bottom: 1px SOLID #000000;
-    border-right: 1px SOLID #000000;
-    text-align: left;
-    color: #000000;
-    background-color: #f3f3f3;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s20 {
-    text-align: right;
-    color: #ff0000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s17 {
-    text-align: right;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s6 {
-    border-bottom: 1px SOLID #000000;
-    border-right: 1px SOLID #000000;
-  }
-  .ritz .waffle .s15 {
-    text-align: left;
-    font-weight: bold;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s16 {
-    text-align: left;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .ritz .waffle .s2 {
-    border-left: none;
-  }
-  .ritz .waffle .s8 {
-    border-bottom: 1px SOLID #000000;
-    vertical-align: text-top;
-    border-right: 1px SOLID #000000;
-    text-align: left;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: top;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-  }
-  .s99 {
-    border-bottom: 1px SOLID #000000;
-    border-right: 1px SOLID #000000;
-    text-align: left;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 10pt;
-    vertical-align: bottom;
-    white-space: nowrap;
-    direction: ltr;
-    padding: 2px 3px 2px 3px;
-    font-weight: bold;
-  }
-  .ritz .waffle .s5 {
-    border-bottom: 1px SOLID #000000;
-  }
-</style>
-<div class="ritz grid-container" dir="ltr">
-  <table class="waffle" cellspacing="0" cellpadding="0">
-    <tbody>
-      <tr style="height: 21px">
-        <td></td>
-        <td class="s4" dir="ltr">&nbsp;</td>
-        <td class="s4" dir="ltr">&nbsp;</td>
-        <td class="s4" dir="ltr">&nbsp;</td>
-        <td class="s5">&nbsp;</td>
-        <td class="s5">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s6">&nbsp;</td>
-        <td class="s7" dir="ltr">Time</td>
-        <td class="s7 softmerge" dir="ltr">
-          <div class="softmerge-inner">Track1: LG01</div>
-        </td>
-        <td class="s7" dir="ltr">Track 2: LG02</td>
-        <td class="s7" dir="ltr">PSH 314</td>
-        <td class="s7" dir="ltr">PSH 326</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s7" dir="ltr">Monday 13th April</td>
-        <td class="s8" dir="ltr">9:00</td>
-        <td class="s8" dir="ltr" colspan="2">Registration opens</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s9" dir="ltr">&nbsp;</td>
-        <td class="s10" dir="ltr">9:30</td>
-        <td class="s10" colspan="2">Arrival tea/coffee and pastries</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8" dir="ltr">9:30-12:30</td>
-        <td class="s12" dir="ltr" colspan="2">Hacker&#39;s Lab</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s10" dir="ltr">10:45-11:45</td>
-        <td class="s13" dir="ltr" colspan="2">Mid-morning tea/coffee</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s10" dir="ltr">12:30-13:15</td>
-        <td class="s13" dir="ltr" colspan="2">Lunch (Sandwiches)</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8" dir="ltr">13:15-13:30</td>
-        <td class="s8" dir="ltr" colspan="2">
-          Conference Opening &amp; Welcome, Andy Thomason (Goldsmiths)
-        </td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8" dir="ltr">13:30-14:30</td>
-        <td class="s8" dir="ltr" colspan="2">
-          <b>C Concurrency: Still Tricky </b><br />Francesco Zappa Nardelli
-        </td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8" dir="ltr">14:30-15:10</td>
-        <td class="s8" dir="ltr">
-          <b>ThinLTO: A Fine Grained Demand Driven IPO Infrastructure</b
-          ><br />Teresa Johnson and Xinliang David Li
-        </td>
-        <td class="s8" dir="ltr">
-          <b>Supporting the new IBM z13 mainframe and its SIMD vector unit</b
-          ><br />Ulrich Weigand
-        </td>
-        <td class="s8" dir="ltr">
-          <b>Debug Info Tutorial</b><br />Eric Christopher and David Blaikie
-        </td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s9" dir="ltr">&nbsp;</td>
-        <td class="s10" dir="ltr">15:10-15:40</td>
-        <td class="s10" colspan="2">Afternoon tea/coffee</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8" dir="ltr">15:40-16:20</td>
-        <td class="s8" dir="ltr">
-          <b>Loop fusion amid complex control flow</b><br />Ramshankar
-          Ramanarayanan and Dibyendu Das
-        </td>
-        <td class="s8" dir="ltr">
-          <b>T-EMU 2: The next Generation LLVM Based Micro-Processor Emulator</b
-          ><br />Mattias Holm
-        </td>
-        <td class="s8" dir="ltr">
-          <b>Debug Info BoF</b><br />Eric Christopher
-        </td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8" dir="ltr">16:20-17:00</td>
-        <td class="s8" dir="ltr">
-          <b
-            >Templight: A Clang Extension for Debugging and Profiling C++
-            Template Metaprograms</b
-          ><br />Zoltan Porkolab
-        </td>
-        <td class="s8" dir="ltr">
-          <b>LLPE: High accurate partial evaluation for LLVM IR</b
-          ><br />Christopher Smowton
-        </td>
-        <td class="s8" dir="ltr"><b>LTO BoF</b><br />Eric Christopher</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8" colspan="2">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s9" dir="ltr">&nbsp;</td>
-        <td class="s10" dir="ltr">19:00-19:30</td>
-        <td class="s10" colspan="2">
-          Drinks reception at Hilton, London Bridge
-        </td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s9" dir="ltr">&nbsp;</td>
-        <td class="s10" dir="ltr">19:30-00:00</td>
-        <td class="s10" colspan="2">Gala Dinner at Hilton, London Bridge</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s7" dir="ltr">Tuesday 14th April</td>
-        <td class="s8" dir="ltr">8:45</td>
-        <td class="s12" dir="ltr" colspan="2">Start of day 2</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s10" dir="ltr">08:45-09:00</td>
-        <td class="s10" dir="ltr" colspan="2">Arrival tea/coffee</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8" dir="ltr">09:00-10:00</td>
-        <td class="s8" dir="ltr" colspan="2">
-          <b
-            >LLVM meets the truly alien: the Mill CPU architecture in a
-            multi-target tool chain</b
-          ><br />Ivan Godard
-        </td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s14" dir="ltr">&nbsp;</td>
-        <td class="s8" dir="ltr">10:00-10:40</td>
-        <td class="s8" dir="ltr">
-          <b>A high-level implementation of software pipelining in LLVM</b
-          ><br />Roel Jordans and David Moloney
-        </td>
-        <td class="s8" dir="ltr">
-          <b>PSLP: Padded SLP Automatic Vectorization</b><br />Vasileios
-          Porpodas, Alberto Magni and Timothy Jones
-        </td>
-        <td class="s8" dir="ltr">
-          <b
-            >A journey through code generator generation<br />
-            and optimizations in LLVM-TURBO</b
-          ><br />Liam Fitzpatrick and Marco Roodzant
-        </td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8" dir="ltr">10:40-12:00</td>
-        <td class="s8" dir="ltr" colspan="2">Lightning Talks</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s10" dir="ltr">12:00-13:00</td>
-        <td class="s13" dir="ltr" colspan="2">Posters &amp; Lunch</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8" dir="ltr">13:00-13:40</td>
-        <td class="s8" dir="ltr">
-          <b>Vectorization Of Control Flow Using New Masked Vector Intrinsics</b
-          ><br />Elena Demikhovsky
-        </td>
-        <td class="s8" dir="ltr">
-          <b>Why should I use LLDB?</b><br />Deepak Panickal and Ewan Crawford
-        </td>
-        <td class="s8" dir="ltr">
-          <b
-            ><a
-              href="http://www.meetup.com/khronos-uk-chapter/events/221391028/"
-              >Introducing SPIR-V / Vulkan demo</a
-            ></b
-          ><br />Khronos UK Chapter
-        </td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8" dir="ltr">13:40-14:20</td>
-        <td class="s8" dir="ltr">
-          <b>CoreCLR GC Support in LLVM-MSILC</b><br />Andrew Ayers
-        </td>
-        <td class="s8" dir="ltr">
-          <b>Industrial Experiences with the Clang Static Analysis Toolset</b
-          ><br />Daniel Krupp, Gyorgy Orban, Gabor Horvath and Bence Babati
-        </td>
-        <td class="s8" dir="ltr">
-          <b
-            ><a
-              href="http://www.meetup.com/khronos-uk-chapter/events/221391028/"
-              >Introducing SPIR-V / Vulkan demo</a
-            ></b
-          ><br />Khronos UK Chapter
-        </td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s10" dir="ltr">14:20-14:40</td>
-        <td class="s13" dir="ltr" colspan="2">Afternoon tea/coffee</td>
-        <td class="s8" dir="ltr">
-          <b
-            ><a
-              href="http://www.meetup.com/khronos-uk-chapter/events/221391028/"
-              >Introducing SPIR-V / Vulkan demo</a
-            ></b
-          ><br />Khronos UK Chapter
-        </td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8" dir="ltr">14:40-15:20</td>
-        <td class="s8" dir="ltr">
-          <b>C++ on the web: ponies for developers without pwn&#39;ing users</b
-          ><br />Jf Bastien
-        </td>
-        <td class="s8" dir="ltr">
-          <b
-            >Challenges of mixed-width vector code generation and static
-            scheduling in LLVM<br />
-            (for VLIW Architectures)</b
-          ><br />Erkan Diken, Pierre-Andre Saulais, Martin J. O&#39;Riordan and
-          David Moloney
-        </td>
-        <td class="s8" dir="ltr">
-          <b
-            ><a
-              href="http://www.meetup.com/khronos-uk-chapter/events/221391028/"
-              >Introducing SPIR-V / Vulkan demo</a
-            ></b
-          ><br />Khronos UK Chapter
-        </td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s8" dir="ltr">15:20-16:20</td>
-        <td class="s8" dir="ltr">
-          <b>An LLDB Developer Tutorial</b><br />Siva Chandra Reddy
-        </td>
-        <td class="s8" dir="ltr">
-          <b>Fortran Front-End for LLVM</b><br />Carlo Bertolli, Hal Finkel,
-          John Leidel and Kevin O'Brien
-        </td>
-        <td class="s8" dir="ltr">
-          <b
-            ><a
-              href="http://www.meetup.com/khronos-uk-chapter/events/221391028/"
-              >Introducing SPIR-V / Vulkan demo</a
-            ></b
-          ><br />Khronos UK Chapter
-        </td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-      <tr style="height: 21px">
-        <td class="s11">&nbsp;</td>
-        <td class="s10" dir="ltr">16:20-16:45</td>
-        <td class="s13" dir="ltr" colspan="2">Feedback and Conference Close</td>
-        <td class="s8">&nbsp;</td>
-        <td class="s8">&nbsp;</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+| Media | Talk |
+| --- | --- |
+|  | **Debug Info BoF**<br>Eric Christopher |
+|  | **LTO BoF**<br>Eric Christopher |
 
-<div id="accomodation">
-  <h3>Accomodation</h3>
+**Posters:**
 
-  <p>
-    There is an on-site guesthouse available at Goldsmith where local and
-    reasonable priced accomocations can be
-    <a
-      href="http://www.gold.ac.uk/conference-services/conferenceaccommodationbooking/"
-      >booked</a
-    >.
-  </p>
+| Media | Talk |
+| --- | --- |
+|  | **Loop Vectorization: How to vectorize interleaved memory access?**<br>Hao Liu, James Molloy and Jiangning Liu |
+|  | **LLVM Inliner Enhancements**<br>Jiangning Liu, Pablo Barrio and Kevin Qin |
+|  | **Supporting New Binary Formats in LLVM**<br>Javed Absar |
+|  | **Verifying Code Generation Is Unaffected By -g / -S**<br>Russell Gallop |
+|  | **Hoisting Julia Array Bounds Checks out of Loop Nests using Polly**<br>Jan Soendermann, Tobias Grosser and David Chisnall |
+|  | **LLVM for Deeply Embedded Systems**<br>Simon Cook, Jeremy Bennett and Edward Jones |
+|  | **AArch64 support for the LLVM ecosystem**<br>Gabor Ballabas, Akos Kiss and Gabor Loki |
+|  | **Unison: Constraint-Based Register Allocation and Instruction Scheduling**<br>Roberto Castaneda Lozano, Gabriel Hjort Blindell, Mats Carlsson and Christian Schulte |
+|  | **Scalable LLVM-based System for Cross-Module Optimizations and Static Analysis**<br>Ksenia Dolgorukova |
+|  | **LLVM-TURBO: Rapid development of efficient code generators in LLVM**<br>Thomas Bernard and Marco Roodzant |
+|  | **Flexible runtime testing of LLVM for embedded systems**<br>Edward Jones |
+|  | **OO-Lint for Operator Overloading in C++**<br>Alexander Hück |
 
-  Hotels around Goldsmiths<br />
-  <ul>
-    <li>
-      <a
-        href="http://ibishotel.ibis.com/gb/hotel-0975-ibis-london-greenwich/index.shtml"
-        >Ibis, Greenwich</a
-      >
-    </li>
-    <li>
-      <a
-        href="http://www.novotel.com/gb/hotel-3476-novotel-london-greenwich/index.shtml"
-        >Novotel, Greenwich</a
-      >
-    </li>
-    <li>
-      <a href="http://www.travelodge.co.uk/hotels/539/London-Greenwich-hotel"
-        >Travelodge, Greenwich</a
-      >
-    </li>
-    <li>
-      <a href="http://www.thegreenwichlondon.com/%20">Mercure, Greenwich</a>
-    </li>
-    <li>
-      <a href="http://www.premierinn.com/en/checkHotel/LONGRE/london-greenwich"
-        >Premier Inn, Greenwich</a
-      >
-    </li>
-    <li>
-      <a href="http://www.staycity.com/london/london-deptford-bridge/"
-        >StayCity Aparthotels Deptford Bridge</a
-      >
-    </li>
-  </ul>
-</div>
+**Tutorials & workshops:**
 
-<img src="map.jpg" /><br />
-Map showing route from New cross gate station to NAB/PSH building<br />
-<br />
+| Media | Talk |
+| --- | --- |
+|  | **Fortran Front-End for LLVM**<br>Carlo Bertolli, Hal Finkel, John Leidel and Kevin O'Brien |
+|  | **An LLDB Developer Tutorial**<br>Siva Chandra Reddy |
+|  | **Debug Info Tutorial**<br>Eric Christopher and David Blaikie |
+|  | **Your Code Generator Adventure: a journey through code generator generation and optimizations in LLVM-TURBO**<br>Liam Fitzpatrick and Marco Roodzant |
 
+### Information
+
+### Preliminary Schedule
+
+|  |   |   |   |   |   |
+| --- | --- | --- | --- | --- | --- |
+|   | Time | 
+Track1: LG01
+
+ | Track 2: LG02 | PSH 314 | PSH 326 |
+| Monday 13th April | 9:00 | Registration opens |   |   |
+|   | 9:30 | Arrival tea/coffee and pastries |   |   |
+|   | 9:30-12:30 | Hacker's Lab |   |   |
+|   | 10:45-11:45 | Mid-morning tea/coffee |   |   |
+|   | 12:30-13:15 | Lunch (Sandwiches) |   |   |
+|   | 13:15-13:30 | Conference Opening & Welcome, Andy Thomason (Goldsmiths) |   |   |
+|   | 13:30-14:30 | **C Concurrency: Still Tricky**<br>Francesco Zappa Nardelli |   |   |
+|   | 14:30-15:10 | **ThinLTO: A Fine Grained Demand Driven IPO Infrastructure**<br>Teresa Johnson and Xinliang David Li | **Supporting the new IBM z13 mainframe and its SIMD vector unit**<br>Ulrich Weigand | **Debug Info Tutorial**<br>Eric Christopher and David Blaikie |   |
+|   | 15:10-15:40 | Afternoon tea/coffee |   |   |
+|   | 15:40-16:20 | **Loop fusion amid complex control flow**<br>Ramshankar Ramanarayanan and Dibyendu Das | **T-EMU 2: The next Generation LLVM Based Micro-Processor Emulator**<br>Mattias Holm | **Debug Info BoF**<br>Eric Christopher |   |
+|   | 16:20-17:00 | **Templight: A Clang Extension for Debugging and Profiling C++ Template Metaprograms**<br>Zoltan Porkolab | **LLPE: High accurate partial evaluation for LLVM IR**<br>Christopher Smowton | **LTO BoF**<br>Eric Christopher |   |
+|   |   |   |   |   |
+|   | 19:00-19:30 | Drinks reception at Hilton, London Bridge |   |   |
+|   | 19:30-00:00 | Gala Dinner at Hilton, London Bridge |   |   |
+|   |   |   |   |   |   |
+| Tuesday 14th April | 8:45 | Start of day 2 |   |   |
+|   | 08:45-09:00 | Arrival tea/coffee |   |   |
+|   | 09:00-10:00 | **LLVM meets the truly alien: the Mill CPU architecture in a multi-target tool chain**<br>Ivan Godard |   |   |
+|   | 10:00-10:40 | **A high-level implementation of software pipelining in LLVM**<br>Roel Jordans and David Moloney | **PSLP: Padded SLP Automatic Vectorization**<br>Vasileios Porpodas, Alberto Magni and Timothy Jones | **A journey through code generator generation<br>and optimizations in LLVM-TURBO**<br>Liam Fitzpatrick and Marco Roodzant |   |
+|   | 10:40-12:00 | Lightning Talks |   |   |
+|   | 12:00-13:00 | Posters & Lunch |   |   |
+|   | 13:00-13:40 | **Vectorization Of Control Flow Using New Masked Vector Intrinsics**<br>Elena Demikhovsky | **Why should I use LLDB?**<br>Deepak Panickal and Ewan Crawford | **[Introducing SPIR-V / Vulkan demo](http://www.meetup.com/khronos-uk-chapter/events/221391028/)**<br>Khronos UK Chapter |   |
+|   | 13:40-14:20 | **CoreCLR GC Support in LLVM-MSILC**<br>Andrew Ayers | **Industrial Experiences with the Clang Static Analysis Toolset**<br>Daniel Krupp, Gyorgy Orban, Gabor Horvath and Bence Babati | **[Introducing SPIR-V / Vulkan demo](http://www.meetup.com/khronos-uk-chapter/events/221391028/)**<br>Khronos UK Chapter |   |
+|   | 14:20-14:40 | Afternoon tea/coffee | **[Introducing SPIR-V / Vulkan demo](http://www.meetup.com/khronos-uk-chapter/events/221391028/)**<br>Khronos UK Chapter |   |
+|   | 14:40-15:20 | **C++ on the web: ponies for developers without pwn'ing users**<br>Jf Bastien | **Challenges of mixed-width vector code generation and static scheduling in LLVM<br>(for VLIW Architectures)**<br>Erkan Diken, Pierre-Andre Saulais, Martin J. O'Riordan and David Moloney | **[Introducing SPIR-V / Vulkan demo](http://www.meetup.com/khronos-uk-chapter/events/221391028/)**<br>Khronos UK Chapter |   |
+|   | 15:20-16:20 | **An LLDB Developer Tutorial**<br>Siva Chandra Reddy | **Fortran Front-End for LLVM**<br>Carlo Bertolli, Hal Finkel, John Leidel and Kevin O'Brien | **[Introducing SPIR-V / Vulkan demo](http://www.meetup.com/khronos-uk-chapter/events/221391028/)**<br>Khronos UK Chapter |   |
+|   | 16:20-16:45 | Feedback and Conference Close |   |   |
+
+### Accomodation
+
+There is an on-site guesthouse available at Goldsmith where local and reasonable priced accomocations can be [booked](http://www.gold.ac.uk/conference-services/conferenceaccommodationbooking/).
+
+Hotels around Goldsmiths  
+
+*   [Ibis, Greenwich](http://ibishotel.ibis.com/gb/hotel-0975-ibis-london-greenwich/index.shtml)
+*   [Novotel, Greenwich](http://www.novotel.com/gb/hotel-3476-novotel-london-greenwich/index.shtml)
+*   [Travelodge, Greenwich](http://www.travelodge.co.uk/hotels/539/London-Greenwich-hotel)
+*   [Mercure, Greenwich](http://www.thegreenwichlondon.com/%20)
+*   [Premier Inn, Greenwich](http://www.premierinn.com/en/checkHotel/LONGRE/london-greenwich)
+*   [StayCity Aparthotels Deptford Bridge](http://www.staycity.com/london/london-deptford-bridge/)
+
+![](map.jpg)  
+Map showing route from New cross gate station to NAB/PSH building

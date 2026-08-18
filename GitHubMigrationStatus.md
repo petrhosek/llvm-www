@@ -1,84 +1,28 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "GitHubMigrationStatus.html"
 ---
+# GitHub Migration Status
 
-<style>
-  table.github {
-    border: 1px solid black;
-  }
-  table.github th,
-  table.github td {
-    border: 1px solid black;
-  }
-</style>
+## The GitHub Migration is Complete!
 
-<div class="www_sectiontitle">GitHub Migration Status</div>
+### Blocking Tasks
 
-<h2>The GitHub Migration is Complete!</h2>
+| Task | Status |  |
+| --- | --- | --- |
+| Create GitHub Project | Done | [GitHub](https://github.com/llvm) |
+| SVN to GitHub Synchronization | Done | [PR39394](https://llvm.org/PR39394) |
+| Block Merge Commits | Done | [PR42429](https://llvm.org/PR42429) |
+| Migrate Buildbots | In Progress | [PR40262](https://llvm.org/PR40262) |
+| Enable GitHub Commit Access | Done | [PR42428](https://llvm.org/PR42428) |
+| Check For Merges in git-llvm Script | In Progress | [D67772](https://reviews.llvm.org/D67772) |
+| Send Commit Notifications to \*-commits Lists | In Progress | [PR40261](https://llvm.org/PR40261) |
 
-<h3>Blocking Tasks</h3>
-<table class="github">
-  <tr>
-    <th>Task</th>
-    <th>Status</th>
-    <th></th>
-  </tr>
-  <tr>
-    <td>Create GitHub Project</td>
-    <td style="background-color: green">Done</td>
-    <td><a href="https://github.com/llvm">GitHub</a></td>
-  </tr>
-  <tr>
-    <td>SVN to GitHub Synchronization</td>
-    <td style="background-color: green">Done</td>
-    <td><a href="https://llvm.org/PR39394">PR39394</a></td>
-  </tr>
-  <tr>
-    <td>Block Merge Commits</td>
-    <td style="background-color: green">Done</td>
-    <td><a href="https://llvm.org/PR42429">PR42429</a></td>
-  </tr>
-  <tr>
-    <td>Migrate Buildbots</td>
-    <td style="background-color: yellow">In Progress</td>
-    <td><a href="https://llvm.org/PR40262">PR40262</a></td>
-  </tr>
-  <tr>
-    <td>Enable GitHub Commit Access</td>
-    <td style="background-color: green">Done</td>
-    <td><a href="https://llvm.org/PR42428">PR42428</a></td>
-  </tr>
-  <tr>
-    <td>Check For Merges in git-llvm Script</td>
-    <td style="background-color: yellow">In Progress</td>
-    <td><a href="https://reviews.llvm.org/D67772">D67772</a></td>
-  </tr>
-  <tr>
-    <td>Send Commit Notifications to *-commits Lists</td>
-    <td style="background-color: yellow">In Progress</td>
-    <td><a href="https://llvm.org/PR40261">PR40261</a></td>
-  </tr>
-</table>
+### Other Tasks
 
-<h3>Other Tasks</h3>
-<table class="github">
-  <tr>
-    <th>Task</th>
-    <th>Status</th>
-    <th></th>
-  </tr>
-  <tr>
-    <td>Make SVN to GitHub Syncronization More Robust</td>
-    <td style="background-color: green">Done</td>
-    <td><a href="https://llvm.org/PR39397">PR39397</a></td>
-  </tr>
-  <tr>
-    <td>Auto-Close Pull Requests</td>
-    <td style="background-color: green">Done</td>
-    <td><a href="https://github.com/llvm/llvm-project/pull/19">Example</a></td>
-  </tr>
-</table>
+| Task | Status |  |
+| --- | --- | --- |
+| Make SVN to GitHub Syncronization More Robust | Done | [PR39397](https://llvm.org/PR39397) |
+| Auto-Close Pull Requests | Done | [Example](https://github.com/llvm/llvm-project/pull/19) |
 
-<hr />
-
+* * *

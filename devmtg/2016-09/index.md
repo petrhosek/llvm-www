@@ -1,385 +1,109 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "devmtg/2016-09/index.html"
 ---
+# 2016 LLVM Cauldron
 
-<div class="www_sectiontitle">2016 LLVM Cauldron</div>
+1.  [About](#about)
+2.  [Schedule](#schedule)
 
-<table>
-  <tr>
-    <td valign="top">
-      <ol>
-        <li><a href="#about">About</a></li>
-        <li><a href="#schedule">Schedule</a></li>
-      </ol>
-    </td>
-    <td>
-      <ul>
-        <li><b>What</b>: The inaugural LLVM Cauldron</li>
-        <li><b>When</b>: September 8th, 2016</li>
-        <li>
-          <b>Where</b>: Hebden Bridge Town Hall - Hebden Bridge, Yorkshire, UK
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+*   **What**: The inaugural LLVM Cauldron
+*   **When**: September 8th, 2016
+*   **Where**: Hebden Bridge Town Hall - Hebden Bridge, Yorkshire, UK
 
-<div class="www_sectiontitle" id="about">About</div>
-<p>
-  We are pleased to announce the first LLVM Cauldron, to be held on Thursday
-  September 8th 2016 in Hebden Bridge, UK. This is the day before the
-  <a href="https://gcc.gnu.org/wiki/cauldron2016">GNU Tools Cauldron</a> being
-  held at the same venue, so we hope to take advantage of the high concentration
-  of compiler enthusiasts and to encourage lots of cross-pollination between
-  communities.
-</p>
+# About
 
-<p>
-  This will be a one-day conference with a single talks track and a space for
-  breakout sessions, birds of a feather, and potentially tutorials. The meeting
-  is free to attend and open to anyone whether a hobbyist, from academia, or
-  from industry, and regardless of previous experience with LLVM.
-</p>
+We are pleased to announce the first LLVM Cauldron, to be held on Thursday September 8th 2016 in Hebden Bridge, UK. This is the day before the [GNU Tools Cauldron](https://gcc.gnu.org/wiki/cauldron2016) being held at the same venue, so we hope to take advantage of the high concentration of compiler enthusiasts and to encourage lots of cross-pollination between communities.
 
-<p>
-  The conference keynote will be delivered by
-  <a href="http://wingolog.org/about/">Andy Wingo</a>, maintainer of the
-  <a href="http://www.gnu.org/software/guile/">Guile</a> Scheme implementation
-  and committer to V8 and SpiderMonkey. His talk will focus on compilation using
-  persistent data structures, a technique used in Guile's
-  <a href="https://wingolog.org/archives/2015/07/27/cps-soup"
-    >intermediate language</a
-  >.
-</p>
+This will be a one-day conference with a single talks track and a space for breakout sessions, birds of a feather, and potentially tutorials. The meeting is free to attend and open to anyone whether a hobbyist, from academia, or from industry, and regardless of previous experience with LLVM.
 
-<p>
-  Much like the LLVM Developers' meetings, we believe the event will be of
-  particular interest to the following people:
-</p>
+The conference keynote will be delivered by [Andy Wingo](http://wingolog.org/about/), maintainer of the [Guile](http://www.gnu.org/software/guile/) Scheme implementation and committer to V8 and SpiderMonkey. His talk will focus on compilation using persistent data structures, a technique used in Guile's [intermediate language](https://wingolog.org/archives/2015/07/27/cps-soup).
 
-<ul>
-  <li>
-    Active developers of projects in the LLVM Umbrella (LLVM core, Clang, LLDB,
-    libc++, compiler_rt, klee, dragonegg, lld, etc).
-  </li>
-  <li>Anyone interested in using these as part of another project.</li>
-  <li>Compiler, programming language, and runtime enthusiasts.</li>
-  <li>
-    Those interested in using compiler and toolchain technology in novel and
-    interesting ways.
-  </li>
-</ul>
+Much like the LLVM Developers' meetings, we believe the event will be of particular interest to the following people:
 
-<p>
-  This inaugural LLVM Cauldron will form part of the
-  <a href="http://wutheringbytes.com/">Wuthering Bytes</a> technology festival
-  in Hebden Bridge in the UK. Situated at the heart of the UK's "Northern
-  Powerhouse", Hebden Bridge is roughly equidistant from Liverpool, Manchester,
-  Sheffield, Leeds and Bradford. The Wuthering Bytes festival is a 10 day
-  celebration of all things technological that are free and open source.
-</p>
+*   Active developers of projects in the LLVM Umbrella (LLVM core, Clang, LLDB, libc++, compiler\_rt, klee, dragonegg, lld, etc).
+*   Anyone interested in using these as part of another project.
+*   Compiler, programming language, and runtime enthusiasts.
+*   Those interested in using compiler and toolchain technology in novel and interesting ways.
 
-<p>
-  We are incredibly grateful to our event sponsors:<br />
-  <a href="https://www.codeplay.com/"
-    ><img src="./codeplay_logo.png" alt="Codeplay" /></a
-  ><br />
-  <a href="http://www.bcs.org/"
-    ><img src="./bcs_logo.png" alt="BCS" width="100px" /></a
-  ><br />
-  <a href="http://www.embecosm.com/"
-    ><img src="./embecosm_logo.png" alt="Embecosm" /></a
-  ><br />
-</p>
+This inaugural LLVM Cauldron will form part of the [Wuthering Bytes](http://wutheringbytes.com/) technology festival in Hebden Bridge in the UK. Situated at the heart of the UK's "Northern Powerhouse", Hebden Bridge is roughly equidistant from Liverpool, Manchester, Sheffield, Leeds and Bradford. The Wuthering Bytes festival is a 10 day celebration of all things technological that are free and open source.
 
-<p>The LLVM Cauldron is organised by:</p>
+We are incredibly grateful to our event sponsors:  
+[![Codeplay](./codeplay_logo.png)](https://www.codeplay.com/)  
+[![BCS](./bcs_logo.png)](http://www.bcs.org/)  
+[![Embecosm](./embecosm_logo.png)](http://www.embecosm.com/)  
 
-<ul>
-  <li>Alex Bradbury</li>
-  <li>Ed Jones</li>
-  <li>Judith Jones</li>
-  <li>Diana Picus</li>
-  <li>Konstantina Mitropoulou</li>
-</ul>
+The LLVM Cauldron is organised by:
 
-<p>Please contact asb@asbradbury.org if you have any issues or questions.</p>
+*   Alex Bradbury
+*   Ed Jones
+*   Judith Jones
+*   Diana Picus
+*   Konstantina Mitropoulou
 
-<div class="www_sectiontitle" id="schedule">Schedule</div>
-<p><b>Talks</b></p>
-<table id="devmtg">
-  <tr>
-    <th>Media</th>
-    <th>Topic</th>
-  </tr>
-  <tr>
-    <td>
-      <a href="slides/Wingo-PersistentDataStructures.pdf">Slides</a><br />
-      <a href="https://youtu.be/KYoDyM6l_5s">Video</a>
-    </td>
-    <td>Keynote: Optimizing with persistent data structures (Andy Wingo)</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="slides/Melnik-LLV8.pdf">Slides</a><br />
-      <a href="https://youtu.be/0YobtXN6oQI">Video</a>
-    </td>
-    <td>
-      LLV8: Adding LLVM as an extra JIT tier to V8 JavaScript engine (Dmitry
-      Melnik)
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="slides/Seaton-Sulong.pdf">Slides</a><br />
-      <a href="https://youtu.be/bJzMfYX6n9A">Video</a>
-    </td>
-    <td>Using LLVM and Sulong for Language C Extensions (Chris Seaton)</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="slides/Absar-SchedulingInOrder.pdf">Slides</a><br />
-      <a href="https://youtu.be/J0AtVzvPp_Y">Video</a>
-    </td>
-    <td>
-      Scheduler for in-order processors - what's present and what's missing in
-      LLVM? (Javed Absar)
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="slides/Jones-AAP.pdf">Slides</a><br />
-      <a href="https://youtu.be/Ad-zuxedEZQ">Video</a>
-    </td>
-    <td>An Altruistic Processor - AAP (Simon Cook and Ed Jones)</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="slides/Rink-SyntaxMacros.pdf">Slides</a><br />
-      <a href="https://youtu.be/kG6kpQ-Deak">Video</a>
-    </td>
-    <td>Syntax macros - a case study in extending Clang (Norman Rink)</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="http://gmarkall.github.io/tutorials/llvm-cauldron-2016/"
-        >Slides</a
-      ><br />
-      <a href="https://youtu.be/d8LnP4vU2CA">Video</a>
-    </td>
-    <td>Accelerating Python code with Numba and LLVM (Graham Markall)</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="slides/Smith-NewLLDTarget.pdf">Slides</a><br />
-      <a href="https://youtu.be/FIXaeRU31Ww">Video</a>
-    </td>
-    <td>How to add a new target to LLD (Peter Smith)</td>
-  </tr>
-</table>
-<p><b>Lightning talks</b></p>
-<table id="devmtg">
-  <tr>
-    <th>Media</th>
-    <th>Topic</th>
-  </tr>
-  <tr>
-    <td>
-      <a href="slides/Melnik-PostgreSQLLLVM.pdf">Slides</a><br />
-      <a href="https://youtu.be/NzOpNh_msng">Video</a>
-    </td>
-    <td>
-      Speeding up query execution in PostgreSQL using LLVM JIT (Dmitry Melnik)
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="slides/Boak-MyStorm.pdf">Slides</a><br />
-      <a href="https://youtu.be/J1saqOhbRmA">Video</a>
-    </td>
-    <td>MyStorm (Ken Boak)</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="slides/Bradbury-ContributorExperience.pdf">Slides</a><br />
-      <a href="https://youtu.be/32fmbEI9WrM">Video</a>
-    </td>
-    <td>
-      Can we improve the experience of first-time LLVM contributors? (Alex
-      Bradbury)
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="slides/Cook-AAPSim.pdf">Slides</a><br />
-      <a href="https://youtu.be/YdyZDZYBd-s">Video</a>
-    </td>
-    <td>AAPSim - Building a simulator using LLVM MC (Simon Cook)</td>
-  </tr>
-  <tr>
-    <td>
-      <a
-        href="https://github.com/jbcoe/C_API_generation/blob/master/demos/LLVM-Cauldron.ipynb"
-        >Slides</a
-      ><br />
-      (No video)
-    </td>
-    <td>Generating Python &amp; Ruby bindings from C++ (Jonathan B Coe)</td>
-  </tr>
-</table>
-<p>
-  We're thrilled that <a href="http://wingolog.org/about/">Andy Wingo</a> will
-  be presenting the keynote on compilation with persistent data structures.
-</p>
+Please contact asb@asbradbury.org if you have any issues or questions.
 
-<ul>
-  <li><b>Title</b>: Optimizing with persistent data structures</li>
-  <li>
-    <b>Abstract</b>: Is there life beyond phi variables and basic blocks? Andy
-    will report on his experience using a new intermediate representation for
-    compiler middle-ends, "CPS soup". The CPS soup language represents programs
-    using Clojure-inspired maps, allowing optimizations to be neatly expressed
-    as functions from one graph to another. Using these persistent data
-    structures also means that the source program doesn't change while the
-    residual program is being created, eliminating one class of problems that
-    the optimizer writer has to keep in mind. Together we will look at some
-    example transformations from an expressiveness as well as a performance
-    point of view, and we will also cover some advantages which a traditional
-    SSA graph maintains over CPS soup.
-  </li>
-  <li>
-    <b>Bio</b>: Andy loves compilers. He has co-maintained the Guile
-    implementation of Scheme since 2009, and has also worked on the V8 and
-    SpiderMonkey JavaScript engines. He just passed his five-year anniversary at
-    <a href="https://www.igalia.com/">Igalia</a>, a consultancy out of Spain
-    that is organized as a worker-owned cooperative. After all these years,
-    Andy's favorite compilers paper is still "Lambda, the ultimate GOTO".
-  </li>
-</ul>
+# Schedule
 
-<p>Our main track talks consist of:</p>
+**Talks**
 
-<p>
-  <b
-    >Scheduler for in-order processors - what's present and what's missing in
-    LLVM?</b
-  ><br />
-  <i>Javed Absar - ARM Ltd</i><br />
-  This talk will focus on developing instruction-scheduling machine-models in
-  LLVM for deeply-pipelined, in-order, multiple-issue processors. While LLVM
-  provides a neat Tablegen based interface for describing the pipeline behavior
-  of both in-order and out-of-order processors, during the modelling phases we
-  discovered that some hardware aspects of target processors were much harder to
-  model. The talk will first cover the features that were relatively easy to
-  capture such as issue-width, latency, forwarding and resource-cycles. Then we
-  will delve into aspects that turned out to be much harder or contrived to
-  model, such as - constraints on instructions issue; in-stage forwarding,
-  variadic instructions. The talk will then focus on potential solutions to
-  those problems.
-</p>
+| Media | Topic |
+| --- | --- |
+| [Slides](slides/Wingo-PersistentDataStructures.pdf)<br>[Video](https://youtu.be/KYoDyM6l_5s) | Keynote: Optimizing with persistent data structures (Andy Wingo) |
+| [Slides](slides/Melnik-LLV8.pdf)<br>[Video](https://youtu.be/0YobtXN6oQI) | LLV8: Adding LLVM as an extra JIT tier to V8 JavaScript engine (Dmitry Melnik) |
+| [Slides](slides/Seaton-Sulong.pdf)<br>[Video](https://youtu.be/bJzMfYX6n9A) | Using LLVM and Sulong for Language C Extensions (Chris Seaton) |
+| [Slides](slides/Absar-SchedulingInOrder.pdf)<br>[Video](https://youtu.be/J0AtVzvPp_Y) | Scheduler for in-order processors - what's present and what's missing in LLVM? (Javed Absar) |
+| [Slides](slides/Jones-AAP.pdf)<br>[Video](https://youtu.be/Ad-zuxedEZQ) | An Altruistic Processor - AAP (Simon Cook and Ed Jones) |
+| [Slides](slides/Rink-SyntaxMacros.pdf)<br>[Video](https://youtu.be/kG6kpQ-Deak) | Syntax macros - a case study in extending Clang (Norman Rink) |
+| [Slides](http://gmarkall.github.io/tutorials/llvm-cauldron-2016/)<br>[Video](https://youtu.be/d8LnP4vU2CA) | Accelerating Python code with Numba and LLVM (Graham Markall) |
+| [Slides](slides/Smith-NewLLDTarget.pdf)<br>[Video](https://youtu.be/FIXaeRU31Ww) | How to add a new target to LLD (Peter Smith) |
 
-<p>
-  <b>An Altruistic Processor (AAP)</b><br />
-  <i>Simon Cook and Ed Jones - Embecosm</i><br />
-  An Altruistic Processor (AAP) is an open hardware 16-bit architecture for
-  deeply embedded applications running on small FPGA devices. It is somewhat
-  configurable, with a minimum of 4 16-bit general registers, at least one
-  word-addressed code space of up to 16Mword and at least one byte addressed
-  data space of up to 64kbyte. The primary role of AAP is as a testbench and
-  vehicle for improvement for LLVM. It encapsulates features found in a wide
-  range of popular embedded processors which traditionally cause difficulties
-  for compiler writers. In this talk we will discuss the motivation behind this
-  project, our experience implementing and testing LLVM for this architecture,
-  the architectural features unique to our processor and how these interact with
-  LLVM. We will the on to explaining our experiences with implementing AAPSim,
-  an instruction set simulator based on LLVM MC and how we have used this for
-  compiler regression testing.
-</p>
+**Lightning talks**
 
-<p>
-  <b>LLV8: Adding LLVM as an extra JIT tier to V8 JavaScript engine</b><br />
-  <i>Dmitry Melnik - ISP RAS</i><br />
+| Media | Topic |
+| --- | --- |
+| [Slides](slides/Melnik-PostgreSQLLLVM.pdf)<br>[Video](https://youtu.be/NzOpNh_msng) | Speeding up query execution in PostgreSQL using LLVM JIT (Dmitry Melnik) |
+| [Slides](slides/Boak-MyStorm.pdf)<br>[Video](https://youtu.be/J1saqOhbRmA) | MyStorm (Ken Boak) |
+| [Slides](slides/Bradbury-ContributorExperience.pdf)<br>[Video](https://youtu.be/32fmbEI9WrM) | Can we improve the experience of first-time LLVM contributors? (Alex Bradbury) |
+| [Slides](slides/Cook-AAPSim.pdf)<br>[Video](https://youtu.be/YdyZDZYBd-s) | AAPSim - Building a simulator using LLVM MC (Simon Cook) |
+| [Slides](https://github.com/jbcoe/C_API_generation/blob/master/demos/LLVM-Cauldron.ipynb)<br>(No video) | Generating Python & Ruby bindings from C++ (Jonathan B Coe) |
 
-  We'll present our work on adding LLVM MCJIT to V8 JavaScript engine as the
-  third tier JIT compiler. The main idea is to lower V8's IR into LLVM bitcode,
-  and then use LLVM for optimization and code generation — the idea is similar
-  to FTL JIT in WebKit's JavaScriptCore. The right place to do such translation
-  in V8 is 2nd level JIT, because it’s a speculative JIT, and it’s IR is already
-  "static enough" to allow to do such transformation effectively. We'll discuss
-  the challenges of using LLVM JIT for compiling dynamic language. Much effort
-  was spent on making LLVM-generated code properly interact with V8 JavaScript
-  runtime, e.g. supporting interactions with V8's garbage collector
-  (relocations, safepoints, stack layout), supporting on-stack-replacement
-  (implementation of OSR entry and deoptimization). Also we’ll discuss
-  interaction of V8 and LLVM optimizations. This project is still work in
-  progress. Now it supports a substantial subset of JavaScript, with pretty good
-  coverage for asm.js and SunSpider benchmarks. On selected tests we achieve up
-  to 2x speedup, but most tests suffer from increased compilation time overhead.
-  On average, the performance is almost on par with original V8, if measured
-  after "warmup". The project is open source, and is available at
-  <a href="https://github.com/ispras/llv8">https://github.com/ispras/llv8</a>.
-</p>
+We're thrilled that [Andy Wingo](http://wingolog.org/about/) will be presenting the keynote on compilation with persistent data structures.
 
-<p>
-  <b>Using LLVM and Sulong for Language C Extensions</b><br />
-  <i>Chris Seaton - Oracle Labs</i><br />
+*   **Title**: Optimizing with persistent data structures
+*   **Abstract**: Is there life beyond phi variables and basic blocks? Andy will report on his experience using a new intermediate representation for compiler middle-ends, "CPS soup". The CPS soup language represents programs using Clojure-inspired maps, allowing optimizations to be neatly expressed as functions from one graph to another. Using these persistent data structures also means that the source program doesn't change while the residual program is being created, eliminating one class of problems that the optimizer writer has to keep in mind. Together we will look at some example transformations from an expressiveness as well as a performance point of view, and we will also cover some advantages which a traditional SSA graph maintains over CPS soup.
+*   **Bio**: Andy loves compilers. He has co-maintained the Guile implementation of Scheme since 2009, and has also worked on the V8 and SpiderMonkey JavaScript engines. He just passed his five-year anniversary at [Igalia](https://www.igalia.com/), a consultancy out of Spain that is organized as a worker-owned cooperative. After all these years, Andy's favorite compilers paper is still "Lambda, the ultimate GOTO".
 
-  Many languages such as Ruby, Python and JavaScript support extension modules
-  written in C, either for speed or to create interfaces to native libraries.
-  Ironically, these extensions can hold back performance of the languages
-  themselves because the native interfaces expose implementation details about
-  how the language was first implemented, such as the layout of data structures.
-  In JRuby+Truffle, an implementation of Ruby, we are using the Sulong LLVM
-  bitcode interpreter to run C extensions on the JVM. By combining LLVM's static
-  optimizations with dynamic compilation, Sulong is fast, but Sulong also gives
-  us a powerful new tool - it allows us to abstract from normal C semantics and
-  to appear to provide the same native API while actually mapping it to our own
-  alternative data structures and implementation. We'll demonstrate
-  <a href="https://github.com/graalvm/sulong">Sulong</a> and how we're using it
-  to implement Ruby C extensions.
-</p>
+Our main track talks consist of:
 
-<p>
-  <b>Syntax macros - a case study in extending Clang</b><br />
-  <i>Norman Rink - TU Dresden</i><br />
-  Besides being an incredibly successful production compiler, LLVM/Clang has
-  also enabled an enormous number of academic research projects that are centred
-  on adding language extensions to C/C++. However, since Clang is not primarily
-  designed as a research platform, adding language extensions is a tedious task
-  and work often has to be repeated for new projects. In this talk I will
-  discuss an implementation of generic syntax macros and the challenges
-  encountered in extending Clang. Special emphasis will be put on the generality
-  of these challenges. This talk will be of interest to anyone who (a) would
-  like to know more about the structure of Clang or (b) has already thought
-  about extending Clang.
-</p>
+**Scheduler for in-order processors - what's present and what's missing in LLVM?**  
+*Javed Absar - ARM Ltd*  
+This talk will focus on developing instruction-scheduling machine-models in LLVM for deeply-pipelined, in-order, multiple-issue processors. While LLVM provides a neat Tablegen based interface for describing the pipeline behavior of both in-order and out-of-order processors, during the modelling phases we discovered that some hardware aspects of target processors were much harder to model. The talk will first cover the features that were relatively easy to capture such as issue-width, latency, forwarding and resource-cycles. Then we will delve into aspects that turned out to be much harder or contrived to model, such as - constraints on instructions issue; in-stage forwarding, variadic instructions. The talk will then focus on potential solutions to those problems.
 
-<p>
-  <b>Accelerating Python code with Numba and LLVM</b><br />
-  <i>Graham Markall - Embecosm</i><br />
-  Numba is an LLVM-based JIT Compiler for Python that is focused on numerical
-  computing and delivers execution speed on a par with languages more
-  traditionally used in scientific computing, such as Fortran and C++. This talk
-  discusses the implementation of Numba, in particular how to go from an
-  interpreted, dynamically-typed language to a compiled, statically-typed
-  implementation. There will be some discussion of the CUDA and HSA backends and
-  how the differences between LLVM versions in these backends are managed.
-</p>
+**An Altruistic Processor (AAP)**  
+*Simon Cook and Ed Jones - Embecosm*  
+An Altruistic Processor (AAP) is an open hardware 16-bit architecture for deeply embedded applications running on small FPGA devices. It is somewhat configurable, with a minimum of 4 16-bit general registers, at least one word-addressed code space of up to 16Mword and at least one byte addressed data space of up to 64kbyte. The primary role of AAP is as a testbench and vehicle for improvement for LLVM. It encapsulates features found in a wide range of popular embedded processors which traditionally cause difficulties for compiler writers. In this talk we will discuss the motivation behind this project, our experience implementing and testing LLVM for this architecture, the architectural features unique to our processor and how these interact with LLVM. We will the on to explaining our experiences with implementing AAPSim, an instruction set simulator based on LLVM MC and how we have used this for compiler regression testing.
 
-<p>
-  <b>How to add a new target to LLD</b><br />
-  <i>Peter Smith - Linaro</i><br />
+**LLV8: Adding LLVM as an extra JIT tier to V8 JavaScript engine**  
+*Dmitry Melnik - ISP RAS*  
+We'll present our work on adding LLVM MCJIT to V8 JavaScript engine as the third tier JIT compiler. The main idea is to lower V8's IR into LLVM bitcode, and then use LLVM for optimization and code generation — the idea is similar to FTL JIT in WebKit's JavaScriptCore. The right place to do such translation in V8 is 2nd level JIT, because it’s a speculative JIT, and it’s IR is already "static enough" to allow to do such transformation effectively. We'll discuss the challenges of using LLVM JIT for compiling dynamic language. Much effort was spent on making LLVM-generated code properly interact with V8 JavaScript runtime, e.g. supporting interactions with V8's garbage collector (relocations, safepoints, stack layout), supporting on-stack-replacement (implementation of OSR entry and deoptimization). Also we’ll discuss interaction of V8 and LLVM optimizations. This project is still work in progress. Now it supports a substantial subset of JavaScript, with pretty good coverage for asm.js and SunSpider benchmarks. On selected tests we achieve up to 2x speedup, but most tests suffer from increased compilation time overhead. On average, the performance is almost on par with original V8, if measured after "warmup". The project is open source, and is available at [https://github.com/ispras/llv8](https://github.com/ispras/llv8).
 
-  Using recent experience of adding ARM support to LLD, we'll look at what are
-  the steps involved in adding a new target to LLD. Starting with a brief
-  introduction to LLD's functionality and design, we will go through the
-  customisation points where target specific logic can be added, and will touch
-  on how to add functionality where your target needs individual attention. This
-  will be of general interest to people wanting to know a bit more about LLD's
-  current status and capabilities, and especially interesting for those wanting
-  to know how a linker is implemented.
-</p>
+**Using LLVM and Sulong for Language C Extensions**  
+*Chris Seaton - Oracle Labs*  
+Many languages such as Ruby, Python and JavaScript support extension modules written in C, either for speed or to create interfaces to native libraries. Ironically, these extensions can hold back performance of the languages themselves because the native interfaces expose implementation details about how the language was first implemented, such as the layout of data structures. In JRuby+Truffle, an implementation of Ruby, we are using the Sulong LLVM bitcode interpreter to run C extensions on the JVM. By combining LLVM's static optimizations with dynamic compilation, Sulong is fast, but Sulong also gives us a powerful new tool - it allows us to abstract from normal C semantics and to appear to provide the same native API while actually mapping it to our own alternative data structures and implementation. We'll demonstrate [Sulong](https://github.com/graalvm/sulong) and how we're using it to implement Ruby C extensions.
+
+**Syntax macros - a case study in extending Clang**  
+*Norman Rink - TU Dresden*  
+Besides being an incredibly successful production compiler, LLVM/Clang has also enabled an enormous number of academic research projects that are centred on adding language extensions to C/C++. However, since Clang is not primarily designed as a research platform, adding language extensions is a tedious task and work often has to be repeated for new projects. In this talk I will discuss an implementation of generic syntax macros and the challenges encountered in extending Clang. Special emphasis will be put on the generality of these challenges. This talk will be of interest to anyone who (a) would like to know more about the structure of Clang or (b) has already thought about extending Clang.
+
+**Accelerating Python code with Numba and LLVM**  
+*Graham Markall - Embecosm*  
+Numba is an LLVM-based JIT Compiler for Python that is focused on numerical computing and delivers execution speed on a par with languages more traditionally used in scientific computing, such as Fortran and C++. This talk discusses the implementation of Numba, in particular how to go from an interpreted, dynamically-typed language to a compiled, statically-typed implementation. There will be some discussion of the CUDA and HSA backends and how the differences between LLVM versions in these backends are managed.
+
+**How to add a new target to LLD**  
+*Peter Smith - Linaro*  
+Using recent experience of adding ARM support to LLD, we'll look at what are the steps involved in adding a new target to LLD. Starting with a brief introduction to LLD's functionality and design, we will go through the customisation points where target specific logic can be added, and will touch on how to add functionality where your target needs individual attention. This will be of general interest to people wanting to know a bit more about LLD's current status and capabilities, and especially interesting for those wanting to know how a linker is implemented.
 
 <!-- *********************************************************************** -->
-<hr />
 
+* * *

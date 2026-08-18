@@ -24,7 +24,6 @@ module.exports = async function(eleventyConfig) {
   });
   return {
     markdownTemplateEngine: false,
-    htmlTemplateEngine: false,
     dir: {
       input: ".",
       output: "_site",

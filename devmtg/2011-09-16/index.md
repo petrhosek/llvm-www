@@ -1,155 +1,41 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "devmtg/2011-09-16/index.html"
 ---
+# 2011 European User Group Meeting
 
-<div class="www_sectiontitle">2011 European User Group Meeting</div>
-<table>
-  <tr>
-    <td valign="top">
-      <ul>
-        <li><b>What</b>: The first European User Group Meeting.</li>
-        <li>
-          <b>Why</b>: To get acquainted, learn how LLVM is used, and exchange
-          ideas.
-        </li>
-        <li><b>When</b>: September 16th, 2011 from 12:00 ~ 19:30</li>
-        <li>
-          <b>Where</b>: Hamilton House, Mabledon Place, London, UK, WC1H 9BD (<a
-            href="http://maps.google.co.uk/maps?q=WC1H+9BD&hl=en&sll=53.800651,-4.064941&sspn=20.068519,57.084961&t=h&z=16"
-            >map</a
-          >)
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+*   **What**: The first European User Group Meeting.
+*   **Why**: To get acquainted, learn how LLVM is used, and exchange ideas.
+*   **When**: September 16th, 2011 from 12:00 ~ 19:30
+*   **Where**: Hamilton House, Mabledon Place, London, UK, WC1H 9BD ([map](http://maps.google.co.uk/maps?q=WC1H+9BD&hl=en&sll=53.800651,-4.064941&sspn=20.068519,57.084961&t=h&z=16))
 
-<div align="center">
-  <h3>
-    <b>SPONSORED BY: <a href="http://www.arm.com">ARM Ltd.</a></b>
-  </h3>
-</div>
+### **SPONSORED BY: [ARM Ltd.](http://www.arm.com)**
 
-<p>
-  It was a half-day meeting for LLVM users to exchange ideas, expose new
-  developments and generally strengthen the network of LLVM developers in and
-  around Europe. The meeting is open to anyone, from corporate to academia,
-  professionals to enthusiasts.
-</p>
+It was a half-day meeting for LLVM users to exchange ideas, expose new developments and generally strengthen the network of LLVM developers in and around Europe. The meeting is open to anyone, from corporate to academia, professionals to enthusiasts.
 
-<p>
-  While this was not a full conference like the US LLVM Developers' Meeting, we
-  had talks, posters, demonstrations and a lot of discussion.
-</p>
+While this was not a full conference like the US LLVM Developers' Meeting, we had talks, posters, demonstrations and a lot of discussion.
 
-<p>
-  There were almost 80 people, from academia and industry, experts and newbies,
-  and the feedback we received was excellent. The organisers of the Euro-LLVM
-  2011 would like to thank every one for helping us make this successful event.
-</p>
+There were almost 80 people, from academia and industry, experts and newbies, and the feedback we received was excellent. The organisers of the Euro-LLVM 2011 would like to thank every one for helping us make this successful event.
 
-<p>The topic themes for the September 2011 meeting included:</p>
+The topic themes for the September 2011 meeting included:
 
-<div>
-  <ul>
-    <li>CPU architecture support, code generation, generic optimizations</li>
-    <li>OpenCL and graphics processing</li>
-    <li>Interesting research and projects using the LLVM infrastructure</li>
-    <li>
-      Current developments and the future of LLVM (MC, JIT, vectorisation,
-      &amp;c.)
-    </li>
-  </ul>
-</div>
+*   CPU architecture support, code generation, generic optimizations
+*   OpenCL and graphics processing
+*   Interesting research and projects using the LLVM infrastructure
+*   Current developments and the future of LLVM (MC, JIT, vectorisation, &c.)
 
-<div class="www_sectiontitle" id="agenda">Agenda</div>
+# Agenda
 
-<table id="devmtg">
-  <tbody>
-    <tr align="center">
-      <th>Media</th>
-      <th>Talk</th>
-    </tr>
-
-    <tr>
-      <td align="center">
-        [ <a href="EuroLLVM2011-MultiVersioningInLLVM.pdf">Slides</a> ]
-        <p>[<a href="https://youtu.be/y9oBUlqMzvw">Video</a>]</p>
-      </td>
-      <td>
-        <b>Handling Multi-Versioning in LLVM: Code Tracking and Cloning</b
-        ><br />
-        A. Jimborean, V. Loechner, P. Clauss
-      </td>
-    </tr>
-
-    <tr class="alt">
-      <td align="center">
-        [
-        <a href="EuroLLVM2011-MoreTargetIndependentLLVMBitcode.pdf">Slides</a> ]
-        <p>[<a href="https://youtu.be/O_fSf43StyY">Video</a>]</p>
-      </td>
-      <td>
-        <b>More Target Independent LLVM Bitcode</b><br />
-        Jin-Gu Kang
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center">
-        [ <a href="EuroLLVM2011-JET.pdf">Slides</a> ]
-        <p>[<a href="https://youtu.be/ASXx_iYBBqM">Video</a>]</p>
-      </td>
-      <td>
-        <b>Jet: A Language and Heterogeneous Compiler for Fluid Simulations</b
-        ><br />
-        Dan Bailey
-      </td>
-    </tr>
-
-    <tr class="alt">
-      <td align="center">
-        [ <a href="EuroLLVM2011-LLVMplusARM.pdf">Slides</a> ]
-        <p>[<a href="https://youtu.be/8zeYlsw_H3E">Video</a>]</p>
-      </td>
-      <td>
-        <b>LLVM+ARM: Status of ARM platform support in LLVM and more</b><br />
-        Anton Korobeynikov
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center">
-        [
-        <a href="EuroLLVM2011-ImplementingDynamicScopesInCling.pdf">Slides</a> ]
-      </td>
-      <td>
-        <b>Implementing Dynamic Scopes In Cling</b><br />
-        Vassil Vassilev
-      </td>
-    </tr>
-
-    <tr class="alt">
-      <td align="center">
-        [ <a href="EuroLLVM2011-ExceptionHandling.pdf">Slides</a> ]
-      </td>
-      <td>
-        <b>Lightning Talk: The new LLVM exception handling scheme</b><br />
-        Duncan Sands
-      </td>
-    </tr>
-
-    <tr>
-      <td align="center">[ <a href="EuroLLVM2011-Winter.pdf">Slides</a> ]</td>
-      <td>
-        <b>Lightning Talk: Indigo Shader Language and Winter</b><br />
-        Nicholas Chapman
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Media | Talk |
+| --- | --- |
+| \[ [Slides](EuroLLVM2011-MultiVersioningInLLVM.pdf) \] \[[Video](https://youtu.be/y9oBUlqMzvw)\] | **Handling Multi-Versioning in LLVM: Code Tracking and Cloning**<br>A. Jimborean, V. Loechner, P. Clauss |
+| \[ [Slides](EuroLLVM2011-MoreTargetIndependentLLVMBitcode.pdf) \] \[[Video](https://youtu.be/O_fSf43StyY)\] | **More Target Independent LLVM Bitcode**<br>Jin-Gu Kang |
+| \[ [Slides](EuroLLVM2011-JET.pdf) \] \[[Video](https://youtu.be/ASXx_iYBBqM)\] | **Jet: A Language and Heterogeneous Compiler for Fluid Simulations**<br>Dan Bailey |
+| \[ [Slides](EuroLLVM2011-LLVMplusARM.pdf) \] \[[Video](https://youtu.be/8zeYlsw_H3E)\] | **LLVM+ARM: Status of ARM platform support in LLVM and more**<br>Anton Korobeynikov |
+| \[ [Slides](EuroLLVM2011-ImplementingDynamicScopesInCling.pdf) \] | **Implementing Dynamic Scopes In Cling**<br>Vassil Vassilev |
+| \[ [Slides](EuroLLVM2011-ExceptionHandling.pdf) \] | **Lightning Talk: The new LLVM exception handling scheme**<br>Duncan Sands |
+| \[ [Slides](EuroLLVM2011-Winter.pdf) \] | **Lightning Talk: Indigo Shader Language and Winter**<br>Nicholas Chapman |
 
 <!-- *********************************************************************** -->
-<hr />
 
+* * *

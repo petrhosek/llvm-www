@@ -1,13 +1,9 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "SummerOfCode/index.html"
 ---
+# Google Summer of Code
 
-<div class="www_sectiontitle">Google Summer of Code</div>
+[2016 Projects](2016.html) <!-- *********************************************************************** -->
 
-<a href="2016.html">2016 Projects</a>
-
-<!-- *********************************************************************** -->
-
-<hr />
-
+* * *

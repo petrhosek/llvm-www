@@ -1,193 +1,47 @@
 ---
-layout: "default.11ty.js"
+layout: "default.html"
 permalink: "devmtg/2015-02/index.html"
 ---
+# LLVM devroom at FOSDEM
 
-<div class="www_sectiontitle">LLVM devroom at FOSDEM</div>
-<table>
-  <tr>
-    <td valign="top">
-      <ol>
-        <li><a href="#call">Call for "Papers"</a></li>
-        <li><a href="#logistics">Logistics</a></li>
-        <li><a href="#register">Registration</a></li>
-      </ol>
-    </td>
-    <td>
-      <ul>
-        <li><b>What</b>: LLVM at FOSDEM.</li>
-        <li><b>When</b>: February 1, 2015</li>
-        <li><b>Where</b>: Brussels, Belgium</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+1.  [Call for "Papers"](#call)
+2.  [Logistics](#logistics)
+3.  [Registration](#register)
 
-<p>
-  At FOSDEM 2015, LLVM participated with a dedicated devroom. Complementing the
-  upcoming <a href="/devmtg/2015-04/">Euro LLVM 2015</a>, the devroom at FOSDEM
-  provides a great opportunity for core LLVM developers and the wider open
-  source community to get together to connect and discuss.
-</p>
+*   **What**: LLVM at FOSDEM.
+*   **When**: February 1, 2015
+*   **Where**: Brussels, Belgium
 
-<p>
-  As possibly the largest European Open Source Conference, FOSDEM takes place in
-  Brussels and attracts with more than 400 lectures every year over 5000 hackers
-  - many core contributors of the worlds leading open source projects.
-</p>
+At FOSDEM 2015, LLVM participated with a dedicated devroom. Complementing the upcoming [Euro LLVM 2015](/devmtg/2015-04/), the devroom at FOSDEM provides a great opportunity for core LLVM developers and the wider open source community to get together to connect and discuss.
 
-<p>
-  We also invite you to sign up for the
-  <a href="http://lists.llvm.org/mailman/listinfo/llvm-devmeeting"
-    >official Developer Meeting mailing list</a
-  >
-  to be kept informed of updates concerning the meeting.
-</p>
+As possibly the largest European Open Source Conference, FOSDEM takes place in Brussels and attracts with more than 400 lectures every year over 5000 hackers - many core contributors of the worlds leading open source projects.
 
-<div class="www_sectiontitle" id="call">Schedule</div>
-<div>
-  <table id="devmtg">
-    <tr>
-      <th>Talk</th>
-      <th>Speaker</th>
-      <th>Slides/videos</th>
-    </tr>
+We also invite you to sign up for the [official Developer Meeting mailing list](http://lists.llvm.org/mailman/listinfo/llvm-devmeeting) to be kept informed of updates concerning the meeting.
 
-    <tr>
-      <td><b>Porting LLDB to a new Target</b></td>
-      <td>Hafiz Abid Qadeer</td>
-      <td>
-        <a href="slides/abid-lldb.pdf">Slides</a> /
-        <a href="Videos/qadeer-lldb_port.mp4">Video</a>
-      </td>
-    </tr>
-    <tr>
-      <td><b>LLVM's AArch64 support - history & status</b></td>
-      <td>Kristof Beyls</td>
-      <td>
-        <a href="slides/beyls-aarch64.pdf">Slides</a> /
-        <a href="Videos/beyls-aarch64.mp4">Video</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b
-          >Extending the internal assembler<br />
-          <i>How to add a new CPU feature</i></b
-        >
-      </td>
-      <td>Kai Nacke</td>
-      <td><a href="slides/kai-assembler.pdf">Slides</a></td>
-    </tr>
-    <tr>
-      <td>
-        <b
-          >moviCompile: An LLVM based compiler for heterogeneous SIMD code
-          generation</b
-        >
-      </td>
-      <td>Erkan Diken</td>
-      <td>
-        <a href="slides/diken-movicompile.pdf">Slides</a> /
-        <a href="Videos/diken-movicompile.mp4">Video</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b
-          >The C2 programming language<br />
-          <i>Using Clang not like it's supposed to be used</i></b
-        >
-      </td>
-      <td>Bas van den Berg</td>
-      <td>
-        <a href="slides/berg_c2lang.pdf">Slides</a> /
-        <a href="Videos/berg-c2.mp4">Video</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b
-          >OpenMandriva's switch to clang as its default compiler<br />
-          <i
-            >OpenMandriva's experiences with switching the default compiler to
-            clang</i
-          ></b
-        >
-      </td>
-      <td>Bernhard Rosenkränzer</td>
-      <td><a href="Videos/rosenkranzer-openmandriva.mp4">Video</a></td>
-    </tr>
-    <tr>
-      <td>
-        <b
-          >Adventures with LLVM in a magical land where pointers are not
-          integers</b
-        >
-      </td>
-      <td>David Chisnall</td>
-      <td>
-        <a href="slides/chisnall-pointers-not-int.pdf">Slides</a> /
-        <a href="Videos/chisnall-pointer.mp4">Video</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b
-          >Code clone detection in LLVM compiler infrastructure<br />
-          <i
-            >LLVM: built-in scalable code clone detection based on semantic
-            analysis</i
-          ></b
-        >
-      </td>
-      <td>Sevak Sargsyan</td>
-      <td>
-        <a href="slides/sargsyan-code-clone.pdf">Slides</a> /
-        <a href="Videos/sargsyan-code_clone.mp4">Video</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b
-          >LLVM on the Web<br />
-          <i
-            >Using Portable Native Client to run Clang/LLVM in the Browser</i
-          ></b
-        >
-      </td>
-      <td>Brad Nelson</td>
-      <td>
-        <a href="slides/brad-pnacl.pdf">Slides</a> /
-        <a href="Videos/nelson-pnacl.mp4">Video</a>
-      </td>
-    </tr>
-  </table>
-</div>
-<!--
-<div class="www_sectiontitle" id="abstracts">Talk Abstracts</div>
+# Schedule
 
-<p>
+| Talk | Speaker | Slides/videos |
+| --- | --- | --- |
+| **Porting LLDB to a new Target** | Hafiz Abid Qadeer | [Slides](slides/abid-lldb.pdf) / [Video](Videos/qadeer-lldb_port.mp4) |
+| **LLVM's AArch64 support - history & status** | Kristof Beyls | [Slides](slides/beyls-aarch64.pdf) / [Video](Videos/beyls-aarch64.mp4) |
+| **Extending the internal assembler<br>*How to add a new CPU feature*** | Kai Nacke | [Slides](slides/kai-assembler.pdf) |
+| **moviCompile: An LLVM based compiler for heterogeneous SIMD code generation** | Erkan Diken | [Slides](slides/diken-movicompile.pdf) / [Video](Videos/diken-movicompile.mp4) |
+| **The C2 programming language<br>*Using Clang not like it's supposed to be used*** | Bas van den Berg | [Slides](slides/berg_c2lang.pdf) / [Video](Videos/berg-c2.mp4) |
+| **OpenMandriva's switch to clang as its default compiler<br>*OpenMandriva's experiences with switching the default compiler to clang*** | Bernhard Rosenkränzer | [Video](Videos/rosenkranzer-openmandriva.mp4) |
+| **Adventures with LLVM in a magical land where pointers are not integers** | David Chisnall | [Slides](slides/chisnall-pointers-not-int.pdf) / [Video](Videos/chisnall-pointer.mp4) |
+| **Code clone detection in LLVM compiler infrastructure<br>*LLVM: built-in scalable code clone detection based on semantic analysis*** | Sevak Sargsyan | [Slides](slides/sargsyan-code-clone.pdf) / [Video](Videos/sargsyan-code_clone.mp4) |
+| **LLVM on the Web<br>*Using Portable Native Client to run Clang/LLVM in the Browser*** | Brad Nelson | [Slides](slides/brad-pnacl.pdf) / [Video](Videos/nelson-pnacl.mp4) |
 
-</p>
--->
+<!-- <div class="www_sectiontitle" id="abstracts">Talk Abstracts</div> <p> </p> -->
 
-<div class="www_sectiontitle" id="logistics">Logistics</div>
-<p>
-  The mailing list
-  <a href="mailo:llvm-devroom@lists.fosdem.org"
-    >llvm-devroom@lists.fosdem.org</a
-  >
-  can be used to discuss issues of general interest related to the conference
-  organization.
-</p>
+# Logistics
 
-<div class="www_sectiontitle" id="register">Registration</div>
-<p>
-  FOSDEM does not require any registration and is free of charge. However, just
-  like last year, an important crowd must be expected.
-</p>
+The mailing list [llvm-devroom@lists.fosdem.org](mailo:llvm-devroom@lists.fosdem.org) can be used to discuss issues of general interest related to the conference organization.
+
+# Registration
+
+FOSDEM does not require any registration and is free of charge. However, just like last year, an important crowd must be expected.
 
 <!-- *********************************************************************** -->
-<hr />
 
+* * *

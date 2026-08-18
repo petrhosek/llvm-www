@@ -1,16 +1,4 @@
 ---
 permalink: "llvm/index.html"
 ---
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=/" />
-    <meta
-      name="go-import"
-      content="llvm.org/llvm svn https://llvm.org/svn/llvm-project/llvm/trunk"
-    />
-  </head>
-  <body>
-    Redirecting to <a href="/">llvm.org</a>.
-  </body>
-</html>
+Redirecting to [llvm.org](/).

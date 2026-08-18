@@ -1,131 +1,56 @@
 ---
 permalink: "demo/DemoInfo.html"
 ---
-<html>
-  <head>
-    <title>Demo page information</title>
-  </head>
+Demo page information
 
-  <body>
-    <h1>Demo page information</h1>
+# Demo page information
 
-    <p>
-      Press "back" or <a href=".">click here</a> to return to the demo page.
-    </p>
+Press "back" or [click here](.) to return to the demo page.
 
-    <h2><a name="hints">Hints and Advice</a></h2>
+## Hints and Advice
 
-    <ul>
-      <li>
-        The generated LLVM code will be easier to read if you use stdio (e.g.,
-        printf) than iostreams (e.g., std::cout).
-      </li>
+*   The generated LLVM code will be easier to read if you use stdio (e.g., printf) than iostreams (e.g., std::cout).
+*   Unused inline functions and methods are not generated. Instead of 'class foo { void bar() {}};', try writing 'class foo { void bar(); }; void foo::bar() {}'.
+*   If you want to try out a file that uses non-standard header files, you should preprocess it (e.g., with the \-save-temps or \-E options to gcc) then upload the result.
 
-      <li>
-        Unused inline functions and methods are not generated. Instead of '<tt
-          >class foo { void bar() {}};</tt
-        >', try writing '<tt>class foo { void bar(); }; void foo::bar() {}</tt
-        >'.
-      </li>
+## Source language
 
-      <li>
-        If you want to try out a file that uses non-standard header files, you
-        should preprocess it (e.g., with the <tt>-save-temps</tt> or
-        <tt>-E</tt> options to <tt>gcc</tt>) then upload the result.
-      </li>
-    </ul>
+Select the type of source code you want to compile. If you upload a file you don't need this as the language is detected from the file extension.
 
-    <h2><a name="language">Source language</a></h2>
+## Optimization level
 
-    <p>
-      Select the type of source code you want to compile. If you upload a file
-      you don't need this as the language is detected from the file extension.
-    </p>
+**Standard**:
 
-    <h2><a name="optlevel">Optimization level</a></h2>
+Select this option to run a standard set of LLVM optimizations.
 
-    <p></p>
-    <dl>
-      <dt>
-        <tt><b>Standard</b></tt
-        >:
-      </dt>
-      <dd>Select this option to run a standard set of LLVM optimizations.</dd>
+**LTO**:
 
-      <dt>
-        <tt><b>LTO</b></tt
-        >:
-      </dt>
-      <dd>
-        Select this option to run the LLVM link-time optimizer, which is
-        designed to optimize across files in your application. Since the demo
-        page doesn't allow you to upload multiple files at once, and does not
-        link in any libraries, we configured the demo page optimizer to assume
-        there are no calls coming in from outside the source file, allowing it
-        to optimize more aggressively. Note that you have to define 'main' in
-        your program for this to make much of a difference.
-      </dd>
+Select this option to run the LLVM link-time optimizer, which is designed to optimize across files in your application. Since the demo page doesn't allow you to upload multiple files at once, and does not link in any libraries, we configured the demo page optimizer to assume there are no calls coming in from outside the source file, allowing it to optimize more aggressively. Note that you have to define 'main' in your program for this to make much of a difference.
 
-      <dt>
-        <tt><b>None</b></tt
-        >:
-      </dt>
-      <dd>Select this option to turn off all optimizations.</dd>
-    </dl>
+**None**:
 
-    <h2><a name="stats">Show detailed pass statistics</a></h2>
+Select this option to turn off all optimizations.
 
-    <p>
-      Select this option to enable compilation timings and statistics from
-      various optimizers.
-    </p>
+## Show detailed pass statistics
 
-    <h2><a name="demangle">Demangle C++ names with C++ filt</a></h2>
+Select this option to enable compilation timings and statistics from various optimizers.
 
-    <p>
-      Select this option if you want to run the target output code through
-      "c++filt", which converts 'mangled' C++ names to their unmangled version.
-      Note that target code produced will not be lexically valid, but it will be
-      easier to understand.
-    </p>
+## Demangle C++ names with C++ filt
 
-    <h2><a name="target">Target</a></h2>
+Select this option if you want to run the target output code through "c++filt", which converts 'mangled' C++ names to their unmangled version. Note that target code produced will not be lexically valid, but it will be easier to understand.
 
-    <p>
-      Select the target you want to output code for. Generally a target uses the
-      <a href="http://llvm.org/cmds/llc.html">llc</a> tool to output machine
-      assembly code. However, a few special targets exists:
-    </p>
-    <dl>
-      <dt>
-        <tt><b>LLVM assembly</b></tt
-        >:
-      </dt>
-      <dd>
-        Select this option to run the LLVM dissambler (<a
-          href="http://llvm.org/cmds/llvm-dis.html"
-          >llvm-dis</a
-        >
-        tool) to show the LLVM IR.
-      </dd>
+## Target
 
-      <dt>
-        <tt><b>LLVM C++ API code</b></tt
-        >:
-      </dt>
-      <dd>
-        Select this option to auto generate the C++ API calls that could be used
-        to create the .bc file.
-      </dd>
-    </dl>
+Select the target you want to output code for. Generally a target uses the [llc](http://llvm.org/cmds/llc.html) tool to output machine assembly code. However, a few special targets exists:
 
-    <h2><a name="bcanalyzer">Analyze generated bytecode</a></h2>
+**LLVM assembly**:
 
-    <p>
-      Select this option to run the
-      <a href="http://llvm.org/cmds/llvm-bcanalyzer.html">llvm-bcanalyzer</a>
-      tool on the generated bytecode, which introspects into the format of the
-      .bc file itself.
-    </p>
-  </body>
-</html>
+Select this option to run the LLVM dissambler ([llvm-dis](http://llvm.org/cmds/llvm-dis.html) tool) to show the LLVM IR.
+
+**LLVM C++ API code**:
+
+Select this option to auto generate the C++ API calls that could be used to create the .bc file.
+
+## Analyze generated bytecode
+
+Select this option to run the [llvm-bcanalyzer](http://llvm.org/cmds/llvm-bcanalyzer.html) tool on the generated bytecode, which introspects into the format of the .bc file itself.
